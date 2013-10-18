@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="edit_addCaption" xml:space="preserve">
+    <value>Add Record</value>
+  </data>
+  <data name="edit_bCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="edit_bClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="edit_bExit" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="edit_bNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="edit_bSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="edit_bYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="edit_editCaption" xml:space="preserve">
+    <value>Edit Record</value>
+  </data>
+  <data name="edit_saveData" xml:space="preserve">
+    <value>Data has been changed! Save changes?</value>
+  </data>
+  <data name="emptyrecords" xml:space="preserve">
+    <value>No records to view</value>
+  </data>
+  <data name="groupOps_op_and" xml:space="preserve">
+    <value>AND</value>
+  </data>
+  <data name="groupOps_op_or" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="groupOps_text_and" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="groupOps_text_or" xml:space="preserve">
+    <value>any</value>
+  </data>
+  <data name="loadtext" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="odata_bn" xml:space="preserve">
+    <value>does not begin with</value>
+  </data>
+  <data name="odata_bw" xml:space="preserve">
+    <value>begins with</value>
+  </data>
+  <data name="odata_cn" xml:space="preserve">
+    <value>contains</value>
+  </data>
+  <data name="odata_en" xml:space="preserve">
+    <value>does not end with</value>
+  </data>
+  <data name="odata_eq" xml:space="preserve">
+    <value>equal</value>
+  </data>
+  <data name="odata_ew" xml:space="preserve">
+    <value>ends with</value>
+  </data>
+  <data name="odata_ge" xml:space="preserve">
+    <value>greater or equal</value>
+  </data>
+  <data name="odata_gt" xml:space="preserve">
+    <value>greater</value>
+  </data>
+  <data name="odata_in" xml:space="preserve">
+    <value>is in</value>
+  </data>
+  <data name="odata_le" xml:space="preserve">
+    <value>less or equal</value>
+  </data>
+  <data name="odata_lt" xml:space="preserve">
+    <value>less</value>
+  </data>
+  <data name="odata_nc" xml:space="preserve">
+    <value>does not contain</value>
+  </data>
+  <data name="odata_ne" xml:space="preserve">
+    <value>not equal</value>
+  </data>
+  <data name="odata_ni" xml:space="preserve">
+    <value>is not in</value>
+  </data>
+  <data name="pgtext" xml:space="preserve">
+    <value>Page {0} of {1}</value>
+  </data>
+  <data name="recordtext" xml:space="preserve">
+    <value>View {0} - {1} of {2}</value>
+  </data>
+  <data name="search_caption" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="search_Find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="search_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="col_bCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="col_bSubmit" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="col_caption" xml:space="preserve">
+    <value>Select columns</value>
+  </data>
+  <data name="del_bCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="del_bSubmit" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="del_caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="del_msg" xml:space="preserve">
+    <value>Delete selected record(s) ?</value>
+  </data>
+  <data name="errors_errcap" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="errors_model" xml:space="preserve">
+    <value>Length of colNames&lt;&gt; colModel !</value>
+  </data>
+  <data name="errors_norecords" xml:space="preserve">
+    <value>No records to process</value>
+  </data>
+  <data name="errors_nourl" xml:space="preserve">
+    <value>Nourl is set</value>
+  </data>
+  <data name="msg_customarray" xml:space="preserve">
+    <value>Custom function should return array!</value>
+  </data>
+  <data name="msg_customfcheck" xml:space="preserve">
+    <value>Custom function should be present in case of custom checking!</value>
+  </data>
+  <data name="msg_date" xml:space="preserve">
+    <value>Please, enter valid date value</value>
+  </data>
+  <data name="msg_email" xml:space="preserve">
+    <value>is not a valid e-mail</value>
+  </data>
+  <data name="msg_integer" xml:space="preserve">
+    <value>Please, enter valid integer value</value>
+  </data>
+  <data name="msg_maxValue" xml:space="preserve">
+    <value>value must be less than or equal to</value>
+  </data>
+  <data name="msg_minValue" xml:space="preserve">
+    <value>value must be greater than or equal to</value>
+  </data>
+  <data name="msg_nodefined" xml:space="preserve">
+    <value>is not defined!</value>
+  </data>
+  <data name="msg_novalue" xml:space="preserve">
+    <value>return value is required!</value>
+  </data>
+  <data name="msg_number" xml:space="preserve">
+    <value>Please, enter valid number</value>
+  </data>
+  <data name="msg_required" xml:space="preserve">
+    <value>Field is required</value>
+  </data>
+  <data name="msg_url" xml:space="preserve">
+    <value>is not a valid URL. Prefix required ('http://' or 'https://')</value>
+  </data>
+  <data name="nav_addtext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_addtitle" xml:space="preserve">
+    <value>Add new row</value>
+  </data>
+  <data name="nav_alertcap" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="nav_alerttext" xml:space="preserve">
+    <value>Please, select row</value>
+  </data>
+  <data name="nav_deltext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_deltitle" xml:space="preserve">
+    <value>Delete selected row</value>
+  </data>
+  <data name="nav_edittext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_edittitle" xml:space="preserve">
+    <value>Edit selected row</value>
+  </data>
+  <data name="nav_refreshtext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_refreshtitle" xml:space="preserve">
+    <value>Reload Grid</value>
+  </data>
+  <data name="nav_searchtext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_searchtitle" xml:space="preserve">
+    <value>Find records</value>
+  </data>
+  <data name="nav_viewtext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_viewtitle" xml:space="preserve">
+    <value>View selected row</value>
+  </data>
+  <data name="view_bclose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="view_caption" xml:space="preserve">
+    <value>View Record</value>
+  </data>
+</root>

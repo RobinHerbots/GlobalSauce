@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>GlobalSauce</id>
+        <version>0.0.1</version>
+        <title>GlobalSauce</title>
+        <authors>Robin Herbots</authors>
+        <owners>Robin Herbots</owners>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>GlobalSauce
+===========
+
+Automated culture settings rendering for different javascript plugins.  
+Implemented as an htmlhelper extension method (ASP.NET/MVC)</description>
+        <summary>GlobalSauce
+===========
+
+Automated culture settings rendering for different javascript plugins.  
+Implemented as an htmlhelper extension method (ASP.NET/MVC)</summary>
+    </metadata>
+    <files>
+        <file src="..\GlobalSauce\bin\Release\Globalization.dll" target="lib\net\Globalization.dll" />
+        <file src="..\GlobalSauce\bin\Release\GlobalSauce.dll" target="lib\net\GlobalSauce.dll" />
+    </files>
+</package>
