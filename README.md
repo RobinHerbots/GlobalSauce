@@ -8,9 +8,9 @@ Usage:
 
 In your view or layout add:
 
-```javascript
+```html
 <script type="text/javascript">
-        @Html.GlobalSauce(Components.JqueryGlobalization , Components.JqGrid, Components.JqueryUIDatePicker, Components.JqueryUITimePicker)
+        @Html.GlobalSauce(Components.JqueryGlobalization , Components.JqGrid, Components.JqueryUIDatePicker)
 </script>
 ```
 
