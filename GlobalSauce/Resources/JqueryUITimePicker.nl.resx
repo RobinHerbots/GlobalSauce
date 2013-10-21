@@ -117,25 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="closeText" xml:space="preserve">
-    <value>Close</value>
+  <data name="timeOnlyTitle">
+    <value>Tijdstip</value>
   </data>
-  <data name="currentText" xml:space="preserve">
-    <value>Today</value>
+  <data name="timeText">
+    <value>Tijd</value>
   </data>
-  <data name="nextText" xml:space="preserve">
-    <value>Next</value>
+  <data name="timezoneText">
+    <value>Tijdzone</value>
   </data>
-  <data name="prevText" xml:space="preserve">
-    <value>Previous</value>
+  <data name="minuteText">
+    <value>Minuut</value>
   </data>
-  <data name="showMonthAfterYear" xml:space="preserve">
-    <value>false</value>
+  <data name="secondText">
+    <value>Seconde</value>
   </data>
-  <data name="weekHeader" xml:space="preserve">
-    <value>Wk</value>
+  <data name="millisecText">
+    <value>Milliseconde</value>
   </data>
-  <data name="yearSuffix" xml:space="preserve">
-    <value />
+  <data name="microsecText">
+    <value>Microseconde</value>
+  </data>
+  <data name="hourText">
+    <value>Uur</value>
+  </data>
+  <data name="currentText">
+    <value>Vandaag</value>
+  </data>
+  <data name="closeText">
+    <value>Sluiten</value>
   </data>
 </root>

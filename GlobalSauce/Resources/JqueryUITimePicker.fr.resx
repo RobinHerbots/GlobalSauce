@@ -117,25 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="closeText" xml:space="preserve">
-    <value>Close</value>
+  <data name="closeText">
+    <value>Terminé</value>
   </data>
-  <data name="currentText" xml:space="preserve">
-    <value>Today</value>
+  <data name="currentText">
+    <value>Maintenant</value>
   </data>
-  <data name="nextText" xml:space="preserve">
-    <value>Next</value>
+  <data name="hourText">
+    <value>Heures</value>
   </data>
-  <data name="prevText" xml:space="preserve">
-    <value>Previous</value>
+  <data name="microsecText">
+    <value>Microsecondes</value>
   </data>
-  <data name="showMonthAfterYear" xml:space="preserve">
-    <value>false</value>
+  <data name="millisecText">
+    <value>Millisecondes</value>
   </data>
-  <data name="weekHeader" xml:space="preserve">
-    <value>Wk</value>
+  <data name="minuteText">
+    <value>Minutes</value>
   </data>
-  <data name="yearSuffix" xml:space="preserve">
-    <value />
+  <data name="secondText">
+    <value>Secondes</value>
+  </data>
+  <data name="timeOnlyTitle">
+    <value>Choisir une heure</value>
+  </data>
+  <data name="timeText">
+    <value>Heure</value>
+  </data>
+  <data name="timezoneText">
+    <value>Fuseau horaire</value>
   </data>
 </root>

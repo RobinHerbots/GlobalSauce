@@ -117,25 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="closeText" xml:space="preserve">
-    <value>Close</value>
+  <data name="closeText">
+    <value>Fermer</value>
   </data>
-  <data name="currentText" xml:space="preserve">
-    <value>Today</value>
+  <data name="currentText">
+    <value>Aujourd\'hui</value>
   </data>
-  <data name="nextText" xml:space="preserve">
-    <value>Next</value>
+  <data name="prevText">
+    <value>Précédent</value>
   </data>
-  <data name="prevText" xml:space="preserve">
-    <value>Previous</value>
+  <data name="nextText">
+    <value>Suivant</value>
   </data>
-  <data name="showMonthAfterYear" xml:space="preserve">
-    <value>false</value>
-  </data>
-  <data name="weekHeader" xml:space="preserve">
-    <value>Wk</value>
-  </data>
-  <data name="yearSuffix" xml:space="preserve">
-    <value />
+  <data name="weekHeader">
+    <value>Sem.</value>
   </data>
 </root>

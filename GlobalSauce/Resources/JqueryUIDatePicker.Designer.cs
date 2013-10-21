@@ -106,7 +106,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Week.
+        ///   Looks up a localized string similar to Wk.
         /// </summary>
         internal static string weekHeader {
             get {

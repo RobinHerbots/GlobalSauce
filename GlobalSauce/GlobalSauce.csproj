@@ -71,10 +71,14 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>JqGrid.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\JqueryUIDatePicker.fr.resx" />
+    <EmbeddedResource Include="Resources\JqueryUIDatePicker.nl.resx" />
     <EmbeddedResource Include="Resources\JqueryUIDatePicker.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>JqueryUIDatePicker.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\JqueryUITimePicker.fr.resx" />
+    <EmbeddedResource Include="Resources\JqueryUITimePicker.nl.resx" />
     <EmbeddedResource Include="Resources\JqueryUITimePicker.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>JqueryUITimePicker.Designer.cs</LastGenOutput>

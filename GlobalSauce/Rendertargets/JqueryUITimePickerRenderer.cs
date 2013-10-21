@@ -21,8 +21,8 @@ namespace GlobalSauce.Rendertargets
             timepickerCulture.AppendFormat("currentText: '{0}',\n", Resources.JqueryUITimePicker.currentText);
             timepickerCulture.AppendFormat("closeText: '{0}',\n", Resources.JqueryUITimePicker.closeText);
             timepickerCulture.AppendFormat("timeFormat: '{0}',\n", cultureInfo.DateTimeFormat.ShortTimePattern);
-            timepickerCulture.AppendFormat("amNames: ['{0}', '{1}'],\n", cultureInfo.TextInfo.ToUpper(cultureInfo.DateTimeFormat.AMDesignator), cultureInfo.TextInfo.ToUpper(cultureInfo.DateTimeFormat.AMDesignator)[0]);
-            timepickerCulture.AppendFormat("pmNames: ['{0}', '{1}'],\n", cultureInfo.TextInfo.ToUpper(cultureInfo.DateTimeFormat.PMDesignator), cultureInfo.TextInfo.ToUpper(cultureInfo.DateTimeFormat.PMDesignator)[0]);
+            timepickerCulture.AppendFormat("amNames: ['{0}'],\n", cultureInfo.TextInfo.ToUpper(cultureInfo.DateTimeFormat.AMDesignator));
+            timepickerCulture.AppendFormat("pmNames: ['{0}'],\n", cultureInfo.TextInfo.ToUpper(cultureInfo.DateTimeFormat.PMDesignator));
             timepickerCulture.AppendFormat("isRTL: {0}\n", cultureInfo.TextInfo.IsRightToLeft.ToString().ToLowerInvariant());
             timepickerCulture.AppendLine("};");
             timepickerCulture.AppendFormat("$.timepicker.setDefaults($.timepicker.regional['{0}']);\n", cultureInfo.TwoLetterISOLanguageName);
