@@ -35,9 +35,10 @@ namespace GlobalSauce.Rendertargets
     {
         public static string JqueryUITimeFormat(this DateTimeFormatInfo dateTimeFormatInfo)
         {
-            var dfs = dateTimeFormatInfo.ShortTimePattern.Split(Convert.ToChar(dateTimeFormatInfo.TimeSeparator));
+            var tfs = dateTimeFormatInfo.ShortTimePattern.Split(Convert.ToChar(dateTimeFormatInfo.TimeSeparator));
+            var minSplit = tfs[1].Split(' ');
 
-            return string.Format("{0}{0}{2}{1}{1}", dfs[0][0], dfs[1][0], dateTimeFormatInfo.TimeSeparator);
+            return string.Format("{0}{0}{2}{1}{1}{3}", tfs[0][0], minSplit[0][0], dateTimeFormatInfo.TimeSeparator, minSplit.Length > 1? " " + minSplit[1][0]: string.Empty);
         }
     }
 }
