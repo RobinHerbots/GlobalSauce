@@ -71,7 +71,7 @@ namespace GlobalSauce.Rendertargets
                 cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Saturday][0]
                 );
             datepickerCulture.AppendFormat("weekHeader: '{0}',\n", Resources.JqueryUIDatePicker.weekHeader);
-            datepickerCulture.AppendFormat("dateFormat: '{0}',\n", cultureInfo.DateTimeFormat.ShortDatePattern);
+            datepickerCulture.AppendFormat("dateFormat: '{0}',\n", cultureInfo.DateTimeFormat.JqueryUIDateFormat());
             datepickerCulture.AppendFormat("firstDay: {0},\n", (int)cultureInfo.DateTimeFormat.FirstDayOfWeek);
             datepickerCulture.AppendFormat("isRTL: {0},\n", cultureInfo.TextInfo.IsRightToLeft.ToString().ToLowerInvariant());
             datepickerCulture.AppendFormat("showMonthAfterYear: {0},\n", Resources.JqueryUIDatePicker.showMonthAfterYear);
@@ -80,6 +80,18 @@ namespace GlobalSauce.Rendertargets
             datepickerCulture.AppendFormat("$.datepicker.setDefaults($.datepicker.regional['{0}']);\n", cultureInfo.Name);
 
             return datepickerCulture.ToString();
+        }
+    }
+
+
+    public static class DateFormatInfoExtensions
+    {
+        public static string JqueryUIDateFormat(this DateTimeFormatInfo dateTimeFormatInfo)
+        {
+            var dfs = dateTimeFormatInfo.ShortDatePattern.ToLowerInvariant().Split(Convert.ToChar(dateTimeFormatInfo.DateSeparator));
+
+            return string.Format("{0}{0}{3}{1}{1}{3}{2}{2}", dfs[0][0], dfs[1][0], dfs[2][0],
+                                 dateTimeFormatInfo.DateSeparator);
         }
     }
 }
