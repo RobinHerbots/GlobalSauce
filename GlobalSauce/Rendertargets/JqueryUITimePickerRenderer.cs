@@ -9,7 +9,7 @@ namespace GlobalSauce.Rendertargets
         public string Render(CultureInfo cultureInfo)
         {
             var timepickerCulture = new StringBuilder();
-            timepickerCulture.AppendFormat("$.timepicker.regional['{0}'] = {{\n", cultureInfo.TwoLetterISOLanguageName);
+            timepickerCulture.AppendFormat("$.timepicker.regional['{0}'] = {{\n", cultureInfo.Name);
             timepickerCulture.AppendFormat("timeOnlyTitle: '{0}',\n", Resources.JqueryUITimePicker.timeOnlyTitle);
             timepickerCulture.AppendFormat("timeText: '{0}',\n", Resources.JqueryUITimePicker.timeText);
             timepickerCulture.AppendFormat("hourText: '{0}',\n", Resources.JqueryUITimePicker.hourText);
@@ -25,7 +25,7 @@ namespace GlobalSauce.Rendertargets
             timepickerCulture.AppendFormat("pmNames: ['{0}'],\n", cultureInfo.TextInfo.ToUpper(cultureInfo.DateTimeFormat.PMDesignator));
             timepickerCulture.AppendFormat("isRTL: {0}\n", cultureInfo.TextInfo.IsRightToLeft.ToString().ToLowerInvariant());
             timepickerCulture.AppendLine("};");
-            timepickerCulture.AppendFormat("$.timepicker.setDefaults($.timepicker.regional['{0}']);\n", cultureInfo.TwoLetterISOLanguageName);
+            timepickerCulture.AppendFormat("$.timepicker.setDefaults($.timepicker.regional['{0}']);\n", cultureInfo.Name);
 
             return timepickerCulture.ToString();
         }

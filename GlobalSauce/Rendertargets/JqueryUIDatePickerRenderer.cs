@@ -10,7 +10,7 @@ namespace GlobalSauce.Rendertargets
         public string Render(CultureInfo cultureInfo)
         {
             var datepickerCulture = new StringBuilder();
-            datepickerCulture.AppendFormat("$.datepicker.regional['{0}'] = {{\n", cultureInfo.TwoLetterISOLanguageName);
+            datepickerCulture.AppendFormat("$.datepicker.regional['{0}'] = {{\n", cultureInfo.Name);
             datepickerCulture.AppendFormat("closeText: '{0}',\n", Resources.JqueryUIDatePicker.closeText);
             datepickerCulture.AppendFormat("prevText: '{0}',\n", Resources.JqueryUIDatePicker.prevText);
             datepickerCulture.AppendFormat("nextText: '{0}',\n", Resources.JqueryUIDatePicker.nextText);
@@ -53,22 +53,22 @@ namespace GlobalSauce.Rendertargets
                 cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Saturday]
                 );
             datepickerCulture.AppendFormat("dayNamesShort: ['{0}','{1}','{2}','{3}','{4}','{5}','{6}'],\n",
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Sunday],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Monday],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Tuesday],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Wednesday],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Thursday],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Friday],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Saturday]
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Sunday],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Monday],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Tuesday],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Wednesday],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Thursday],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Friday],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Saturday]
                 );
             datepickerCulture.AppendFormat("dayNamesMin: ['{0}','{1}','{2}','{3}','{4}','{5}','{6}'],\n",
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Sunday][0],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Monday][0],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Tuesday][0],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Wednesday][0],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Thursday][0],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Friday][0],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)DayOfWeek.Saturday][0]
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Sunday][0],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Monday][0],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Tuesday][0],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Wednesday][0],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Thursday][0],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Friday][0],
+                cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Saturday][0]
                 );
             datepickerCulture.AppendFormat("weekHeader: '{0}',\n", Resources.JqueryUIDatePicker.weekHeader);
             datepickerCulture.AppendFormat("dateFormat: '{0}',\n", cultureInfo.DateTimeFormat.ShortDatePattern);
@@ -77,7 +77,7 @@ namespace GlobalSauce.Rendertargets
             datepickerCulture.AppendFormat("showMonthAfterYear: {0},\n", Resources.JqueryUIDatePicker.showMonthAfterYear);
             datepickerCulture.AppendFormat("yearSuffix: '{0}'\n", Resources.JqueryUIDatePicker.yearSuffix);
             datepickerCulture.AppendLine("};");
-            datepickerCulture.AppendFormat("$.datepicker.setDefaults($.datepicker.regional['{0}']);\n", cultureInfo.TwoLetterISOLanguageName);
+            datepickerCulture.AppendFormat("$.datepicker.setDefaults($.datepicker.regional['{0}']);\n", cultureInfo.Name);
 
             return datepickerCulture.ToString();
         }

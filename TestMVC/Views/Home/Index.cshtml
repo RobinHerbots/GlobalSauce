@@ -7,10 +7,12 @@
     <section class="featured">
         <div class="content-wrapper">
             <p>
-                @Html.GlobalSauce(Components.JqueryGlobalization , Components.JqGrid, Components.JqueryUIDatePicker, Components.JqueryUITimePicker)
+                @Html.GlobalSauce(Components.JqueryGlobalization, Components.JqGrid, Components.JqueryUIDatePicker)
             </p>
         </div>
     </section>
+
+    <input id="date" type="text" />
 }
 
 
@@ -18,7 +20,12 @@
 {
     <script src="~/Scripts/globalize/globalize.js" type="text/javascript"></script>
     <script type="text/javascript">
-        @Html.GlobalSauce(Components.JqueryGlobalization , Components.JqGrid, Components.JqueryUIDatePicker, Components.JqueryUITimePicker)
+        @Html.GlobalSauce(Components.JqueryGlobalization, Components.JqGrid, Components.JqueryUIDatePicker)
+
+
+        $(document).ready(function () {
+            $("#date").datepicker();
+        });
     </script>
 
 
