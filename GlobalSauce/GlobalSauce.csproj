@@ -45,6 +45,7 @@
     <Compile Include="Enums\Components.cs" />
     <Compile Include="HTMLHelperExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rendertargets\ckeditorRenderer.cs" />
     <Compile Include="Rendertargets\JqGridRenderer.cs" />
     <Compile Include="Rendertargets\JqueryGlobalizationRenderer.cs" />
     <Compile Include="Rendertargets\JqueryUIDatePickerRenderer.cs" />

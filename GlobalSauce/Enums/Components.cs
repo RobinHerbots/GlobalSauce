@@ -5,6 +5,7 @@
         JqGrid,
         JqueryGlobalization,
         JqueryUIDatePicker,
-        JqueryUITimePicker
+        JqueryUITimePicker,
+        ckeditor
     }
 }
