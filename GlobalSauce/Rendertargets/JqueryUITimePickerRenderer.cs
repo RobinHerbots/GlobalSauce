@@ -38,7 +38,7 @@ namespace GlobalSauce.Rendertargets
             var tfs = dateTimeFormatInfo.ShortTimePattern.Split(Convert.ToChar(dateTimeFormatInfo.TimeSeparator));
             var minSplit = tfs[1].Split(' ');
 
-            return string.Format("{0}{0}{2}{1}{1}", tfs[0][0].ToString().ToUpperInvariant(), minSplit[0][0], dateTimeFormatInfo.TimeSeparator);
+            return string.Format("{0}{0}{2}{1}{1}{3}", tfs[0][0].ToString().ToUpperInvariant(), minSplit[0][0], dateTimeFormatInfo.TimeSeparator, minSplit.Length > 1 ? " " + minSplit[1][0] : string.Empty);
         }
     }
 }
