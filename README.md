@@ -1,5 +1,5 @@
-GlobalSauce
-===========
+# GlobalSauce
+# ===========
 
 Automated culture settings rendering for different javascript plugins.  
 Implemented as an htmlhelper extension method (ASP.NET/MVC)
@@ -22,6 +22,17 @@ Currently supported plugins:
 - jquery.globalize  
 - jqueryui.datepicker  
 - jqueryui.timepicker  
+- ckeditor
 
 If your language isn't included yet, please do the small effort and make the translation in the resources and commit it back to the project.  
 This way everyone can profit from it.
+
+### ckeditor
+
+```html
+<script type="text/javascript">
+        @Html.GlobalSauce(Components.ckeditor)
+		
+		$(".ckeeditor").ckeditor({ language: '@Thread.CurrentThread.CurrentUICulture.Name' });
+</script>
+```

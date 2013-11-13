@@ -51,6 +51,11 @@
     <Compile Include="Rendertargets\JqueryUIDatePickerRenderer.cs" />
     <Compile Include="Rendertargets\JqueryUITimePickerRenderer.cs" />
     <Compile Include="RenderTargetProcessor.cs" />
+    <Compile Include="Resources\ckeditor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ckeditor.resx</DependentUpon>
+    </Compile>
     <Compile Include="Resources\JqGrid.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -68,6 +73,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\ckeditor.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ckeditor.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\JqGrid.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>JqGrid.Designer.cs</LastGenOutput>
