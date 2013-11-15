@@ -979,6 +979,447 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to By Element Id.
+        /// </summary>
+        internal static string link_anchorId {
+            get {
+                return ResourceManager.GetString("link_anchorId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to By Anchor Name.
+        /// </summary>
+        internal static string link_anchorName {
+            get {
+                return ResourceManager.GetString("link_anchorName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Linked Resource Charset.
+        /// </summary>
+        internal static string link_charset {
+            get {
+                return ResourceManager.GetString("link_charset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stylesheet Classes.
+        /// </summary>
+        internal static string link_cssClasses {
+            get {
+                return ResourceManager.GetString("link_cssClasses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to E-Mail Address.
+        /// </summary>
+        internal static string link_emailAddress {
+            get {
+                return ResourceManager.GetString("link_emailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Message Body.
+        /// </summary>
+        internal static string link_emailBody {
+            get {
+                return ResourceManager.GetString("link_emailBody", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Message Subject.
+        /// </summary>
+        internal static string link_emailSubject {
+            get {
+                return ResourceManager.GetString("link_emailSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Id.
+        /// </summary>
+        internal static string link_id {
+            get {
+                return ResourceManager.GetString("link_id", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link Info.
+        /// </summary>
+        internal static string link_info {
+            get {
+                return ResourceManager.GetString("link_info", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language Code.
+        /// </summary>
+        internal static string link_langCode {
+            get {
+                return ResourceManager.GetString("link_langCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language Direction.
+        /// </summary>
+        internal static string link_langDir {
+            get {
+                return ResourceManager.GetString("link_langDir", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Left to Right (LTR).
+        /// </summary>
+        internal static string link_langDirLTR {
+            get {
+                return ResourceManager.GetString("link_langDirLTR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Right to Left (RTL).
+        /// </summary>
+        internal static string link_langDirRTL {
+            get {
+                return ResourceManager.GetString("link_langDirRTL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit Link.
+        /// </summary>
+        internal static string link_menu {
+            get {
+                return ResourceManager.GetString("link_menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string link_name {
+            get {
+                return ResourceManager.GetString("link_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (No anchors available in the document).
+        /// </summary>
+        internal static string link_noAnchors {
+            get {
+                return ResourceManager.GetString("link_noAnchors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please type the e-mail address.
+        /// </summary>
+        internal static string link_noEmail {
+            get {
+                return ResourceManager.GetString("link_noEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please type the link URL.
+        /// </summary>
+        internal static string link_noUrl {
+            get {
+                return ResourceManager.GetString("link_noUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;other&gt;.
+        /// </summary>
+        internal static string link_other {
+            get {
+                return ResourceManager.GetString("link_other", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dependent (Netscape).
+        /// </summary>
+        internal static string link_popupDependent {
+            get {
+                return ResourceManager.GetString("link_popupDependent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Popup Window Features.
+        /// </summary>
+        internal static string link_popupFeatures {
+            get {
+                return ResourceManager.GetString("link_popupFeatures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Full Screen (IE).
+        /// </summary>
+        internal static string link_popupFullScreen {
+            get {
+                return ResourceManager.GetString("link_popupFullScreen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Left Position.
+        /// </summary>
+        internal static string link_popupLeft {
+            get {
+                return ResourceManager.GetString("link_popupLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Location Bar.
+        /// </summary>
+        internal static string link_popupLocationBar {
+            get {
+                return ResourceManager.GetString("link_popupLocationBar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Menu Bar.
+        /// </summary>
+        internal static string link_popupMenuBar {
+            get {
+                return ResourceManager.GetString("link_popupMenuBar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Resizable.
+        /// </summary>
+        internal static string link_popupResizable {
+            get {
+                return ResourceManager.GetString("link_popupResizable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scroll Bars.
+        /// </summary>
+        internal static string link_popupScrollBars {
+            get {
+                return ResourceManager.GetString("link_popupScrollBars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Status Bar.
+        /// </summary>
+        internal static string link_popupStatusBar {
+            get {
+                return ResourceManager.GetString("link_popupStatusBar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toolbar.
+        /// </summary>
+        internal static string link_popupToolbar {
+            get {
+                return ResourceManager.GetString("link_popupToolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Top Position.
+        /// </summary>
+        internal static string link_popupTop {
+            get {
+                return ResourceManager.GetString("link_popupTop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Relationship.
+        /// </summary>
+        internal static string link_rel {
+            get {
+                return ResourceManager.GetString("link_rel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select an Anchor.
+        /// </summary>
+        internal static string link_selectAnchor {
+            get {
+                return ResourceManager.GetString("link_selectAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Style.
+        /// </summary>
+        internal static string link_styles {
+            get {
+                return ResourceManager.GetString("link_styles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tab Index.
+        /// </summary>
+        internal static string link_tabIndex {
+            get {
+                return ResourceManager.GetString("link_tabIndex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Target.
+        /// </summary>
+        internal static string link_target {
+            get {
+                return ResourceManager.GetString("link_target", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;frame&gt;.
+        /// </summary>
+        internal static string link_targetFrame {
+            get {
+                return ResourceManager.GetString("link_targetFrame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Target Frame Name.
+        /// </summary>
+        internal static string link_targetFrameName {
+            get {
+                return ResourceManager.GetString("link_targetFrameName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;popup window&gt;.
+        /// </summary>
+        internal static string link_targetPopup {
+            get {
+                return ResourceManager.GetString("link_targetPopup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Popup Window Name.
+        /// </summary>
+        internal static string link_targetPopupName {
+            get {
+                return ResourceManager.GetString("link_targetPopupName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link.
+        /// </summary>
+        internal static string link_title {
+            get {
+                return ResourceManager.GetString("link_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link to anchor in the text.
+        /// </summary>
+        internal static string link_toAnchor {
+            get {
+                return ResourceManager.GetString("link_toAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to E-mail.
+        /// </summary>
+        internal static string link_toEmail {
+            get {
+                return ResourceManager.GetString("link_toEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link.
+        /// </summary>
+        internal static string link_toolbar {
+            get {
+                return ResourceManager.GetString("link_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to URL.
+        /// </summary>
+        internal static string link_toUrl {
+            get {
+                return ResourceManager.GetString("link_toUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link Type.
+        /// </summary>
+        internal static string link_type {
+            get {
+                return ResourceManager.GetString("link_type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unlink.
+        /// </summary>
+        internal static string link_unlink {
+            get {
+                return ResourceManager.GetString("link_unlink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upload.
+        /// </summary>
+        internal static string link_upload {
+            get {
+                return ResourceManager.GetString("link_upload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert/Remove Bulleted List.
+        /// </summary>
+        internal static string list_bulletedlist {
+            get {
+                return ResourceManager.GetString("list_bulletedlist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert/Remove Numbered List.
+        /// </summary>
+        internal static string list_numberedlist {
+            get {
+                return ResourceManager.GetString("list_numberedlist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Collapse Toolbar.
         /// </summary>
         internal static string toolbar_toolbarCollapse {
@@ -1101,6 +1542,24 @@ namespace GlobalSauce.Resources {
         internal static string toolbar_toolbars {
             get {
                 return ResourceManager.GetString("toolbar_toolbars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Redo.
+        /// </summary>
+        internal static string undo_redo {
+            get {
+                return ResourceManager.GetString("undo_redo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Undo.
+        /// </summary>
+        internal static string undo_undo {
+            get {
+                return ResourceManager.GetString("undo_undo", resourceCulture);
             }
         }
     }

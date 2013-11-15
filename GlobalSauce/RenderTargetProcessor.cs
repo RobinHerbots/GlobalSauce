@@ -27,7 +27,7 @@ namespace GlobalSauce
                     renderTarget = new JqueryUITimePickerRenderer();
                     break;
                 case Components.ckeditor:
-                    renderTarget = new JqueryUITimePickerRenderer();
+                    renderTarget = new ckeditorRenderer();
                     break;
 
                 default:

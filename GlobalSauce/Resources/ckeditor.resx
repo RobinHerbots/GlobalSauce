@@ -465,4 +465,157 @@
   <data name="toolbar_toolbars" xml:space="preserve">
     <value>Editor toolbars</value>
   </data>
+  <data name="link_anchorId" xml:space="preserve">
+    <value>By Element Id</value>
+  </data>
+  <data name="link_anchorName" xml:space="preserve">
+    <value>By Anchor Name</value>
+  </data>
+  <data name="link_charset" xml:space="preserve">
+    <value>Linked Resource Charset</value>
+  </data>
+  <data name="link_cssClasses" xml:space="preserve">
+    <value>Stylesheet Classes</value>
+  </data>
+  <data name="link_emailAddress" xml:space="preserve">
+    <value>E-Mail Address</value>
+  </data>
+  <data name="link_emailBody" xml:space="preserve">
+    <value>Message Body</value>
+  </data>
+  <data name="link_emailSubject" xml:space="preserve">
+    <value>Message Subject</value>
+  </data>
+  <data name="link_id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="link_info" xml:space="preserve">
+    <value>Link Info</value>
+  </data>
+  <data name="link_langCode" xml:space="preserve">
+    <value>Language Code</value>
+  </data>
+  <data name="link_langDir" xml:space="preserve">
+    <value>Language Direction</value>
+  </data>
+  <data name="link_langDirLTR" xml:space="preserve">
+    <value>Left to Right (LTR)</value>
+  </data>
+  <data name="link_langDirRTL" xml:space="preserve">
+    <value>Right to Left (RTL)</value>
+  </data>
+  <data name="link_menu" xml:space="preserve">
+    <value>Edit Link</value>
+  </data>
+  <data name="link_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="link_noAnchors" xml:space="preserve">
+    <value>(No anchors available in the document)</value>
+  </data>
+  <data name="link_noEmail" xml:space="preserve">
+    <value>Please type the e-mail address</value>
+  </data>
+  <data name="link_noUrl" xml:space="preserve">
+    <value>Please type the link URL</value>
+  </data>
+  <data name="link_other" xml:space="preserve">
+    <value>&lt;other&gt;</value>
+  </data>
+  <data name="link_popupDependent" xml:space="preserve">
+    <value>Dependent (Netscape)</value>
+  </data>
+  <data name="link_popupFeatures" xml:space="preserve">
+    <value>Popup Window Features</value>
+  </data>
+  <data name="link_popupFullScreen" xml:space="preserve">
+    <value>Full Screen (IE)</value>
+  </data>
+  <data name="link_popupLeft" xml:space="preserve">
+    <value>Left Position</value>
+  </data>
+  <data name="link_popupLocationBar" xml:space="preserve">
+    <value>Location Bar</value>
+  </data>
+  <data name="link_popupMenuBar" xml:space="preserve">
+    <value>Menu Bar</value>
+  </data>
+  <data name="link_popupResizable" xml:space="preserve">
+    <value>Resizable</value>
+  </data>
+  <data name="link_popupScrollBars" xml:space="preserve">
+    <value>Scroll Bars</value>
+  </data>
+  <data name="link_popupStatusBar" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="link_popupToolbar" xml:space="preserve">
+    <value>Toolbar</value>
+  </data>
+  <data name="link_popupTop" xml:space="preserve">
+    <value>Top Position</value>
+  </data>
+  <data name="link_rel" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="link_selectAnchor" xml:space="preserve">
+    <value>Select an Anchor</value>
+  </data>
+  <data name="link_styles" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="link_tabIndex" xml:space="preserve">
+    <value>Tab Index</value>
+  </data>
+  <data name="link_target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="link_targetFrame" xml:space="preserve">
+    <value>&lt;frame&gt;</value>
+  </data>
+  <data name="link_targetFrameName" xml:space="preserve">
+    <value>Target Frame Name</value>
+  </data>
+  <data name="link_targetPopup" xml:space="preserve">
+    <value>&lt;popup window&gt;</value>
+  </data>
+  <data name="link_targetPopupName" xml:space="preserve">
+    <value>Popup Window Name</value>
+  </data>
+  <data name="link_title" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="link_toAnchor" xml:space="preserve">
+    <value>Link to anchor in the text</value>
+  </data>
+  <data name="link_toEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="link_toolbar" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="link_toUrl" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="link_type" xml:space="preserve">
+    <value>Link Type</value>
+  </data>
+  <data name="link_unlink" xml:space="preserve">
+    <value>Unlink</value>
+  </data>
+  <data name="link_upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="list_bulletedlist" xml:space="preserve">
+    <value>Insert/Remove Bulleted List</value>
+  </data>
+  <data name="list_numberedlist" xml:space="preserve">
+    <value>Insert/Remove Numbered List</value>
+  </data>
+  <data name="undo_redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="undo_undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
 </root>
