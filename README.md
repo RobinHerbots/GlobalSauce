@@ -1,5 +1,4 @@
 # GlobalSauce
-# ===========
 
 Automated culture settings rendering for different javascript plugins.  
 Implemented as an htmlhelper extension method (ASP.NET/MVC)
