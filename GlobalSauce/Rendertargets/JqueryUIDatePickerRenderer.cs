@@ -84,7 +84,7 @@ namespace GlobalSauce.Rendertargets
     }
 
 
-    public static class DateFormatInfoExtensions
+    public static partial class DateFormatInfoExtensions
     {
         public static string JqueryUIDateFormat(this DateTimeFormatInfo dateTimeFormatInfo)
         {

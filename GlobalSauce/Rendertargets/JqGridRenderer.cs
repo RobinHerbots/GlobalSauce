@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using GlobalSauce.Enums;
 
@@ -179,15 +180,16 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendLine("masks : {");
             jqGridCulture.AppendFormat("ISO8601Long:\"Y-m-d H:i:s\",\n");
             jqGridCulture.AppendFormat("ISO8601Short:\"Y-m-d\",\n");
-            jqGridCulture.AppendFormat("ShortDate: \"{0}\", \n", cultureInfo.DateTimeFormat.ShortDatePattern);
-            jqGridCulture.AppendFormat("LongDate: \"{0}\", \n", cultureInfo.DateTimeFormat.LongDatePattern);
-            jqGridCulture.AppendFormat("FullDateTime: \"{0}\", \n", cultureInfo.DateTimeFormat.FullDateTimePattern);
-            jqGridCulture.AppendFormat("MonthDay: \"{0}\", \n", cultureInfo.DateTimeFormat.MonthDayPattern);
-            jqGridCulture.AppendFormat("ShortTime: \"{0}\", \n", cultureInfo.DateTimeFormat.ShortTimePattern);
-            jqGridCulture.AppendFormat("LongTime: \"{0}\", \n", cultureInfo.DateTimeFormat.LongTimePattern);
-            jqGridCulture.AppendFormat("SortableDateTime: \"{0}\",\n", cultureInfo.DateTimeFormat.SortableDateTimePattern);
-            jqGridCulture.AppendFormat("UniversalSortableDateTime: \"{0}\",\n", cultureInfo.DateTimeFormat.UniversalSortableDateTimePattern);
-            jqGridCulture.AppendFormat("YearMonth: \"{0}\" \n", cultureInfo.DateTimeFormat.YearMonthPattern);
+            jqGridCulture.AppendFormat("ShortDate: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortDatePattern).ToLower());
+            jqGridCulture.AppendFormat("LongDate: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.LongDatePattern));
+            jqGridCulture.AppendFormat("FullDateTime: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.FullDateTimePattern));
+            jqGridCulture.AppendFormat("DateTime: \"{0} {1}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortDatePattern).ToLower(), jqgridify(cultureInfo.DateTimeFormat.ShortTimePattern));
+            jqGridCulture.AppendFormat("MonthDay: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.MonthDayPattern));
+            jqGridCulture.AppendFormat("ShortTime: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortTimePattern));
+            jqGridCulture.AppendFormat("LongTime: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.LongTimePattern));
+            jqGridCulture.AppendFormat("SortableDateTime: \"{0}\",\n", jqgridify(cultureInfo.DateTimeFormat.SortableDateTimePattern));
+            jqGridCulture.AppendFormat("UniversalSortableDateTime: \"{0}\",\n", jqgridify(cultureInfo.DateTimeFormat.UniversalSortableDateTimePattern));
+            jqGridCulture.AppendFormat("YearMonth: \"{0}\" \n", jqgridify(cultureInfo.DateTimeFormat.YearMonthPattern));
             jqGridCulture.AppendLine("},");
             jqGridCulture.AppendFormat("reformatAfterEdit : false\n");
             jqGridCulture.AppendLine("},");
@@ -200,6 +202,18 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendLine("});");
 
             return jqGridCulture.ToString();
+        }
+
+        private string jqgridify(string datetimePattern)
+        {
+            var dtp = Regex.Replace(datetimePattern, "d+", "d");
+            dtp = Regex.Replace(dtp, "M+", "M");
+            dtp = Regex.Replace(dtp, "y+", "yy");
+            dtp = Regex.Replace(dtp, "H+", "h");
+            dtp = Regex.Replace(dtp, "m+", "m");
+            dtp = Regex.Replace(dtp, "s+", "s");
+
+            return dtp;
         }
     }
 }
