@@ -180,10 +180,10 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendLine("masks : {");
             jqGridCulture.AppendFormat("ISO8601Long:\"Y-m-d H:i:s\",\n");
             jqGridCulture.AppendFormat("ISO8601Short:\"Y-m-d\",\n");
-            jqGridCulture.AppendFormat("ShortDate: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortDatePattern).ToLower());
+            jqGridCulture.AppendFormat("ShortDate: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortDatePattern, true));
             jqGridCulture.AppendFormat("LongDate: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.LongDatePattern));
             jqGridCulture.AppendFormat("FullDateTime: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.FullDateTimePattern));
-            jqGridCulture.AppendFormat("DateTime: \"{0} {1}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortDatePattern).ToLower(), jqgridify(cultureInfo.DateTimeFormat.ShortTimePattern));
+            jqGridCulture.AppendFormat("DateTime: \"{0} {1}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortDatePattern, true), jqgridify(cultureInfo.DateTimeFormat.ShortTimePattern));
             jqGridCulture.AppendFormat("MonthDay: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.MonthDayPattern));
             jqGridCulture.AppendFormat("ShortTime: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.ShortTimePattern));
             jqGridCulture.AppendFormat("LongTime: \"{0}\", \n", jqgridify(cultureInfo.DateTimeFormat.LongTimePattern));
@@ -204,11 +204,11 @@ namespace GlobalSauce.Rendertargets
             return jqGridCulture.ToString();
         }
 
-        private string jqgridify(string datetimePattern)
+        private string jqgridify(string datetimePattern, bool shortDate = false)
         {
             var dtp = Regex.Replace(datetimePattern, "d+", "d");
-            dtp = Regex.Replace(dtp, "M+", "M");
-            dtp = Regex.Replace(dtp, "y+", "yy");
+            dtp = Regex.Replace(dtp, "M+", shortDate ? "m" : "M");
+            dtp = Regex.Replace(dtp, "y+", "Y", RegexOptions.IgnoreCase);
             dtp = Regex.Replace(dtp, "H+", "h");
             dtp = Regex.Replace(dtp, "m+", "m");
             dtp = Regex.Replace(dtp, "s+", "s");
