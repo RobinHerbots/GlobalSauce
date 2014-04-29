@@ -210,11 +210,13 @@ namespace GlobalSauce.Rendertargets
             dtp = Regex.Replace(dtp, "M+", shortDate ? "m" : "M");
             dtp = Regex.Replace(dtp, "y+", "Y", RegexOptions.IgnoreCase);
             dtp = Regex.Replace(dtp, "H+", "g", RegexOptions.IgnoreCase);
-            dtp = Regex.Replace(dtp, "m+", "i");
-            dtp = Regex.Replace(dtp, "s+", "s");
-            dtp = Regex.Replace(dtp, "t+", "a");
-            dtp = Regex.Replace(dtp, "T+", "A");
-
+            if (shortDate == false)
+            {
+                dtp = Regex.Replace(dtp, "m+", "i");
+                dtp = Regex.Replace(dtp, "s+", "s");
+                dtp = Regex.Replace(dtp, "t+", "a");
+                dtp = Regex.Replace(dtp, "T+", "A");
+            }
             return dtp;
         }
     }
