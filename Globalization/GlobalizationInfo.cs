@@ -284,6 +284,9 @@ namespace Globalization
                 { "T", df.LongTimePattern },
                 { "f", df.LongDatePattern + " " + df.ShortTimePattern },
                 { "F", df.FullDateTimePattern },
+                { "g", df.ShortDatePattern + " " + df.ShortTimePattern },
+                { "G", df.ShortDatePattern + " " + df.LongTimePattern },
+                { "m", df.MonthDayPattern },
                 { "M", df.MonthDayPattern },
                 { "S", df.SortableDateTimePattern },
                 { "Y", df.YearMonthPattern }

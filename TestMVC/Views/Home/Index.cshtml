@@ -7,7 +7,7 @@
     <section class="featured">
         <div class="content-wrapper">
             <p>
-                @Html.GlobalSauce(Components.JqGrid)
+                @Html.GlobalSauce(false, Components.JqueryGlobalization, Components.JqGrid, Components.JqueryUIDatePicker, Components.JqueryUITimePicker, Components.ckeditor)
             </p>
         </div>
     </section>
@@ -20,15 +20,11 @@
 {
     <script src="~/Scripts/globalize/globalize.js" type="text/javascript"></script>
     <script type="text/javascript">
-        @Html.GlobalSauce(Components.JqGrid)
+         @Html.GlobalSauce(false, Components.JqueryGlobalization, Components.JqGrid, Components.JqueryUIDatePicker, Components.JqueryUITimePicker, Components.ckeditor)
 
 
         $(document).ready(function () {
             $("#date").datepicker();
         });
     </script>
-
-
-
-
 }
