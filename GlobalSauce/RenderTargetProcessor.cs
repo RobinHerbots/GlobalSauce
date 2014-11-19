@@ -9,7 +9,7 @@ namespace GlobalSauce
     {
         public static string Render(Components component)
         {
-            var cultureInfo = new CultureInfo(Thread.CurrentThread.CurrentUICulture.Name);
+            var cultureInfo = new CultureInfo(Thread.CurrentThread.CurrentCulture.Name);
 
             IRenderTarget renderTarget;
             switch (component)
