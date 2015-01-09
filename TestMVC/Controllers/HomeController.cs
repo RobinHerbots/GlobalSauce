@@ -15,7 +15,7 @@ namespace TestMVC.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             //Thread.CurrentThread.CurrentCulture = new CultureInfo("nl-BE");
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-GB");
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("cs-CZ");
 
 
             return View();
