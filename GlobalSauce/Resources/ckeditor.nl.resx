@@ -118,504 +118,504 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="about_copy" xml:space="preserve">
-    <value>Copyright &amp;copy; $1. All rights reserved.</value>
+    <value>Copyright © $1. Alle rechten voorbehouden.</value>
   </data>
 	<data name="about_dlgTitle" xml:space="preserve">
-    <value>About CKEditor</value>
+    <value>Over CKEditor</value>
   </data>
 	<data name="about_help" xml:space="preserve">
-    <value>Check $1 for help.</value>
+    <value>Controleer $1 voor hulp.</value>
   </data>
 	<data name="about_moreInfo" xml:space="preserve">
-    <value>For licensing information please visit our web site:</value>
+    <value>Bezoek onze website voor licentie-informatie:</value>
   </data>
 	<data name="about_title" xml:space="preserve">
-    <value>About CKEditor</value>
+    <value>Over CKEditor</value>
   </data>
 	<data name="about_userGuide" xml:space="preserve">
     <value>CKEditor User's Guide</value>
   </data>
 	<data name="basicstyles_bold" xml:space="preserve">
-    <value>Bold</value>
+    <value>Vet</value>
   </data>
 	<data name="basicstyles_italic" xml:space="preserve">
-    <value>Italic</value>
+    <value>Cursief</value>
   </data>
 	<data name="basicstyles_strike" xml:space="preserve">
-    <value>Strike Through</value>
+    <value>Doorhalen</value>
   </data>
 	<data name="basicstyles_subscript" xml:space="preserve">
-    <value>Subscripts</value>
+    <value>Subscript</value>
   </data>
 	<data name="basicstyles_superscript" xml:space="preserve">
     <value>Superscript</value>
   </data>
 	<data name="basicstyles_underline" xml:space="preserve">
-    <value>Underline</value>
+    <value>Onderstrepen</value>
   </data>
 	<data name="clipboard_copy" xml:space="preserve">
-    <value>Copy</value>
+    <value>Kopie</value>
   </data>
 	<data name="clipboard_copyError" xml:space="preserve">
-    <value>Your browser security settings don't permit the editor to automatically execute copying operations. Please use the keyboard for that (Ctrl/Cmd+C).</value>
+    <value>De beveiligingsinstellingen van uw browser staan niet toe om de editor automatisch kopiëren te laten uitvoeren. Gebruik de sneltoetsen (Ctrl / Cmd + C).</value>
   </data>
 	<data name="clipboard_cut" xml:space="preserve">
-    <value>Cut</value>
+    <value>Knippen</value>
   </data>
 	<data name="clipboard_cutError" xml:space="preserve">
-    <value>Your browser security settings don't permit the editor to automatically execute cutting operations. Please use the keyboard for that (Ctrl/Cmd+X).</value>
+    <value>De beveiligingsinstellingen van uw browser staan niet toe om de editor automatisch knippen te laten uitvoeren. Gebruik de sneltoetsen (Ctrl / Cmd + X).</value>
   </data>
 	<data name="clipboard_paste" xml:space="preserve">
-    <value>Paste</value>
+    <value>Plakken</value>
   </data>
 	<data name="clipboard_pasteArea" xml:space="preserve">
-    <value>Paste Area</value>
+    <value>Plakgebied</value>
   </data>
 	<data name="clipboard_pasteMsg" xml:space="preserve">
-    <value>Please paste inside the following box using the keyboard (&lt;strong&gt;Ctrl/Cmd+V&lt;/strong&gt;) and hit OK</value>
+    <value>Gelieve te plakken in volgend veld met behulp van het toetsenbord (&lt;strong&gt;Ctrl / Cmd + V&lt;/strong&gt;) en druk op OK</value>
   </data>
 	<data name="clipboard_securityMsg" xml:space="preserve">
-    <value>Because of your browser security settings, the editor is not able to access your clipboard data directly. You are required to paste it again in this window.</value>
+    <value>Vanwege de beveiligingsinstellingen van uw browser is de editor niet mogelijk om uw klembordgegevens rechtstreeks te plakken. U moet het opnieuw plakken in dit venster.</value>
   </data>
 	<data name="clipboard_title" xml:space="preserve">
-    <value>Paste</value>
+    <value>Plakken</value>
   </data>
 	<data name="common_advancedTab" xml:space="preserve">
-    <value>Advanced</value>
+    <value>Geavanceerde</value>
   </data>
 	<data name="common_advisoryTitle" xml:space="preserve">
-    <value>Advisory Title</value>
+    <value>Raadgevend titel</value>
   </data>
 	<data name="common_align" xml:space="preserve">
-    <value>Alignment</value>
+    <value>Uitlijning</value>
   </data>
 	<data name="common_alignBottom" xml:space="preserve">
-    <value>Bottom</value>
+    <value>Onderkant</value>
   </data>
 	<data name="common_alignCenter" xml:space="preserve">
     <value>Center</value>
   </data>
 	<data name="common_alignLeft" xml:space="preserve">
-    <value>Left</value>
+    <value>Links</value>
   </data>
 	<data name="common_alignMiddle" xml:space="preserve">
-    <value>Middle</value>
+    <value>Midden</value>
   </data>
 	<data name="common_alignRight" xml:space="preserve">
-    <value>Right</value>
+    <value>Recht</value>
   </data>
 	<data name="common_alignTop" xml:space="preserve">
-    <value>Top</value>
+    <value>Boven</value>
   </data>
 	<data name="common_browseServer" xml:space="preserve">
-    <value>Browse Server</value>
+    <value>Bladeren door Server</value>
   </data>
 	<data name="common_button" xml:space="preserve">
-    <value>Button</value>
+    <value>Knop</value>
   </data>
 	<data name="common_cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuleren</value>
   </data>
 	<data name="common_checkbox" xml:space="preserve">
     <value>Checkbox</value>
   </data>
 	<data name="common_close" xml:space="preserve">
-    <value>Close</value>
+    <value>Sluiten</value>
   </data>
 	<data name="common_confirmCancel" xml:space="preserve">
-    <value>Some of the options have been changed. Are you sure to close the dialog?</value>
+    <value>Enkele van de opties zijn gewijzigd. Bent u zeker om het dialoogvenster te sluiten?</value>
   </data>
 	<data name="common_confirmNewPage" xml:space="preserve">
-    <value>Any unsaved changes to this content will be lost. Are you sure you want to load new page?</value>
+    <value>Niet-opgeslagen wijzigingen aan deze inhoud zullen verloren gaan. Weet u zeker dat u een nieuwe pagina wilt laden ?</value>
   </data>
 	<data name="common_cssClass" xml:space="preserve">
-    <value>Stylesheet Classes</value>
+    <value>Stylesheet-klassen</value>
   </data>
 	<data name="common_cssClasses" xml:space="preserve">
-    <value>Stylesheet Classes</value>
+    <value>Stylesheet-klassen</value>
   </data>
 	<data name="common_cssLengthTooltip" xml:space="preserve">
-    <value>Enter a number for a value in pixels or a number with a valid CSS unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>
+    <value>Typ een getal voor een waarde in pixels of als een getal met een geldige CSS eenheid (px, %, in, cm, mm, em, ex, pt, of pc).</value>
   </data>
 	<data name="common_cssStyle" xml:space="preserve">
-    <value>Style</value>
+    <value>Stijl</value>
   </data>
 	<data name="common_editorhelp" xml:space="preserve">
-    <value>Press ALT 0 for help</value>
+    <value>Druk op ALT 0 voor help</value>
   </data>
 	<data name="common_flash" xml:space="preserve">
     <value>Flash</value>
   </data>
 	<data name="common_form" xml:space="preserve">
-    <value>Form</value>
+    <value>Formulier</value>
   </data>
 	<data name="common_generalTab" xml:space="preserve">
-    <value>General</value>
+    <value>Algemene</value>
   </data>
 	<data name="common_height" xml:space="preserve">
-    <value>Height</value>
+    <value>Hoogte</value>
   </data>
 	<data name="common_hiddenField" xml:space="preserve">
-    <value>Hidden Field</value>
+    <value>Verborgen veld</value>
   </data>
 	<data name="common_id" xml:space="preserve">
     <value>Id</value>
   </data>
 	<data name="common_image" xml:space="preserve">
-    <value>Image</value>
+    <value>Afbeelding</value>
   </data>
 	<data name="common_imageButton" xml:space="preserve">
-    <value>Image Button</value>
+    <value>Afbeeldingsknop</value>
   </data>
 	<data name="common_invalidCssLength" xml:space="preserve">
-    <value>Value specified for the \"%1\" field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>
+    <value>Waarde die is opgegeven voor de \"%1\" veld moet een positief getal met of zonder een geldige CSS maateenheid (px, %, in, cm, mm, em, ex, pt, of pc).</value>
   </data>
 	<data name="common_invalidHeight" xml:space="preserve">
-    <value>Height must be a number.</value>
+    <value>Hoogte moet een getal zijn.</value>
   </data>
 	<data name="common_invalidHtmlLength" xml:space="preserve">
-    <value>Value specified for the \"%1\" field must be a positive number with or without a valid HTML measurement unit (px or %).</value>
+    <value>Waarde die is opgegeven voor de \"%1\" veld moet een positief getal met of zonder een geldige HTML-maateenheid (px of %).</value>
   </data>
 	<data name="common_invalidInlineStyle" xml:space="preserve">
-    <value>Value specified for the inline style must consist of one or more tuples with the format of \"name : value\", " + "separated by semi-colons.</value>
+    <value>Waarde die is opgegeven voor de inline opmaakprofiel moet bestaan uit één of meer tupels met de indeling van \"name: value\","+"door puntkomma gescheiden.</value>
   </data>
 	<data name="common_invalidValue" xml:space="preserve">
-    <value>Invalid value.</value>
+    <value>Ongeldige waarde.</value>
   </data>
 	<data name="common_invalidWidth" xml:space="preserve">
-    <value>Width must be a number.</value>
+    <value>Breedte moet een getal zijn.</value>
   </data>
 	<data name="common_langCode" xml:space="preserve">
-    <value>Language Code</value>
+    <value>Taalcode</value>
   </data>
 	<data name="common_langDir" xml:space="preserve">
-    <value>Language Direction</value>
+    <value>Schrijfrichting</value>
   </data>
 	<data name="common_langDirLtr" xml:space="preserve">
-    <value>Left to Right (LTR)</value>
+    <value>Links naar rechts (LTR)</value>
   </data>
 	<data name="common_langDirRtl" xml:space="preserve">
-    <value>Right to Left (RTL)</value>
+    <value>Rechts naar links (RTL)</value>
   </data>
 	<data name="common_longDescr" xml:space="preserve">
-    <value>Long Description URL</value>
+    <value>Lange beschrijving URL</value>
   </data>
 	<data name="common_name" xml:space="preserve">
-    <value>Name</value>
+    <value>Naam</value>
   </data>
 	<data name="common_notset" xml:space="preserve">
-    <value>&lt;not set&gt;</value>
+    <value>&lt; niet instellen &gt;</value>
   </data>
 	<data name="common_ok" xml:space="preserve">
     <value>OK</value>
   </data>
 	<data name="common_options" xml:space="preserve">
-    <value>Options</value>
+    <value>Opties</value>
   </data>
 	<data name="common_preview" xml:space="preserve">
-    <value>Preview</value>
+    <value>Voorbeeld</value>
   </data>
 	<data name="common_protocol" xml:space="preserve">
     <value>Protocol</value>
   </data>
 	<data name="common_radio" xml:space="preserve">
-    <value>Radio Button</value>
+    <value>Keuzerondje</value>
   </data>
 	<data name="common_resize" xml:space="preserve">
-    <value>Resize</value>
+    <value>Vergroten/verkleinen</value>
   </data>
 	<data name="common_select" xml:space="preserve">
-    <value>Selection Field</value>
+    <value>Selectieveld</value>
   </data>
 	<data name="common_styles" xml:space="preserve">
-    <value>Style</value>
+    <value>Stijl</value>
   </data>
 	<data name="common_target" xml:space="preserve">
-    <value>Target</value>
+    <value>Doel</value>
   </data>
 	<data name="common_targetNew" xml:space="preserve">
-    <value>New Window (_blank)</value>
+    <value>Nieuw venster (_blank)</value>
   </data>
 	<data name="common_targetParent" xml:space="preserve">
-    <value>Parent Window (_parent)</value>
+    <value>Bovenliggende venster (_parent)</value>
   </data>
 	<data name="common_targetSelf" xml:space="preserve">
-    <value>Same Window (_self)</value>
+    <value>Zelfde venster (_self)</value>
   </data>
 	<data name="common_targetTop" xml:space="preserve">
-    <value>Topmost Window (_top)</value>
+    <value>Bovenste venster (_top)</value>
   </data>
 	<data name="common_textarea" xml:space="preserve">
     <value>Textarea</value>
   </data>
 	<data name="common_textField" xml:space="preserve">
-    <value>Text Field</value>
+    <value>Tekstveld</value>
   </data>
 	<data name="common_unavailable" xml:space="preserve">
-    <value>%1&lt;span class=\"cke_accessibility\"&gt;, unavailable&lt;/span&gt;</value>
+    <value>%1 &lt;span class=\"cke_accessibility\"&gt; niet beschikbaar&lt;/span&gt;</value>
   </data>
 	<data name="common_upload" xml:space="preserve">
     <value>Upload</value>
   </data>
 	<data name="common_uploadSubmit" xml:space="preserve">
-    <value>Send it to the Server</value>
+    <value>Naar de Server verzenden</value>
   </data>
 	<data name="common_url" xml:space="preserve">
     <value>URL</value>
   </data>
 	<data name="common_validateNumberFailed" xml:space="preserve">
-    <value>This value is not a number.</value>
+    <value>Deze waarde is niet een getal.</value>
   </data>
 	<data name="common_width" xml:space="preserve">
-    <value>Width</value>
+    <value>Breedte</value>
   </data>
 	<data name="editor" xml:space="preserve">
-    <value>Rich Text Editor</value>
+    <value>RTF-Editor</value>
   </data>
 	<data name="fakeobjects_anchor" xml:space="preserve">
-    <value>Anchor</value>
+    <value>Anker</value>
   </data>
 	<data name="fakeobjects_flash" xml:space="preserve">
-    <value>Flash Animation</value>
+    <value>Animatie van de flits</value>
   </data>
 	<data name="fakeobjects_hiddenfield" xml:space="preserve">
-    <value>Hidden Field</value>
+    <value>Verborgen veld</value>
   </data>
 	<data name="fakeobjects_iframe" xml:space="preserve">
     <value>IFrame</value>
   </data>
 	<data name="fakeobjects_unknown" xml:space="preserve">
-    <value>Unknown Object</value>
+    <value>Onbekend Object</value>
   </data>
 	<data name="indent_indent" xml:space="preserve">
-    <value>Increase Indent</value>
+    <value>Inspringing vergroten</value>
   </data>
 	<data name="indent_outdent" xml:space="preserve">
-    <value>Decrease Indent</value>
+    <value>Inspringing verkleinen</value>
   </data>
 	<data name="link_acccessKey" xml:space="preserve">
-    <value>Access Key</value>
+    <value>Toegangstoets</value>
   </data>
 	<data name="link_advanced" xml:space="preserve">
-    <value>Advanced</value>
+    <value>Geavanceerde</value>
   </data>
 	<data name="link_advisoryContentType" xml:space="preserve">
-    <value>Advisory Content Type</value>
+    <value>Raadgevend inhoudstype</value>
   </data>
 	<data name="link_advisoryTitle" xml:space="preserve">
-    <value>Advisory Title</value>
+    <value>Raadgevend titel</value>
   </data>
 	<data name="link_anchor_errorName" xml:space="preserve">
-    <value>Please type the anchor name</value>
+    <value>Typ de ankernaam</value>
   </data>
 	<data name="link_anchor_menu" xml:space="preserve">
-    <value>Edit Anchor</value>
+    <value>Anker bewerken</value>
   </data>
 	<data name="link_anchor_name" xml:space="preserve">
-    <value>Anchor Name</value>
+    <value>Ankernaam</value>
   </data>
 	<data name="link_anchor_remove" xml:space="preserve">
-    <value>Remove Anchor</value>
+    <value>Anker verwijderen</value>
   </data>
 	<data name="link_anchor_title" xml:space="preserve">
-    <value>Anchor Properties</value>
+    <value>Eigenschappen van anker</value>
   </data>
 	<data name="link_anchor_toolbar" xml:space="preserve">
-    <value>Anchor</value>
+    <value>Anker</value>
   </data>
 	<data name="toolbar_toolbarCollapse" xml:space="preserve">
-    <value>Collapse Toolbar</value>
+    <value>Ineenstorting werkbalk</value>
   </data>
 	<data name="toolbar_toolbarExpand" xml:space="preserve">
-    <value>Expand Toolbar</value>
+    <value>Werkbalk uitvouwen</value>
   </data>
 	<data name="toolbar_toolbarGroups_basicstyles" xml:space="preserve">
-    <value>Basic Styles</value>
+    <value>Standaard-opmaakprofielen</value>
   </data>
 	<data name="toolbar_toolbarGroups_clipboard" xml:space="preserve">
-    <value>Clipboard/Undo</value>
+    <value>Klembord/ongedaan maken</value>
   </data>
 	<data name="toolbar_toolbarGroups_colors" xml:space="preserve">
-    <value>Colors</value>
+    <value>Kleuren</value>
   </data>
 	<data name="toolbar_toolbarGroups_document" xml:space="preserve">
     <value>Document</value>
   </data>
 	<data name="toolbar_toolbarGroups_editing" xml:space="preserve">
-    <value>Editing</value>
+    <value>Bewerken</value>
   </data>
 	<data name="toolbar_toolbarGroups_forms" xml:space="preserve">
-    <value>Forms</value>
+    <value>Formulieren</value>
   </data>
 	<data name="toolbar_toolbarGroups_insert" xml:space="preserve">
-    <value>Insert</value>
+    <value>Invoegen</value>
   </data>
 	<data name="toolbar_toolbarGroups_links" xml:space="preserve">
-    <value>Links</value>
+    <value>Koppelingen</value>
   </data>
 	<data name="toolbar_toolbarGroups_paragraph" xml:space="preserve">
-    <value>Paragraph</value>
+    <value>Lid</value>
   </data>
 	<data name="toolbar_toolbarGroups_styles" xml:space="preserve">
-    <value>Styles</value>
+    <value>Stijlen</value>
   </data>
 	<data name="toolbar_toolbarGroups_tools" xml:space="preserve">
-    <value>Tools</value>
+    <value>Hulpprogramma 's</value>
   </data>
 	<data name="toolbar_toolbars" xml:space="preserve">
-    <value>Editor toolbars</value>
+    <value>Editor werkbalken</value>
   </data>
 	<data name="link_anchorId" xml:space="preserve">
-    <value>By Element Id</value>
+    <value>Door Element-Id</value>
   </data>
 	<data name="link_anchorName" xml:space="preserve">
-    <value>By Anchor Name</value>
+    <value>Door ankernaam</value>
   </data>
 	<data name="link_charset" xml:space="preserve">
-    <value>Linked Resource Charset</value>
+    <value>Karakterset van gelinkte bron</value>
   </data>
 	<data name="link_cssClasses" xml:space="preserve">
-    <value>Stylesheet Classes</value>
+    <value>Stylesheet-klassen</value>
   </data>
 	<data name="link_emailAddress" xml:space="preserve">
-    <value>E-Mail Address</value>
+    <value>E-mailadres</value>
   </data>
 	<data name="link_emailBody" xml:space="preserve">
-    <value>Message Body</value>
+    <value>Hoofdtekst van het bericht</value>
   </data>
 	<data name="link_emailSubject" xml:space="preserve">
-    <value>Message Subject</value>
+    <value>Onderwerp van het bericht</value>
   </data>
 	<data name="link_id" xml:space="preserve">
     <value>Id</value>
   </data>
 	<data name="link_info" xml:space="preserve">
-    <value>Link Info</value>
+    <value>Koppelingsinfo</value>
   </data>
 	<data name="link_langCode" xml:space="preserve">
-    <value>Language Code</value>
+    <value>Taalcode</value>
   </data>
 	<data name="link_langDir" xml:space="preserve">
-    <value>Language Direction</value>
+    <value>Schrijfrichting</value>
   </data>
 	<data name="link_langDirLTR" xml:space="preserve">
-    <value>Left to Right (LTR)</value>
+    <value>Links naar rechts (LTR)</value>
   </data>
 	<data name="link_langDirRTL" xml:space="preserve">
-    <value>Right to Left (RTL)</value>
+    <value>Rechts naar links (RTL)</value>
   </data>
 	<data name="link_menu" xml:space="preserve">
-    <value>Edit Link</value>
+    <value>Koppeling bewerken</value>
   </data>
 	<data name="link_name" xml:space="preserve">
-    <value>Name</value>
+    <value>Naam</value>
   </data>
 	<data name="link_noAnchors" xml:space="preserve">
-    <value>(No anchors available in the document)</value>
+    <value>(Geen ankers beschikbaar in het document)</value>
   </data>
 	<data name="link_noEmail" xml:space="preserve">
-    <value>Please type the e-mail address</value>
+    <value>Geef het e-mailadres</value>
   </data>
 	<data name="link_noUrl" xml:space="preserve">
-    <value>Please type the link URL</value>
+    <value>Voer de koppelings-URL</value>
   </data>
 	<data name="link_other" xml:space="preserve">
     <value>&lt;other&gt;</value>
   </data>
 	<data name="link_popupDependent" xml:space="preserve">
-    <value>Dependent (Netscape)</value>
+    <value>Afhankelijk (Netscape)</value>
   </data>
 	<data name="link_popupFeatures" xml:space="preserve">
-    <value>Popup Window Features</value>
+    <value>Functies van het popup venster</value>
   </data>
 	<data name="link_popupFullScreen" xml:space="preserve">
-    <value>Full Screen (IE)</value>
+    <value>Volledig scherm (IE)</value>
   </data>
 	<data name="link_popupLeft" xml:space="preserve">
-    <value>Left Position</value>
+    <value>Positie links</value>
   </data>
 	<data name="link_popupLocationBar" xml:space="preserve">
-    <value>Location Bar</value>
+    <value>Locatiebalk</value>
   </data>
 	<data name="link_popupMenuBar" xml:space="preserve">
-    <value>Menu Bar</value>
+    <value>Menubalk</value>
   </data>
 	<data name="link_popupResizable" xml:space="preserve">
     <value>Resizable</value>
   </data>
 	<data name="link_popupScrollBars" xml:space="preserve">
-    <value>Scroll Bars</value>
+    <value>Schuifbalken</value>
   </data>
 	<data name="link_popupStatusBar" xml:space="preserve">
     <value>Status Bar</value>
   </data>
 	<data name="link_popupToolbar" xml:space="preserve">
-    <value>Toolbar</value>
+    <value>Werkbalk</value>
   </data>
 	<data name="link_popupTop" xml:space="preserve">
-    <value>Top Position</value>
+    <value>Hoogste positie</value>
   </data>
 	<data name="link_rel" xml:space="preserve">
-    <value>Relationship</value>
+    <value>Relatie</value>
   </data>
 	<data name="link_selectAnchor" xml:space="preserve">
-    <value>Select an Anchor</value>
+    <value>Selecteer een anker</value>
   </data>
 	<data name="link_styles" xml:space="preserve">
-    <value>Style</value>
+    <value>Stijl</value>
   </data>
 	<data name="link_tabIndex" xml:space="preserve">
-    <value>Tab Index</value>
+    <value>TabIndex</value>
   </data>
 	<data name="link_target" xml:space="preserve">
-    <value>Target</value>
+    <value>Doel</value>
   </data>
 	<data name="link_targetFrame" xml:space="preserve">
     <value>&lt;frame&gt;</value>
   </data>
 	<data name="link_targetFrameName" xml:space="preserve">
-    <value>Target Frame Name</value>
+    <value>Naam doelframe</value>
   </data>
 	<data name="link_targetPopup" xml:space="preserve">
-    <value>&lt;popup window&gt;</value>
+    <value>&lt; popup venster &gt;</value>
   </data>
 	<data name="link_targetPopupName" xml:space="preserve">
-    <value>Popup Window Name</value>
+    <value>Naam popup venster</value>
   </data>
 	<data name="link_title" xml:space="preserve">
-    <value>Link</value>
+    <value>Koppeling</value>
   </data>
 	<data name="link_toAnchor" xml:space="preserve">
-    <value>Link to anchor in the text</value>
+    <value>Link naar anker in de tekst</value>
   </data>
 	<data name="link_toEmail" xml:space="preserve">
     <value>E-mail</value>
   </data>
 	<data name="link_toolbar" xml:space="preserve">
-    <value>Link</value>
+    <value>Koppeling</value>
   </data>
 	<data name="link_toUrl" xml:space="preserve">
     <value>URL</value>
   </data>
 	<data name="link_type" xml:space="preserve">
-    <value>Link Type</value>
+    <value>Koppelingstype</value>
   </data>
 	<data name="link_unlink" xml:space="preserve">
-    <value>Unlink</value>
+    <value>Ontkoppelen</value>
   </data>
 	<data name="link_upload" xml:space="preserve">
     <value>Upload</value>
   </data>
 	<data name="list_bulletedlist" xml:space="preserve">
-    <value>Insert/Remove Bulleted List</value>
+    <value>Lijst met opsommingstekens invoegen/verwijderen</value>
   </data>
 	<data name="list_numberedlist" xml:space="preserve">
-    <value>Insert/Remove Numbered List</value>
+    <value>Invoegen/verwijderen genummerde lijst</value>
   </data>
 	<data name="undo_redo" xml:space="preserve">
-    <value>Redo</value>
+    <value>Opnieuw uitvoeren</value>
   </data>
 	<data name="undo_undo" xml:space="preserve">
-    <value>Undo</value>
+    <value>Ongedaan maken</value>
   </data>
 </root>

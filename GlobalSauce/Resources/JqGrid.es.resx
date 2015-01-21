@@ -118,204 +118,204 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="edit_addCaption" xml:space="preserve">
-    <value>Add Record</value>
+    <value>Agregar un registro</value>
   </data>
 	<data name="edit_bCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancelar</value>
   </data>
 	<data name="edit_bClose" xml:space="preserve">
-    <value>Close</value>
+    <value>Cerrar</value>
   </data>
 	<data name="edit_bExit" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancelar</value>
   </data>
 	<data name="edit_bNo" xml:space="preserve">
     <value>No</value>
   </data>
 	<data name="edit_bSubmit" xml:space="preserve">
-    <value>Submit</value>
+    <value>Enviar</value>
   </data>
 	<data name="edit_bYes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Sí</value>
   </data>
 	<data name="edit_editCaption" xml:space="preserve">
-    <value>Edit Record</value>
+    <value>Editar Registro</value>
   </data>
 	<data name="edit_saveData" xml:space="preserve">
-    <value>Data has been changed! Save changes?</value>
+    <value>Datos ha cambiado! ¿Guardar los cambios?</value>
   </data>
 	<data name="emptyrecords" xml:space="preserve">
-    <value>No records to view</value>
+    <value>No hay registros para ver</value>
   </data>
 	<data name="groupOps_op_and" xml:space="preserve">
-    <value>AND</value>
+    <value>Y</value>
   </data>
 	<data name="groupOps_op_or" xml:space="preserve">
-    <value>OR</value>
+    <value>O</value>
   </data>
 	<data name="groupOps_text_and" xml:space="preserve">
-    <value>all</value>
+    <value>todos</value>
   </data>
 	<data name="groupOps_text_or" xml:space="preserve">
-    <value>any</value>
+    <value>cualquier</value>
   </data>
 	<data name="loadtext" xml:space="preserve">
-    <value>Loading...</value>
+    <value>Cargando...</value>
   </data>
 	<data name="odata_bn" xml:space="preserve">
-    <value>does not begin with</value>
+    <value>no comienza con</value>
   </data>
 	<data name="odata_bw" xml:space="preserve">
-    <value>begins with</value>
+    <value>comienza con</value>
   </data>
 	<data name="odata_cn" xml:space="preserve">
-    <value>contains</value>
+    <value>contiene</value>
   </data>
 	<data name="odata_en" xml:space="preserve">
-    <value>does not end with</value>
+    <value>No termina con</value>
   </data>
 	<data name="odata_eq" xml:space="preserve">
-    <value>equal</value>
+    <value>igual</value>
   </data>
 	<data name="odata_ew" xml:space="preserve">
-    <value>ends with</value>
+    <value>termina con</value>
   </data>
 	<data name="odata_ge" xml:space="preserve">
-    <value>greater or equal</value>
+    <value>mayor o igual</value>
   </data>
 	<data name="odata_gt" xml:space="preserve">
-    <value>greater</value>
+    <value>mayor</value>
   </data>
 	<data name="odata_in" xml:space="preserve">
-    <value>is in</value>
+    <value>está en</value>
   </data>
 	<data name="odata_le" xml:space="preserve">
-    <value>less or equal</value>
+    <value>menor o igual</value>
   </data>
 	<data name="odata_lt" xml:space="preserve">
-    <value>less</value>
+    <value>menos</value>
   </data>
 	<data name="odata_nc" xml:space="preserve">
-    <value>does not contain</value>
+    <value>No contiene</value>
   </data>
 	<data name="odata_ne" xml:space="preserve">
-    <value>not equal</value>
+    <value>No es igual</value>
   </data>
 	<data name="odata_ni" xml:space="preserve">
-    <value>is not in</value>
+    <value>No es en</value>
   </data>
 	<data name="pgtext" xml:space="preserve">
-    <value>Page {0} of {1}</value>
+    <value>Página {0} de {1}</value>
   </data>
 	<data name="recordtext" xml:space="preserve">
-    <value>View {0} - {1} of {2}</value>
+    <value>Ver {0}-{1} de {2}</value>
   </data>
 	<data name="search_caption" xml:space="preserve">
-    <value>Search...</value>
+    <value>Búsqueda de...</value>
   </data>
 	<data name="search_Find" xml:space="preserve">
-    <value>Find</value>
+    <value>Encontrar</value>
   </data>
 	<data name="search_Reset" xml:space="preserve">
-    <value>Reset</value>
+    <value>RESET</value>
   </data>
 	<data name="col_bCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancelar</value>
   </data>
 	<data name="col_bSubmit" xml:space="preserve">
-    <value>Ok</value>
+    <value>Vale</value>
   </data>
 	<data name="col_caption" xml:space="preserve">
-    <value>Select columns</value>
+    <value>Seleccionar columnas</value>
   </data>
 	<data name="del_bCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancelar</value>
   </data>
 	<data name="del_bSubmit" xml:space="preserve">
-    <value>Delete</value>
+    <value>Borrar</value>
   </data>
 	<data name="del_caption" xml:space="preserve">
-    <value>Delete</value>
+    <value>Borrar</value>
   </data>
 	<data name="del_msg" xml:space="preserve">
-    <value>Delete selected record(s) ?</value>
+    <value>¿Borrar registros seleccionados?</value>
   </data>
 	<data name="errors_errcap" xml:space="preserve">
     <value>Error</value>
   </data>
 	<data name="errors_model" xml:space="preserve">
-    <value>Length of colNames&lt;&gt; colModel !</value>
+    <value>Longitud de colNames &lt;&gt;colModel!</value>
   </data>
 	<data name="errors_norecords" xml:space="preserve">
-    <value>No records to process</value>
+    <value>No hay registros para procesar</value>
   </data>
 	<data name="errors_nourl" xml:space="preserve">
-    <value>Nourl is set</value>
+    <value>Nouri se establece</value>
   </data>
 	<data name="msg_customarray" xml:space="preserve">
-    <value>Custom function should return array!</value>
+    <value>Función personalizada debe devolver matriz!</value>
   </data>
 	<data name="msg_customfcheck" xml:space="preserve">
-    <value>Custom function should be present in case of custom checking!</value>
+    <value>Función personalizada debe estar presente en el caso de comprobación personalizada!</value>
   </data>
 	<data name="msg_date" xml:space="preserve">
-    <value>Please, enter valid date value</value>
+    <value>Por favor, indique el valor de fecha válida</value>
   </data>
 	<data name="msg_email" xml:space="preserve">
-    <value>is not a valid e-mail</value>
+    <value>No es un e-mail válido</value>
   </data>
 	<data name="msg_integer" xml:space="preserve">
-    <value>Please, enter valid integer value</value>
+    <value>Por favor, indique el valor de número entero válido</value>
   </data>
 	<data name="msg_maxValue" xml:space="preserve">
-    <value>value must be less than or equal to</value>
+    <value>valor debe ser menor o igual a</value>
   </data>
 	<data name="msg_minValue" xml:space="preserve">
-    <value>value must be greater than or equal to</value>
+    <value>valor debe ser mayor o igual a</value>
   </data>
 	<data name="msg_nodefined" xml:space="preserve">
-    <value>is not defined!</value>
+    <value>No está definido.</value>
   </data>
 	<data name="msg_novalue" xml:space="preserve">
-    <value>return value is required!</value>
+    <value>se requiere el valor devuelto.</value>
   </data>
 	<data name="msg_number" xml:space="preserve">
-    <value>Please, enter valid number</value>
+    <value>Por favor, introduzca el número válido</value>
   </data>
 	<data name="msg_required" xml:space="preserve">
-    <value>Field is required</value>
+    <value>Se requiere el campo</value>
   </data>
 	<data name="msg_url" xml:space="preserve">
-    <value>is not a valid URL. Prefix required ('http://' or 'https://')</value>
+    <value>No es una dirección URL válida. Prefijo requerido ('http://' o 'https://')</value>
   </data>
 	<data name="nav_addtitle" xml:space="preserve">
-    <value>Add new row</value>
+    <value>Añadir la nueva fila</value>
   </data>
 	<data name="nav_alertcap" xml:space="preserve">
-    <value>Warning</value>
+    <value>ADVERTENCIA</value>
   </data>
 	<data name="nav_alerttext" xml:space="preserve">
-    <value>Please, select row</value>
+    <value>Por favor, seleccione la fila</value>
   </data>
 	<data name="nav_deltitle" xml:space="preserve">
-    <value>Delete selected row</value>
+    <value>Eliminar fila seleccionada</value>
   </data>
 	<data name="nav_edittitle" xml:space="preserve">
-    <value>Edit selected row</value>
+    <value>Editar la fila seleccionada</value>
   </data>
 	<data name="nav_refreshtitle" xml:space="preserve">
-    <value>Reload Grid</value>
+    <value>Rejilla de recarga</value>
   </data>
 	<data name="nav_searchtitle" xml:space="preserve">
-    <value>Find records</value>
+    <value>Buscar registros</value>
   </data>
 	<data name="nav_viewtitle" xml:space="preserve">
-    <value>View selected row</value>
+    <value>Fila seleccionada ver</value>
   </data>
 	<data name="view_bclose" xml:space="preserve">
-    <value>Close</value>
+    <value>Cerrar</value>
   </data>
 	<data name="view_caption" xml:space="preserve">
-    <value>View Record</value>
+    <value>Ver registro</value>
   </data>
 </root>

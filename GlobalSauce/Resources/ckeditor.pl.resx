@@ -118,475 +118,475 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="about_copy" xml:space="preserve">
-    <value>Copyright &amp;copy; $1. All rights reserved.</value>
+    <value>Copyright © $1. Wszystkie prawa zastrzeżone.</value>
   </data>
 	<data name="about_dlgTitle" xml:space="preserve">
-    <value>About CKEditor</value>
+    <value>O CKEditor</value>
   </data>
 	<data name="about_help" xml:space="preserve">
-    <value>Check $1 for help.</value>
+    <value>Sprawdź 1 $ za pomoc.</value>
   </data>
 	<data name="about_moreInfo" xml:space="preserve">
-    <value>For licensing information please visit our web site:</value>
+    <value>Do licencjonowania informacji odwiedź naszą witrynę sieci web:</value>
   </data>
 	<data name="about_title" xml:space="preserve">
-    <value>About CKEditor</value>
+    <value>O CKEditor</value>
   </data>
 	<data name="about_userGuide" xml:space="preserve">
-    <value>CKEditor User's Guide</value>
+    <value>Podręcznik użytkownika CKEditor</value>
   </data>
 	<data name="basicstyles_bold" xml:space="preserve">
-    <value>Bold</value>
+    <value>Pogrubienie</value>
   </data>
 	<data name="basicstyles_italic" xml:space="preserve">
-    <value>Italic</value>
+    <value>Kursywa</value>
   </data>
 	<data name="basicstyles_strike" xml:space="preserve">
-    <value>Strike Through</value>
+    <value>Strajku poprzez</value>
   </data>
 	<data name="basicstyles_subscript" xml:space="preserve">
-    <value>Subscripts</value>
+    <value>Dolne</value>
   </data>
 	<data name="basicstyles_superscript" xml:space="preserve">
-    <value>Superscript</value>
+    <value>Indeks górny</value>
   </data>
 	<data name="basicstyles_underline" xml:space="preserve">
-    <value>Underline</value>
+    <value>Podkreślenie</value>
   </data>
 	<data name="clipboard_copy" xml:space="preserve">
-    <value>Copy</value>
+    <value>Kopia</value>
   </data>
 	<data name="clipboard_copyError" xml:space="preserve">
-    <value>Your browser security settings don't permit the editor to automatically execute copying operations. Please use the keyboard for that (Ctrl/Cmd+C).</value>
+    <value>Ustawienia bezpieczeństwa Twojej przeglądarki nie pozwalają na automatyczne kopiowanie. Za to skorzystaj z klawiatury (Ctrl / Cmd + C).</value>
   </data>
 	<data name="clipboard_cut" xml:space="preserve">
-    <value>Cut</value>
+    <value>Cięcia</value>
   </data>
 	<data name="clipboard_cutError" xml:space="preserve">
-    <value>Your browser security settings don't permit the editor to automatically execute cutting operations. Please use the keyboard for that (Ctrl/Cmd+X).</value>
+    <value>Ustawienia bezpieczeństwa Twojej przeglądarki nie pozwalają na automatyczne wykonanie operacji cięcia. Za to skorzystaj z klawiatury (Ctrl / Cmd + X).</value>
   </data>
 	<data name="clipboard_paste" xml:space="preserve">
-    <value>Paste</value>
+    <value>Wklej</value>
   </data>
 	<data name="clipboard_pasteArea" xml:space="preserve">
-    <value>Paste Area</value>
+    <value>Obszar wklejania</value>
   </data>
 	<data name="clipboard_pasteMsg" xml:space="preserve">
-    <value>Please paste inside the following box using the keyboard (&lt;strong&gt;Ctrl/Cmd+V&lt;/strong&gt;) and hit OK</value>
+    <value>Proszę wkleić poniższe pole za pomocą klawiatury (&lt;strong&gt;Ctrl / Cmd + V&lt;/strong&gt;) i kliknij przycisk OK</value>
   </data>
 	<data name="clipboard_securityMsg" xml:space="preserve">
-    <value>Because of your browser security settings, the editor is not able to access your clipboard data directly. You are required to paste it again in this window.</value>
+    <value>Ze względu na ustawienia bezpieczeństwa Twojej przeglądarki Edytor nie jest w stanie uzyskać dostęp do danych bezpośrednio. Należy go wkleić ponownie w tym oknie.</value>
   </data>
 	<data name="clipboard_title" xml:space="preserve">
-    <value>Paste</value>
+    <value>Wklej</value>
   </data>
 	<data name="common_advancedTab" xml:space="preserve">
-    <value>Advanced</value>
+    <value>Zaawansowane</value>
   </data>
 	<data name="common_advisoryTitle" xml:space="preserve">
-    <value>Advisory Title</value>
+    <value>Doradczy tytuł</value>
   </data>
 	<data name="common_align" xml:space="preserve">
-    <value>Alignment</value>
+    <value>Wyrównanie</value>
   </data>
 	<data name="common_alignBottom" xml:space="preserve">
-    <value>Bottom</value>
+    <value>Dno</value>
   </data>
 	<data name="common_alignCenter" xml:space="preserve">
-    <value>Center</value>
+    <value>Centrum</value>
   </data>
 	<data name="common_alignLeft" xml:space="preserve">
-    <value>Left</value>
+    <value>Lewy</value>
   </data>
 	<data name="common_alignMiddle" xml:space="preserve">
-    <value>Middle</value>
+    <value>Bliskim</value>
   </data>
 	<data name="common_alignRight" xml:space="preserve">
-    <value>Right</value>
+    <value>Prawo</value>
   </data>
 	<data name="common_alignTop" xml:space="preserve">
-    <value>Top</value>
+    <value>Do góry</value>
   </data>
 	<data name="common_browseServer" xml:space="preserve">
-    <value>Browse Server</value>
+    <value>Przeglądanie serwera</value>
   </data>
 	<data name="common_button" xml:space="preserve">
-    <value>Button</value>
+    <value>Przycisk</value>
   </data>
 	<data name="common_cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Anuluj</value>
   </data>
 	<data name="common_checkbox" xml:space="preserve">
-    <value>Checkbox</value>
+    <value>Pole wyboru</value>
   </data>
 	<data name="common_close" xml:space="preserve">
-    <value>Close</value>
+    <value>Zamknij</value>
   </data>
 	<data name="common_confirmCancel" xml:space="preserve">
-    <value>Some of the options have been changed. Are you sure to close the dialog?</value>
+    <value>Niektóre opcje zostały zmienione. Czy na pewno chcesz zamknąć okno?</value>
   </data>
 	<data name="common_confirmNewPage" xml:space="preserve">
-    <value>Any unsaved changes to this content will be lost. Are you sure you want to load new page?</value>
+    <value>Wszelkie niezapisane zmiany zostaną utracone. Czy na pewno wczytać nową stronę?</value>
   </data>
 	<data name="common_cssClass" xml:space="preserve">
-    <value>Stylesheet Classes</value>
+    <value>Stylesheet klasy</value>
   </data>
 	<data name="common_cssClasses" xml:space="preserve">
-    <value>Stylesheet Classes</value>
+    <value>Stylesheet klasy</value>
   </data>
 	<data name="common_cssLengthTooltip" xml:space="preserve">
-    <value>Enter a number for a value in pixels or a number with a valid CSS unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>
+    <value>Wprowadź liczbę wartości w pikselach lub numer z jednostką prawidłowa CSS (px, %, w, cm, mm, em, ex, pt, lub pc).</value>
   </data>
 	<data name="common_cssStyle" xml:space="preserve">
-    <value>Style</value>
+    <value>Styl</value>
   </data>
 	<data name="common_editorhelp" xml:space="preserve">
-    <value>Press ALT 0 for help</value>
+    <value>Naciśnij klawisz ALT 0 za pomoc</value>
   </data>
 	<data name="common_flash" xml:space="preserve">
-    <value>Flash</value>
+    <value>Lampa błyskowa</value>
   </data>
 	<data name="common_form" xml:space="preserve">
-    <value>Form</value>
+    <value>Formularz</value>
   </data>
 	<data name="common_generalTab" xml:space="preserve">
-    <value>General</value>
+    <value>Ogólne</value>
   </data>
 	<data name="common_height" xml:space="preserve">
-    <value>Height</value>
+    <value>Wysokość</value>
   </data>
 	<data name="common_hiddenField" xml:space="preserve">
-    <value>Hidden Field</value>
+    <value>Ukryte pola</value>
   </data>
 	<data name="common_id" xml:space="preserve">
-    <value>Id</value>
+    <value>Identyfikator</value>
   </data>
 	<data name="common_image" xml:space="preserve">
-    <value>Image</value>
+    <value>Obraz</value>
   </data>
 	<data name="common_imageButton" xml:space="preserve">
-    <value>Image Button</value>
+    <value>Obraz przycisku</value>
   </data>
 	<data name="common_invalidCssLength" xml:space="preserve">
-    <value>Value specified for the \"%1\" field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>
+    <value>Wartość określona dla \"%1\" pole musi być liczbą dodatnią, z lub bez prawidłową jednostkę miary CSS (px, %, w, cm, mm, em, ex, pt, lub pc).</value>
   </data>
 	<data name="common_invalidHeight" xml:space="preserve">
-    <value>Height must be a number.</value>
+    <value>Wysokość musi być liczbą.</value>
   </data>
 	<data name="common_invalidHtmlLength" xml:space="preserve">
-    <value>Value specified for the \"%1\" field must be a positive number with or without a valid HTML measurement unit (px or %).</value>
+    <value>Wartość określona dla \"%1\" pole musi być liczbą dodatnią, z lub bez prawidłową jednostkę miary HTML (px lub %).</value>
   </data>
 	<data name="common_invalidInlineStyle" xml:space="preserve">
-    <value>Value specified for the inline style must consist of one or more tuples with the format of \"name : value\", " + "separated by semi-colons.</value>
+    <value>Wartość określona dla stylu inline musi składać się z jednego lub więcej krotek z formatem \"name: value\","+"oddzielone średnikami.</value>
   </data>
 	<data name="common_invalidValue" xml:space="preserve">
-    <value>Invalid value.</value>
+    <value>Nieprawidłowa wartość.</value>
   </data>
 	<data name="common_invalidWidth" xml:space="preserve">
-    <value>Width must be a number.</value>
+    <value>Szerokość musi być liczbą.</value>
   </data>
 	<data name="common_langCode" xml:space="preserve">
-    <value>Language Code</value>
+    <value>Kod języka</value>
   </data>
 	<data name="common_langDir" xml:space="preserve">
-    <value>Language Direction</value>
+    <value>Kierunek</value>
   </data>
 	<data name="common_langDirLtr" xml:space="preserve">
-    <value>Left to Right (LTR)</value>
+    <value>Lewej do prawej (LTR)</value>
   </data>
 	<data name="common_langDirRtl" xml:space="preserve">
-    <value>Right to Left (RTL)</value>
+    <value>Od prawej do lewej (RTL)</value>
   </data>
 	<data name="common_longDescr" xml:space="preserve">
-    <value>Long Description URL</value>
+    <value>Długi opis URL</value>
   </data>
 	<data name="common_name" xml:space="preserve">
-    <value>Name</value>
+    <value>Nazwa</value>
   </data>
 	<data name="common_notset" xml:space="preserve">
-    <value>&lt;not set&gt;</value>
+    <value>&lt; nie zestaw &gt;</value>
   </data>
 	<data name="common_ok" xml:space="preserve">
-    <value>OK</value>
+    <value>Ok</value>
   </data>
 	<data name="common_options" xml:space="preserve">
-    <value>Options</value>
+    <value>Opcje</value>
   </data>
 	<data name="common_preview" xml:space="preserve">
-    <value>Preview</value>
+    <value>Podgląd</value>
   </data>
 	<data name="common_protocol" xml:space="preserve">
-    <value>Protocol</value>
+    <value>Protokół</value>
   </data>
 	<data name="common_radio" xml:space="preserve">
-    <value>Radio Button</value>
+    <value>Przycisk radiowy</value>
   </data>
 	<data name="common_resize" xml:space="preserve">
-    <value>Resize</value>
+    <value>Zmiana rozmiaru</value>
   </data>
 	<data name="common_select" xml:space="preserve">
-    <value>Selection Field</value>
+    <value>Pole wyboru</value>
   </data>
 	<data name="common_styles" xml:space="preserve">
-    <value>Style</value>
+    <value>Styl</value>
   </data>
 	<data name="common_target" xml:space="preserve">
-    <value>Target</value>
+    <value>Miejsce docelowe</value>
   </data>
 	<data name="common_targetNew" xml:space="preserve">
-    <value>New Window (_blank)</value>
+    <value>Nowe okno (_blank)</value>
   </data>
 	<data name="common_targetParent" xml:space="preserve">
-    <value>Parent Window (_parent)</value>
+    <value>Okno nadrzędne (_parent)</value>
   </data>
 	<data name="common_targetSelf" xml:space="preserve">
-    <value>Same Window (_self)</value>
+    <value>Samo okno (_self)</value>
   </data>
 	<data name="common_targetTop" xml:space="preserve">
-    <value>Topmost Window (_top)</value>
+    <value>Okno (_self)</value>
   </data>
 	<data name="common_textarea" xml:space="preserve">
-    <value>Textarea</value>
+    <value>TextArea</value>
   </data>
 	<data name="common_textField" xml:space="preserve">
-    <value>Text Field</value>
+    <value>Pole tekstowe</value>
   </data>
 	<data name="common_unavailable" xml:space="preserve">
-    <value>%1&lt;span class=\"cke_accessibility\"&gt;, unavailable&lt;/span&gt;</value>
+    <value>%1 &lt;span class=\"cke_accessibility\"&gt; niedostępne&lt;/span&gt;</value>
   </data>
 	<data name="common_upload" xml:space="preserve">
-    <value>Upload</value>
+    <value>Przesłać</value>
   </data>
 	<data name="common_uploadSubmit" xml:space="preserve">
-    <value>Send it to the Server</value>
+    <value>Wyślij to do serwera</value>
   </data>
 	<data name="common_url" xml:space="preserve">
-    <value>URL</value>
+    <value>ADRES URL</value>
   </data>
 	<data name="common_validateNumberFailed" xml:space="preserve">
-    <value>This value is not a number.</value>
+    <value>Ta wartość nie jest liczbą.</value>
   </data>
 	<data name="common_width" xml:space="preserve">
-    <value>Width</value>
+    <value>Szerokość</value>
   </data>
 	<data name="editor" xml:space="preserve">
-    <value>Rich Text Editor</value>
+    <value>Edytor tekstu sformatowanego</value>
   </data>
 	<data name="fakeobjects_anchor" xml:space="preserve">
-    <value>Anchor</value>
+    <value>Kotwica</value>
   </data>
 	<data name="fakeobjects_flash" xml:space="preserve">
-    <value>Flash Animation</value>
+    <value>Animacji Flash</value>
   </data>
 	<data name="fakeobjects_hiddenfield" xml:space="preserve">
-    <value>Hidden Field</value>
+    <value>Ukryte pola</value>
   </data>
 	<data name="fakeobjects_iframe" xml:space="preserve">
     <value>IFrame</value>
   </data>
 	<data name="fakeobjects_unknown" xml:space="preserve">
-    <value>Unknown Object</value>
+    <value>Nieznany obiekt</value>
   </data>
 	<data name="indent_indent" xml:space="preserve">
-    <value>Increase Indent</value>
+    <value>Zwiększ wcięcie</value>
   </data>
 	<data name="indent_outdent" xml:space="preserve">
-    <value>Decrease Indent</value>
+    <value>Zmniejsz wcięcie</value>
   </data>
 	<data name="link_acccessKey" xml:space="preserve">
-    <value>Access Key</value>
+    <value>Klawisz dostępu</value>
   </data>
 	<data name="link_advanced" xml:space="preserve">
-    <value>Advanced</value>
+    <value>Zaawansowane</value>
   </data>
 	<data name="link_advisoryContentType" xml:space="preserve">
-    <value>Advisory Content Type</value>
+    <value>Typ</value>
   </data>
 	<data name="link_advisoryTitle" xml:space="preserve">
-    <value>Advisory Title</value>
+    <value>Doradczy tytuł</value>
   </data>
 	<data name="link_anchor_errorName" xml:space="preserve">
-    <value>Please type the anchor name</value>
+    <value>Wpisz nazwę kotwicy</value>
   </data>
 	<data name="link_anchor_menu" xml:space="preserve">
-    <value>Edit Anchor</value>
+    <value>Edytuj kotwica</value>
   </data>
 	<data name="link_anchor_name" xml:space="preserve">
-    <value>Anchor Name</value>
+    <value>Nazwa kotwicy</value>
   </data>
 	<data name="link_anchor_remove" xml:space="preserve">
-    <value>Remove Anchor</value>
+    <value>Usuń kotwicę</value>
   </data>
 	<data name="link_anchor_title" xml:space="preserve">
-    <value>Anchor Properties</value>
+    <value>Właściwości kotwicy</value>
   </data>
 	<data name="link_anchor_toolbar" xml:space="preserve">
-    <value>Anchor</value>
+    <value>Kotwica</value>
   </data>
 	<data name="toolbar_toolbarCollapse" xml:space="preserve">
-    <value>Collapse Toolbar</value>
+    <value>Zwiń pasek narzędzi</value>
   </data>
 	<data name="toolbar_toolbarExpand" xml:space="preserve">
-    <value>Expand Toolbar</value>
+    <value>Rozwiń pasek narzędzi</value>
   </data>
 	<data name="toolbar_toolbarGroups_basicstyles" xml:space="preserve">
-    <value>Basic Styles</value>
+    <value>Podstawowe style</value>
   </data>
 	<data name="toolbar_toolbarGroups_clipboard" xml:space="preserve">
-    <value>Clipboard/Undo</value>
+    <value>Schowka/Cofnij</value>
   </data>
 	<data name="toolbar_toolbarGroups_colors" xml:space="preserve">
-    <value>Colors</value>
+    <value>Kolory</value>
   </data>
 	<data name="toolbar_toolbarGroups_document" xml:space="preserve">
-    <value>Document</value>
+    <value>Dokument</value>
   </data>
 	<data name="toolbar_toolbarGroups_editing" xml:space="preserve">
-    <value>Editing</value>
+    <value>Edycji</value>
   </data>
 	<data name="toolbar_toolbarGroups_forms" xml:space="preserve">
-    <value>Forms</value>
+    <value>Formy</value>
   </data>
 	<data name="toolbar_toolbarGroups_insert" xml:space="preserve">
-    <value>Insert</value>
+    <value>Wstaw</value>
   </data>
 	<data name="toolbar_toolbarGroups_links" xml:space="preserve">
-    <value>Links</value>
+    <value>Linki</value>
   </data>
 	<data name="toolbar_toolbarGroups_paragraph" xml:space="preserve">
-    <value>Paragraph</value>
+    <value>Ust.</value>
   </data>
 	<data name="toolbar_toolbarGroups_styles" xml:space="preserve">
-    <value>Styles</value>
+    <value>Style</value>
   </data>
 	<data name="toolbar_toolbarGroups_tools" xml:space="preserve">
-    <value>Tools</value>
+    <value>Narzędzia</value>
   </data>
 	<data name="toolbar_toolbars" xml:space="preserve">
-    <value>Editor toolbars</value>
+    <value>Paski narzędzi edytora</value>
   </data>
 	<data name="link_anchorId" xml:space="preserve">
-    <value>By Element Id</value>
+    <value>Wg identyfikatora elementu</value>
   </data>
 	<data name="link_anchorName" xml:space="preserve">
-    <value>By Anchor Name</value>
+    <value>Przez Nazwa kotwicy</value>
   </data>
 	<data name="link_charset" xml:space="preserve">
-    <value>Linked Resource Charset</value>
+    <value>Zasobów połączonych znaków</value>
   </data>
 	<data name="link_cssClasses" xml:space="preserve">
-    <value>Stylesheet Classes</value>
+    <value>Stylesheet klasy</value>
   </data>
 	<data name="link_emailAddress" xml:space="preserve">
-    <value>E-Mail Address</value>
+    <value>Adres e-Mail</value>
   </data>
 	<data name="link_emailBody" xml:space="preserve">
-    <value>Message Body</value>
+    <value>Treść wiadomości</value>
   </data>
 	<data name="link_emailSubject" xml:space="preserve">
-    <value>Message Subject</value>
+    <value>Temat wiadomości</value>
   </data>
 	<data name="link_id" xml:space="preserve">
-    <value>Id</value>
+    <value>Identyfikator</value>
   </data>
 	<data name="link_info" xml:space="preserve">
-    <value>Link Info</value>
+    <value>Informacje</value>
   </data>
 	<data name="link_langCode" xml:space="preserve">
-    <value>Language Code</value>
+    <value>Kod języka</value>
   </data>
 	<data name="link_langDir" xml:space="preserve">
-    <value>Language Direction</value>
+    <value>Kierunek</value>
   </data>
 	<data name="link_langDirLTR" xml:space="preserve">
-    <value>Left to Right (LTR)</value>
+    <value>Lewej do prawej (LTR)</value>
   </data>
 	<data name="link_langDirRTL" xml:space="preserve">
-    <value>Right to Left (RTL)</value>
+    <value>Od prawej do lewej (RTL)</value>
   </data>
 	<data name="link_menu" xml:space="preserve">
-    <value>Edit Link</value>
+    <value>Edytuj Link</value>
   </data>
 	<data name="link_name" xml:space="preserve">
-    <value>Name</value>
+    <value>Nazwa</value>
   </data>
 	<data name="link_noAnchors" xml:space="preserve">
-    <value>(No anchors available in the document)</value>
+    <value>(Nie zakotwiczenia w dokumencie)</value>
   </data>
 	<data name="link_noEmail" xml:space="preserve">
-    <value>Please type the e-mail address</value>
+    <value>Proszę wpisać adres e-mail</value>
   </data>
 	<data name="link_noUrl" xml:space="preserve">
-    <value>Please type the link URL</value>
+    <value>Proszę wpisać adres URL linku</value>
   </data>
 	<data name="link_other" xml:space="preserve">
     <value>&lt;other&gt;</value>
   </data>
 	<data name="link_popupDependent" xml:space="preserve">
-    <value>Dependent (Netscape)</value>
+    <value>Zależne (Netscape)</value>
   </data>
 	<data name="link_popupFeatures" xml:space="preserve">
-    <value>Popup Window Features</value>
+    <value>Okna</value>
   </data>
 	<data name="link_popupFullScreen" xml:space="preserve">
-    <value>Full Screen (IE)</value>
+    <value>Pełny ekran (IE)</value>
   </data>
 	<data name="link_popupLeft" xml:space="preserve">
-    <value>Left Position</value>
+    <value>Pozycja</value>
   </data>
 	<data name="link_popupLocationBar" xml:space="preserve">
-    <value>Location Bar</value>
+    <value>Określenie miejsca Zagrodzić</value>
   </data>
 	<data name="link_popupMenuBar" xml:space="preserve">
-    <value>Menu Bar</value>
+    <value>Pasek menu</value>
   </data>
 	<data name="link_popupResizable" xml:space="preserve">
     <value>Resizable</value>
   </data>
 	<data name="link_popupScrollBars" xml:space="preserve">
-    <value>Scroll Bars</value>
+    <value>Paski przewijania</value>
   </data>
 	<data name="link_popupStatusBar" xml:space="preserve">
-    <value>Status Bar</value>
+    <value>Pasek stanu</value>
   </data>
 	<data name="link_popupToolbar" xml:space="preserve">
-    <value>Toolbar</value>
+    <value>Pasek narzędzi</value>
   </data>
 	<data name="link_popupTop" xml:space="preserve">
-    <value>Top Position</value>
+    <value>Najlepsze stanowisko</value>
   </data>
 	<data name="link_rel" xml:space="preserve">
-    <value>Relationship</value>
+    <value>Związek</value>
   </data>
 	<data name="link_selectAnchor" xml:space="preserve">
-    <value>Select an Anchor</value>
+    <value>Wybierz</value>
   </data>
 	<data name="link_styles" xml:space="preserve">
-    <value>Style</value>
+    <value>Styl</value>
   </data>
 	<data name="link_tabIndex" xml:space="preserve">
-    <value>Tab Index</value>
+    <value>Karta indeksu</value>
   </data>
 	<data name="link_target" xml:space="preserve">
-    <value>Target</value>
+    <value>Miejsce docelowe</value>
   </data>
 	<data name="link_targetFrame" xml:space="preserve">
     <value>&lt;frame&gt;</value>
   </data>
 	<data name="link_targetFrameName" xml:space="preserve">
-    <value>Target Frame Name</value>
+    <value>Nazwa ramki docelowej</value>
   </data>
 	<data name="link_targetPopup" xml:space="preserve">
-    <value>&lt;popup window&gt;</value>
+    <value>&lt; okienko &gt;</value>
   </data>
 	<data name="link_targetPopupName" xml:space="preserve">
-    <value>Popup Window Name</value>
+    <value>Nazwa wyskakującego okna</value>
   </data>
 	<data name="link_title" xml:space="preserve">
     <value>Link</value>
   </data>
 	<data name="link_toAnchor" xml:space="preserve">
-    <value>Link to anchor in the text</value>
+    <value>Link do kotwicy w tekście</value>
   </data>
 	<data name="link_toEmail" xml:space="preserve">
     <value>E-mail</value>
@@ -595,27 +595,27 @@
     <value>Link</value>
   </data>
 	<data name="link_toUrl" xml:space="preserve">
-    <value>URL</value>
+    <value>ADRES URL</value>
   </data>
 	<data name="link_type" xml:space="preserve">
-    <value>Link Type</value>
+    <value>Typ łącza</value>
   </data>
 	<data name="link_unlink" xml:space="preserve">
-    <value>Unlink</value>
+    <value>Rozłącz</value>
   </data>
 	<data name="link_upload" xml:space="preserve">
-    <value>Upload</value>
+    <value>Przesłać</value>
   </data>
 	<data name="list_bulletedlist" xml:space="preserve">
-    <value>Insert/Remove Bulleted List</value>
+    <value>Wstaw/usuń wypunktowanie listy</value>
   </data>
 	<data name="list_numberedlist" xml:space="preserve">
-    <value>Insert/Remove Numbered List</value>
+    <value>Wstaw/usuń numerowanie listy</value>
   </data>
 	<data name="undo_redo" xml:space="preserve">
-    <value>Redo</value>
+    <value>Wykonaj ponownie</value>
   </data>
 	<data name="undo_undo" xml:space="preserve">
-    <value>Undo</value>
+    <value>Cofnij</value>
   </data>
 </root>

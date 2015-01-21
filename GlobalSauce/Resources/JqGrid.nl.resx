@@ -118,204 +118,204 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="edit_addCaption" xml:space="preserve">
-    <value>Add Record</value>
+    <value>Record toevoegen</value>
   </data>
 	<data name="edit_bCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuleren</value>
   </data>
 	<data name="edit_bClose" xml:space="preserve">
-    <value>Close</value>
+    <value>Sluiten</value>
   </data>
 	<data name="edit_bExit" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuleren</value>
   </data>
 	<data name="edit_bNo" xml:space="preserve">
     <value>No</value>
   </data>
 	<data name="edit_bSubmit" xml:space="preserve">
-    <value>Submit</value>
+    <value>Opslaan</value>
   </data>
 	<data name="edit_bYes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Ja</value>
   </data>
 	<data name="edit_editCaption" xml:space="preserve">
-    <value>Edit Record</value>
+    <value>Bewerk record</value>
   </data>
 	<data name="edit_saveData" xml:space="preserve">
-    <value>Data has been changed! Save changes?</value>
+    <value>Gegevens zijn veranderd! Wijzigingen opslaan?</value>
   </data>
 	<data name="emptyrecords" xml:space="preserve">
-    <value>No records to view</value>
+    <value>Geen records beschikbaar</value>
   </data>
 	<data name="groupOps_op_and" xml:space="preserve">
-    <value>AND</value>
+    <value>EN</value>
   </data>
 	<data name="groupOps_op_or" xml:space="preserve">
-    <value>OR</value>
+    <value>OF</value>
   </data>
 	<data name="groupOps_text_and" xml:space="preserve">
-    <value>all</value>
+    <value>alle</value>
   </data>
 	<data name="groupOps_text_or" xml:space="preserve">
-    <value>any</value>
+    <value>elke</value>
   </data>
 	<data name="loadtext" xml:space="preserve">
-    <value>Loading...</value>
+    <value>Bezig met laden...</value>
   </data>
 	<data name="odata_bn" xml:space="preserve">
-    <value>does not begin with</value>
+    <value>begint niet met</value>
   </data>
 	<data name="odata_bw" xml:space="preserve">
-    <value>begins with</value>
+    <value>begint met</value>
   </data>
 	<data name="odata_cn" xml:space="preserve">
-    <value>contains</value>
+    <value>bevat</value>
   </data>
 	<data name="odata_en" xml:space="preserve">
-    <value>does not end with</value>
+    <value>eindigt niet met</value>
   </data>
 	<data name="odata_eq" xml:space="preserve">
-    <value>equal</value>
+    <value>gelijke</value>
   </data>
 	<data name="odata_ew" xml:space="preserve">
-    <value>ends with</value>
+    <value>eindigt met</value>
   </data>
 	<data name="odata_ge" xml:space="preserve">
-    <value>greater or equal</value>
+    <value>groter of gelijk</value>
   </data>
 	<data name="odata_gt" xml:space="preserve">
-    <value>greater</value>
+    <value>meer</value>
   </data>
 	<data name="odata_in" xml:space="preserve">
     <value>is in</value>
   </data>
 	<data name="odata_le" xml:space="preserve">
-    <value>less or equal</value>
+    <value>minder of gelijk</value>
   </data>
 	<data name="odata_lt" xml:space="preserve">
-    <value>less</value>
+    <value>minder</value>
   </data>
 	<data name="odata_nc" xml:space="preserve">
-    <value>does not contain</value>
+    <value>bevat geen</value>
   </data>
 	<data name="odata_ne" xml:space="preserve">
-    <value>not equal</value>
+    <value>niet gelijk</value>
   </data>
 	<data name="odata_ni" xml:space="preserve">
-    <value>is not in</value>
+    <value>is niet in</value>
   </data>
 	<data name="pgtext" xml:space="preserve">
-    <value>Page {0} of {1}</value>
+    <value>Pagina {0} van {1}</value>
   </data>
 	<data name="recordtext" xml:space="preserve">
-    <value>View {0} - {1} of {2}</value>
+    <value>{0}-{1} van {2} bekijken</value>
   </data>
 	<data name="search_caption" xml:space="preserve">
-    <value>Search...</value>
+    <value>Zoek...</value>
   </data>
 	<data name="search_Find" xml:space="preserve">
-    <value>Find</value>
+    <value>Zoeken</value>
   </data>
 	<data name="search_Reset" xml:space="preserve">
     <value>Reset</value>
   </data>
 	<data name="col_bCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuleren</value>
   </data>
 	<data name="col_bSubmit" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
 	<data name="col_caption" xml:space="preserve">
-    <value>Select columns</value>
+    <value>Kolommen selecteren</value>
   </data>
 	<data name="del_bCancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuleren</value>
   </data>
 	<data name="del_bSubmit" xml:space="preserve">
-    <value>Delete</value>
+    <value>Verwijderen</value>
   </data>
 	<data name="del_caption" xml:space="preserve">
-    <value>Delete</value>
+    <value>Verwijderen</value>
   </data>
 	<data name="del_msg" xml:space="preserve">
-    <value>Delete selected record(s) ?</value>
+    <value>Geselecteerde record (s) verwijderen?</value>
   </data>
 	<data name="errors_errcap" xml:space="preserve">
-    <value>Error</value>
+    <value>Fout</value>
   </data>
 	<data name="errors_model" xml:space="preserve">
-    <value>Length of colNames&lt;&gt; colModel !</value>
+    <value>Lengte van colNames &lt;&gt;colModel!</value>
   </data>
 	<data name="errors_norecords" xml:space="preserve">
-    <value>No records to process</value>
+    <value>Geen records om te  verwerken</value>
   </data>
 	<data name="errors_nourl" xml:space="preserve">
-    <value>Nourl is set</value>
+    <value>Nourl is ingesteld</value>
   </data>
 	<data name="msg_customarray" xml:space="preserve">
-    <value>Custom function should return array!</value>
+    <value>Aangepaste functie moet deze matrix weergeven!</value>
   </data>
 	<data name="msg_customfcheck" xml:space="preserve">
-    <value>Custom function should be present in case of custom checking!</value>
+    <value>Aangepaste functie moet aanwezig zijn in het geval van aangepaste controleren!</value>
   </data>
 	<data name="msg_date" xml:space="preserve">
-    <value>Please, enter valid date value</value>
+    <value>Voer een geldige datumwaarde in</value>
   </data>
 	<data name="msg_email" xml:space="preserve">
-    <value>is not a valid e-mail</value>
+    <value>dit is geen geldige e-mail</value>
   </data>
 	<data name="msg_integer" xml:space="preserve">
-    <value>Please, enter valid integer value</value>
+    <value>Voer geldige integerwaarde in</value>
   </data>
 	<data name="msg_maxValue" xml:space="preserve">
-    <value>value must be less than or equal to</value>
+    <value>de waarde moet kleiner dan of gelijk zijn aan</value>
   </data>
 	<data name="msg_minValue" xml:space="preserve">
-    <value>value must be greater than or equal to</value>
+    <value>waarde moet groter dan of gelijk zijn aan</value>
   </data>
 	<data name="msg_nodefined" xml:space="preserve">
-    <value>is not defined!</value>
+    <value>is niet gedefinieerd!</value>
   </data>
 	<data name="msg_novalue" xml:space="preserve">
-    <value>return value is required!</value>
+    <value>retourwaarde is vereist!</value>
   </data>
 	<data name="msg_number" xml:space="preserve">
-    <value>Please, enter valid number</value>
+    <value>Voer een geldig getal in</value>
   </data>
 	<data name="msg_required" xml:space="preserve">
-    <value>Field is required</value>
+    <value>Veld is vereist</value>
   </data>
 	<data name="msg_url" xml:space="preserve">
-    <value>is not a valid URL. Prefix required ('http://' or 'https://')</value>
+    <value>is geen geldige URL. Voorvoegsel nodig ('http://' of 'https://')</value>
   </data>
 	<data name="nav_addtitle" xml:space="preserve">
-    <value>Add new row</value>
+    <value>Nieuwe rij toevoegen</value>
   </data>
 	<data name="nav_alertcap" xml:space="preserve">
-    <value>Warning</value>
+    <value>Waarschuwing</value>
   </data>
 	<data name="nav_alerttext" xml:space="preserve">
-    <value>Please, select row</value>
+    <value>Selecteer rij</value>
   </data>
 	<data name="nav_deltitle" xml:space="preserve">
-    <value>Delete selected row</value>
+    <value>Geselecteerde rij verwijderen</value>
   </data>
 	<data name="nav_edittitle" xml:space="preserve">
-    <value>Edit selected row</value>
+    <value>Geselecteerde rij bewerken</value>
   </data>
 	<data name="nav_refreshtitle" xml:space="preserve">
-    <value>Reload Grid</value>
+    <value>Raster herladen</value>
   </data>
 	<data name="nav_searchtitle" xml:space="preserve">
-    <value>Find records</value>
+    <value>Records zoeken</value>
   </data>
 	<data name="nav_viewtitle" xml:space="preserve">
-    <value>View selected row</value>
+    <value>Weergave geselecteerde rij</value>
   </data>
 	<data name="view_bclose" xml:space="preserve">
-    <value>Close</value>
+    <value>Sluiten</value>
   </data>
 	<data name="view_caption" xml:space="preserve">
-    <value>View Record</value>
+    <value>Weergave Record</value>
   </data>
 </root>

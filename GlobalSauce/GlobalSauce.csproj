@@ -73,22 +73,38 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\ckeditor.de.resx" />
+    <EmbeddedResource Include="Resources\ckeditor.es.resx" />
+    <EmbeddedResource Include="Resources\ckeditor.fr.resx" />
+    <EmbeddedResource Include="Resources\ckeditor.nl.resx" />
+    <EmbeddedResource Include="Resources\ckeditor.pl.resx" />
     <EmbeddedResource Include="Resources\ckeditor.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ckeditor.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\JqGrid.de.resx" />
+    <EmbeddedResource Include="Resources\JqGrid.es.resx" />
+    <EmbeddedResource Include="Resources\JqGrid.fr.resx" />
+    <EmbeddedResource Include="Resources\JqGrid.nl.resx" />
+    <EmbeddedResource Include="Resources\JqGrid.pl.resx" />
     <EmbeddedResource Include="Resources\JqGrid.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>JqGrid.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\JqueryUIDatePicker.de.resx" />
+    <EmbeddedResource Include="Resources\JqueryUIDatePicker.es.resx" />
     <EmbeddedResource Include="Resources\JqueryUIDatePicker.fr.resx" />
     <EmbeddedResource Include="Resources\JqueryUIDatePicker.nl.resx" />
+    <EmbeddedResource Include="Resources\JqueryUIDatePicker.pl.resx" />
     <EmbeddedResource Include="Resources\JqueryUIDatePicker.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>JqueryUIDatePicker.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\JqueryUITimePicker.de.resx" />
+    <EmbeddedResource Include="Resources\JqueryUITimePicker.es.resx" />
     <EmbeddedResource Include="Resources\JqueryUITimePicker.fr.resx" />
     <EmbeddedResource Include="Resources\JqueryUITimePicker.nl.resx" />
+    <EmbeddedResource Include="Resources\JqueryUITimePicker.pl.resx" />
     <EmbeddedResource Include="Resources\JqueryUITimePicker.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>JqueryUITimePicker.Designer.cs</LastGenOutput>

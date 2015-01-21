@@ -118,21 +118,33 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="closeText" xml:space="preserve">
-    <value>Close</value>
+    <value>Fertig</value>
   </data>
 	<data name="currentText" xml:space="preserve">
-    <value>Today</value>
+    <value>Jetzt</value>
   </data>
-	<data name="nextText" xml:space="preserve">
-    <value>Next</value>
+	<data name="hourText" xml:space="preserve">
+    <value>Stunde</value>
   </data>
-	<data name="prevText" xml:space="preserve">
-    <value>Previous</value>
+	<data name="microsecText" xml:space="preserve">
+    <value>Mikrosekunde</value>
   </data>
-	<data name="showMonthAfterYear" xml:space="preserve">
-    <value>false</value>
+	<data name="millisecText" xml:space="preserve">
+    <value>Millisekunde</value>
   </data>
-	<data name="weekHeader" xml:space="preserve">
-    <value>Wk</value>
+	<data name="minuteText" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+	<data name="secondText" xml:space="preserve">
+    <value>Sekunde</value>
+  </data>
+	<data name="timeOnlyTitle" xml:space="preserve">
+    <value>Wählen Sie Zeit</value>
+  </data>
+	<data name="timeText" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+	<data name="timezoneText" xml:space="preserve">
+    <value>Zeitzone</value>
   </data>
 </root>
