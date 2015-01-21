@@ -133,6 +133,6 @@
 		<value>Sem.</value>
 	</data>
 	<data name="showMonthAfterYear" xml:space="preserve">
-		<value>faux</value>
+		<value>false</value>
 	</data>
 </root>

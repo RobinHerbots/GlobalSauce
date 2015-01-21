@@ -133,6 +133,6 @@
 		<value>Wk</value>
 	</data>
 	<data name="showMonthAfterYear" xml:space="preserve">
-		<value>vals</value>
+		<value>false</value>
 	</data>
 </root>

@@ -129,10 +129,10 @@
 	<data name="prevText" xml:space="preserve">
     <value>Vorherige</value>
   </data>
-	<data name="showMonthAfterYear" xml:space="preserve">
-    <value>false</value>
-  </data>
 	<data name="weekHeader" xml:space="preserve">
     <value>WK</value>
   </data>
+	<data name="showMonthAfterYear" xml:space="preserve">
+		<value>false</value>
+	</data>
 </root>
