@@ -148,7 +148,7 @@
     <value>Tiefgestellte Zeichen</value>
   </data>
   <data name="basicstyles_superscript" xml:space="preserve">
-    <value>"Hochgestellt"</value>
+    <value>Hochgestellt</value>
   </data>
   <data name="basicstyles_underline" xml:space="preserve">
     <value>Unterstreichung</value>
@@ -352,7 +352,7 @@
     <value>Text-Feld</value>
   </data>
   <data name="common_unavailable" xml:space="preserve">
-    <value>"% 1" &lt;span class=\"cke_accessibility\"&gt; nicht verfügbar&lt;/span&gt;</value>
+    <value>nicht verfügbar</value>
   </data>
   <data name="common_upload" xml:space="preserve">
     <value>Upload</value>

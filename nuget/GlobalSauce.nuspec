@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>GlobalSauce</id>
-        <version>0.0.28</version>
+        <version>0.0.29</version>
         <title>GlobalSauce</title>
         <authors>Robin Herbots</authors>
         <owners>Robin Herbots</owners>
@@ -23,6 +23,10 @@ Implemented as an htmlhelper extension method (ASP.NET/MVC)</summary>
     <files>
         <file src="..\GlobalSauce\bin\Release\Globalization.dll" target="lib\net\Globalization.dll" />
         <file src="..\GlobalSauce\bin\Release\GlobalSauce.dll" target="lib\net\GlobalSauce.dll" />
-        <file src="..\GlobalSauce\bin\Release\**\*.resources.dll" target ="lib/net" />
+        <file src="..\GlobalSauce\bin\Release\de\GlobalSauce.resources.dll" target="lib/net\de\GlobalSauce.resources.dll" />
+        <file src="..\GlobalSauce\bin\Release\es\GlobalSauce.resources.dll" target="lib/net\es\GlobalSauce.resources.dll" />
+        <file src="..\GlobalSauce\bin\Release\fr\GlobalSauce.resources.dll" target="lib/net\fr\GlobalSauce.resources.dll" />
+        <file src="..\GlobalSauce\bin\Release\nl\GlobalSauce.resources.dll" target="lib/net\nl\GlobalSauce.resources.dll" />
+        <file src="..\GlobalSauce\bin\Release\pl\GlobalSauce.resources.dll" target="lib/net\pl\GlobalSauce.resources.dll" />
     </files>
 </package>
