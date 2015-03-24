@@ -26,7 +26,7 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendFormat("caption: \"{0}\",\n", Resources.JqGrid.search_caption);
             jqGridCulture.AppendFormat("Find: \"{0}\",\n", Resources.JqGrid.search_Find);
             jqGridCulture.AppendFormat("Reset: \"{0}\",\n", Resources.JqGrid.search_Reset);
-            jqGridCulture.AppendFormat("odata: [{{ oper:'eq', text:'{0}'}},{{ oper:'ne', text:'{1}'}},{{ oper:'lt', text:'{2}'}},{{ oper:'le', text:'{3}'}},{{ oper:'gt', text:'{4}'}},{{ oper:'ge', text:'{5}'}},{{ oper:'bw', text:'{6}'}},{{ oper:'bn', text:'{7}'}},{{ oper:'in', text:'{8}'}},{{ oper:'ni', text:'{9}'}},{{ oper:'ew', text:'{10}'}},{{ oper:'en', text:'{11}'}},{{ oper:'cn', text:'{12}'}},{{ oper:'nc', text:'{13}'}}],\n",
+            jqGridCulture.AppendFormat("odata: [{{ oper:\"eq\", text:\"{0}\"}},{{ oper:\"ne\", text:\"{1}\"}},{{ oper:\"lt\", text:\"{2}\"}},{{ oper:\"le\", text:\"{3}\"}},{{ oper:\"gt\", text:\"{4}\"}},{{ oper:\"ge\", text:\"{5}\"}},{{ oper:\"bw\", text:\"{6}\"}},{{ oper:\"bn\", text:\"7}}\"}},{{ oper:\"in\", text:\"{8}\"}},{{ oper:\"ni\", text:\"{9}\"}},{{ oper:\"ew\", text:\"{10}\"}},{{ oper:\"en\", text:\"{11}\"}},{{ oper:\"cn\", text:\"{12}\"}},{{ oper:\"nc\", text:\"{13}\"}}],\n",
                 Resources.JqGrid.odata_eq,
                 Resources.JqGrid.odata_ne,
                 Resources.JqGrid.odata_lt,
