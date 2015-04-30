@@ -2,6 +2,7 @@ dist/*.nupkg
 node_modules/
 bower_components/
 npm-debug.log
+WebApplication1/*
 
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
