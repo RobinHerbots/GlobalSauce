@@ -16,6 +16,7 @@ module.exports = function (grunt) {
 		release: {
             options: {
                 bump: false,
+				npm: false,
                 commitMessage: 'Globalsauce <%= version %>'
             }
         },
