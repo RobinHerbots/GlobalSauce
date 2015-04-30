@@ -47,7 +47,7 @@ module.exports = function (grunt) {
             gitcommitchanges: {
                 command: ['git add .',
                     'git reset -- package.json',
-                    'git commit -m "jquery.inputmask <%= pkg.version %>"'
+                    'git commit -m "Globalsauce <%= pkg.version %>"'
                 ].join('&&')
             }
         }
