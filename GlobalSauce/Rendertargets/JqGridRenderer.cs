@@ -209,7 +209,8 @@ namespace GlobalSauce.Rendertargets
             var dtp = Regex.Replace(datetimePattern, "d+", "d");
             dtp = Regex.Replace(dtp, "M+", shortDate ? "m" : "M");
             dtp = Regex.Replace(dtp, "y+", "Y", RegexOptions.IgnoreCase);
-            dtp = Regex.Replace(dtp, "H+", "g", RegexOptions.IgnoreCase);
+            dtp = Regex.Replace(dtp, "H+", "G");
+            dtp = Regex.Replace(dtp, "h+", "g");
             if (shortDate == false)
             {
                 dtp = Regex.Replace(dtp, "m+", "i");

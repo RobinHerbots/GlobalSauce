@@ -277,7 +277,7 @@
     <value>Valeur spécifiée pour la \"%1\" champ doit être un nombre positif, avec ou sans une unité de mesure valide HTML (px ou %).</value>
   </data>
   <data name="common_invalidInlineStyle" xml:space="preserve">
-    <value>Valeur spécifiée pour le style intraligne doit consister en un ou plusieurs tuples avec le format de \"name : value\ «, » +"séparées par des points-virgules.</value>
+    <value>Valeur spécifiée pour le style intraligne doit consister en un ou plusieurs tuples avec le format de \"name : value\ «, » +\"séparées par des points-virgules.</value>
   </data>
   <data name="common_invalidValue" xml:space="preserve">
     <value>Valeur non valide.</value>

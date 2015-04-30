@@ -1,3 +1,8 @@
+dist/*.nupkg
+node_modules/
+bower_components/
+npm-debug.log
+
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
