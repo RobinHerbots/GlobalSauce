@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalSauce", "GlobalSauce\GlobalSauce.csproj", "{308AD98E-17E5-40C2-8486-610C41A09FF2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMVC", "TestMVC\TestMVC.csproj", "{74D7CC9B-515A-4909-8AFF-3752B713F76D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globalization", "Globalization\Globalization.csproj", "{B28ECA8A-87B4-43E1-A680-8648EA621DCD}"
 EndProject
@@ -29,10 +29,6 @@ Global
 		{308AD98E-17E5-40C2-8486-610C41A09FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{308AD98E-17E5-40C2-8486-610C41A09FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{308AD98E-17E5-40C2-8486-610C41A09FF2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74D7CC9B-515A-4909-8AFF-3752B713F76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74D7CC9B-515A-4909-8AFF-3752B713F76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74D7CC9B-515A-4909-8AFF-3752B713F76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74D7CC9B-515A-4909-8AFF-3752B713F76D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B28ECA8A-87B4-43E1-A680-8648EA621DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B28ECA8A-87B4-43E1-A680-8648EA621DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28ECA8A-87B4-43E1-A680-8648EA621DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU

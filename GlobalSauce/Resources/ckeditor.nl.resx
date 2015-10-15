@@ -277,7 +277,7 @@
     <value>Waarde die is opgegeven voor de \"%1\" veld moet een positief getal met of zonder een geldige HTML-maateenheid (px of %).</value>
   </data>
   <data name="common_invalidInlineStyle" xml:space="preserve">
-    <value>Waarde die is opgegeven voor de inline opmaakprofiel moet bestaan uit één of meer tupels met de indeling van \"name: value\","+"door puntkomma gescheiden.</value>
+    <value>Waarde die is opgegeven voor de inline opmaakprofiel moet bestaan uit één of meer tupels met de indeling van \"name: value\",\"+\"door puntkomma gescheiden.</value>
   </data>
   <data name="common_invalidValue" xml:space="preserve">
     <value>Ongeldige waarde.</value>

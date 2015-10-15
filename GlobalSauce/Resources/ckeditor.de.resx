@@ -277,7 +277,7 @@
     <value>Angegebene Wert für die \"%1\" Feld muß eine positive Zahl mit oder ohne eine gültige HTML-Maßeinheit (px oder %).</value>
   </data>
   <data name="common_invalidInlineStyle" xml:space="preserve">
-    <value>Wert für der Inlinestil mit dem Format der \"name von einem oder mehreren Tupeln bestehen muss angegeben: Value\","+"getrennt durch Semikolons.</value>
+    <value>Wert für der Inlinestil mit dem Format der \"name von einem oder mehreren Tupeln bestehen muss angegeben: Value\",\"+\"getrennt durch Semikolons.</value>
   </data>
   <data name="common_invalidValue" xml:space="preserve">
     <value>Ungültiger Wert.</value>

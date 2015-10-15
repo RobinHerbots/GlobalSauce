@@ -277,7 +277,7 @@
     <value>Value specified for the \"%1\" field must be a positive number with or without a valid HTML measurement unit (px or %).</value>
   </data>
 	<data name="common_invalidInlineStyle" xml:space="preserve">
-    <value>Value specified for the inline style must consist of one or more tuples with the format of \"name : value\", " + "separated by semi-colons.</value>
+    <value>Value specified for the inline style must consist of one or more tuples with the format of \"name : value\", \" + \"separated by semi-colons.</value>
   </data>
 	<data name="common_invalidValue" xml:space="preserve">
     <value>Invalid value.</value>
