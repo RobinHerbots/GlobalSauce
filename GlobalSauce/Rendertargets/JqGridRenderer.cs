@@ -72,7 +72,7 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendFormat("nodefined : \"{0}\",\n", Resources.JqGrid.msg_nodefined);
             jqGridCulture.AppendFormat("novalue : \"{0}\",\n", Resources.JqGrid.msg_novalue);
             jqGridCulture.AppendFormat("customarray : \"{0}\",\n", Resources.JqGrid.msg_customarray);
-            jqGridCulture.AppendFormat("customfcheck : \"{0}\",\n", Resources.JqGrid.msg_customfcheck);
+            jqGridCulture.AppendFormat("customfcheck : \"{0}\"\n", Resources.JqGrid.msg_customfcheck);
             jqGridCulture.AppendFormat("			\n");
             jqGridCulture.AppendLine("}");
             jqGridCulture.AppendLine("},");

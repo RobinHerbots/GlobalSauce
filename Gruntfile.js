@@ -30,7 +30,7 @@ module.exports = function (grunt) {
             }
         },
         nugetpush: {
-            nupkg: {
+            dist: {
                 src: "dist/*.nupkg"
             }
         },
