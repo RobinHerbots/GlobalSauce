@@ -115,7 +115,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to year.
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string yearSuffix {
             get {
