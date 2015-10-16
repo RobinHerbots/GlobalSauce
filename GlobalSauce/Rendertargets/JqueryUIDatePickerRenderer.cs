@@ -89,9 +89,12 @@ namespace GlobalSauce.Rendertargets
         public static string JqueryUIDateFormat(this DateTimeFormatInfo dateTimeFormatInfo)
         {
             var dfs = dateTimeFormatInfo.ShortDatePattern.ToLowerInvariant().Split(new[] { dateTimeFormatInfo.DateSeparator }, StringSplitOptions.None);
+            var jqUIFormat = new StringBuilder();
+            jqUIFormat.AppendFormat(dfs[0].Length < 4 ? "{0}{1}" : "{0}{0}{1}", dfs[0][0], dateTimeFormatInfo.DateSeparator);
+            jqUIFormat.AppendFormat(dfs[1].Length < 4 ? "{0}{1}" : "{0}{0}{1}", dfs[1][0], dateTimeFormatInfo.DateSeparator);
+            jqUIFormat.AppendFormat(dfs[2].Length < 4 ? "{0}" : "{0}{0}", dfs[2][0]);
 
-            return string.Format("{0}{0}{3}{1}{1}{3}{2}{2}", dfs[0][0], dfs[1][0], dfs[2][0],
-                                 dateTimeFormatInfo.DateSeparator);
+            return jqUIFormat.ToString();
         }
     }
 }
