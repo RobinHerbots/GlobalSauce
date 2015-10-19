@@ -403,7 +403,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string nav_addtext {
             get {
@@ -439,7 +439,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string nav_deltext {
             get {
@@ -457,7 +457,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Edit.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string nav_edittext {
             get {
@@ -475,7 +475,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Refresh.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string nav_refreshtext {
             get {
@@ -493,7 +493,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string nav_searchtext {
             get {
@@ -511,7 +511,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to View.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string nav_viewtext {
             get {

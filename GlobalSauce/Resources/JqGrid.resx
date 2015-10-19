@@ -319,21 +319,21 @@
     <value>View Record</value>
   </data>
   <data name="nav_addtext" xml:space="preserve">
-    <value>Add</value>
+    <value />
   </data>
   <data name="nav_deltext" xml:space="preserve">
-    <value>Delete</value>
+    <value />
   </data>
   <data name="nav_edittext" xml:space="preserve">
-    <value>Edit</value>
+    <value />
   </data>
   <data name="nav_refreshtext" xml:space="preserve">
-    <value>Refresh</value>
+    <value />
   </data>
   <data name="nav_searchtext" xml:space="preserve">
-    <value>Search</value>
+    <value />
   </data>
   <data name="nav_viewtext" xml:space="preserve">
-    <value>View</value>
+    <value />
   </data>
 </root>
