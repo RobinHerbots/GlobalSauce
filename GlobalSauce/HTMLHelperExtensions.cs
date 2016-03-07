@@ -15,7 +15,7 @@ namespace GlobalSauce
                 cultureModel.AppendLine(RenderTargetProcessor.Render(component));
             }
 
-            return addClosure ? new MvcHtmlString(string.Format("(function($) {{{0}}})(jQuery);", cultureModel)) : new MvcHtmlString(cultureModel.ToString());
+            return addClosure ? new MvcHtmlString($"(function($) {{{cultureModel}}})(jQuery);") : new MvcHtmlString(cultureModel.ToString());
         }
     }
 }
