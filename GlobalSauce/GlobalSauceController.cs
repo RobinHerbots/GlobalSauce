@@ -11,7 +11,7 @@ namespace GlobalSauce
         [HttpGet]
         public virtual JavaScriptResult Get(Components id)
         {
-            return JavaScript(new MvcHtmlString($"(function($) {{{RenderTargetProcessor.Render(id)}}})(jQuery);").ToString());
+            return JavaScript(RenderTargetProcessor.Render(id));
         }
     }
 }
