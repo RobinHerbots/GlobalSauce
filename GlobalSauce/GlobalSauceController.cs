@@ -9,10 +9,9 @@ namespace GlobalSauce
     public class GlobalSauceController : Controller
     {
         [HttpGet]
-        public virtual JsonResult Get(Components id)
+        public virtual JavaScriptResult Get(Components id)
         {
-            return Json(new MvcHtmlString($"(function($) {{{RenderTargetProcessor.Render(id)}}})(jQuery);"),
-                "text/javascript", Encoding.UTF8, JsonRequestBehavior.AllowGet);
+            return JavaScript(new MvcHtmlString($"(function($) {{{RenderTargetProcessor.Render(id)}}})(jQuery);").ToString());
         }
     }
 }
