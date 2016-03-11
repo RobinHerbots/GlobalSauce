@@ -6,9 +6,10 @@ namespace GlobalSauce
 {
     public class GlobalSauceController : Controller
     {
-        public JsonResult Get(Components component)
+        [HttpGet]
+        public virtual JsonResult Get(Components id)
         {
-            return Json(new MvcHtmlString($"(function($) {{{RenderTargetProcessor.Render(component)}}})(jQuery);"));
+            return Json(new MvcHtmlString($"(function($) {{{RenderTargetProcessor.Render(id)}}})(jQuery);"), JsonRequestBehavior.AllowGet);
         }
     }
 }
