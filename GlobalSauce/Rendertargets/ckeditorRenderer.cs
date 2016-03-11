@@ -12,7 +12,17 @@ namespace GlobalSauce.Rendertargets
             ckeditorCulture.AppendLine("Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.");
             ckeditorCulture.AppendLine("For licensing, see LICENSE.html or http://ckeditor.com/license");
             ckeditorCulture.AppendLine("*/");
-            ckeditorCulture.AppendFormat("CKEDITOR.lang['{0}'] = {{\n", cultureInfo.Name);
+            ckeditorCulture.AppendLine("(function(factory) {");
+            ckeditorCulture.AppendLine("if (typeof define === \"function\" && define.amd)");
+            ckeditorCulture.AppendLine("{");
+            ckeditorCulture.AppendLine("define([\"ckeditor\"], factory);");
+            ckeditorCulture.AppendLine("}");
+            ckeditorCulture.AppendLine("else {");
+            ckeditorCulture.AppendLine("factory(window.CKEDITOR);");
+            ckeditorCulture.AppendLine("}");
+            ckeditorCulture.AppendLine("}");
+            ckeditorCulture.AppendLine("(function(CKEDITOR) {");
+            ckeditorCulture.AppendFormat("window.CKEDITOR.lang['{0}'] = {{\n", cultureInfo.Name);
             ckeditorCulture.AppendFormat("\"editor\": \"{0}\",\n", Resources.ckeditor.editor);
             ckeditorCulture.AppendLine("\"common\": {");
             ckeditorCulture.AppendFormat("\"editorHelp\": \"{0}\",\n", Resources.ckeditor.common_editorhelp);
@@ -206,8 +216,8 @@ namespace GlobalSauce.Rendertargets
             ckeditorCulture.AppendFormat("\"redo\": \"{0}\",\n", Resources.ckeditor.undo_redo);
             ckeditorCulture.AppendFormat("\"undo\": \"{0}\",\n", Resources.ckeditor.undo_undo);
             ckeditorCulture.AppendLine(" }");
-            ckeditorCulture.AppendLine("};");
-
+            ckeditorCulture.AppendLine("}");
+            ckeditorCulture.AppendLine("}));"); 
             return ckeditorCulture.ToString();
         }
     }
