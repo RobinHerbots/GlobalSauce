@@ -10,6 +10,7 @@ namespace GlobalSauce.Rendertargets
         public string Render(CultureInfo cultureInfo)
         {
             var datepickerCulture = new StringBuilder();
+            datepickerCulture.AppendLine("(function($) {");
             datepickerCulture.AppendFormat("$.datepicker.regional['{0}'] = {{\n", cultureInfo.Name);
             datepickerCulture.AppendFormat("closeText: '{0}',\n", Resources.JqueryUIDatePicker.closeText);
             datepickerCulture.AppendFormat("prevText: '{0}',\n", Resources.JqueryUIDatePicker.prevText);
@@ -78,7 +79,7 @@ namespace GlobalSauce.Rendertargets
             datepickerCulture.AppendFormat("yearSuffix: '{0}'\n", Resources.JqueryUIDatePicker.yearSuffix);
             datepickerCulture.AppendLine("};");
             datepickerCulture.AppendFormat("$.datepicker.setDefaults($.datepicker.regional['{0}']);\n", cultureInfo.Name);
-
+            datepickerCulture.AppendLine("})(jQuery);");
             return datepickerCulture.ToString();
         }
     }
