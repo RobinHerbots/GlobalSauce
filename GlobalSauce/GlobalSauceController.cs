@@ -11,15 +11,15 @@ namespace GlobalSauce
     public class GlobalSauceController : Controller
     {
         [HttpGet]
-        public virtual JavaScriptResult Get(Components id)
+        public virtual JavaScriptResult Get(int id)
         {
-            return JavaScript(RenderTargetProcessor.Render(id));
+            return JavaScript(RenderTargetProcessor.Render((Components) id));
         }
         [HttpGet]
         public virtual JavaScriptResult Get(string id)
         {
             Components component;
-            if (Enum.TryParse(id.Remove(id.Length - ".js".Length), out component))
+            if (Enum.TryParse(id.Replace(".js", ""), out component))
                 return JavaScript(RenderTargetProcessor.Render(component));
 
             return new JavaScriptResult();
