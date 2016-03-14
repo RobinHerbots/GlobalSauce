@@ -13,6 +13,22 @@ In your view or layout add:
 </script>
 ```
 
+or when using with the GlobalsauceController
+
+add to the web.config
+
+```
+<location path="Globalsauce">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+</location>
+```
+make a request like http://<host>/Globalsauce/Get/jqGrid
+
+
 This will render the culture settings for the selected components for the CurrentUICulture in .NET
 
 Currently supported plugins:
