@@ -6,6 +6,7 @@ using GlobalSauce.Enums;
 
 namespace GlobalSauce
 {
+    [AllowAnonymous]
     public class GlobalSauceController : Controller
     {
         [HttpGet]
