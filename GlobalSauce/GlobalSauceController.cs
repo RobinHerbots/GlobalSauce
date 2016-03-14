@@ -11,11 +11,6 @@ namespace GlobalSauce
     public class GlobalSauceController : Controller
     {
         [HttpGet]
-        public virtual JavaScriptResult Get(int id)
-        {
-            return JavaScript(RenderTargetProcessor.Render((Components) id));
-        }
-        [HttpGet]
         public virtual JavaScriptResult Get(string id)
         {
             Components component;
