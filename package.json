@@ -1,6 +1,6 @@
 {
   "name": "GlobalSauce",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Automated culture settings rendering for different javascript plugins.",
   "main": "GlobalSauce.sln",
   "scripts": {
