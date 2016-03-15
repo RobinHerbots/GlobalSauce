@@ -15,7 +15,7 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendLine("(function(factory) {");
             jqGridCulture.AppendLine("if (typeof define === \"function\" && define.amd)");
             jqGridCulture.AppendLine("{");
-            jqGridCulture.AppendLine("define([\"jquery\", \"jqgrid\"], factory);");
+            jqGridCulture.AppendLine("define([\"jquery\"], factory);");
             jqGridCulture.AppendLine("}");
             jqGridCulture.AppendLine("else {");
             jqGridCulture.AppendLine("factory(jQuery);");
