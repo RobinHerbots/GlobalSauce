@@ -12,6 +12,15 @@ namespace GlobalSauce.Rendertargets
         public string Render(CultureInfo cultureInfo)
         {
             var jqGridCulture = new StringBuilder();
+            jqGridCulture.AppendLine("(function(factory) {");
+            jqGridCulture.AppendLine("if (typeof define === \"function\" && define.amd)");
+            jqGridCulture.AppendLine("{");
+            jqGridCulture.AppendLine("define([\"jquery\", \"jqgrid\"], factory);");
+            jqGridCulture.AppendLine("}");
+            jqGridCulture.AppendLine("else {");
+            jqGridCulture.AppendLine("factory(jQuery);");
+            jqGridCulture.AppendLine("}");
+            jqGridCulture.AppendLine("}");
             jqGridCulture.AppendLine("(function($) {");
             jqGridCulture.AppendLine("$.jgrid = $.jgrid || {};");
             jqGridCulture.AppendLine("$.extend($.jgrid,{");
@@ -199,7 +208,7 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendFormat("idName : 'id'\n");
             jqGridCulture.AppendLine("}");
             jqGridCulture.AppendLine("});");
-            jqGridCulture.AppendLine("})(jQuery);");
+            jqGridCulture.AppendLine("}));");
             return jqGridCulture.ToString();
         }
 

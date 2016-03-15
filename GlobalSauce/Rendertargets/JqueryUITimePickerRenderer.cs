@@ -9,6 +9,15 @@ namespace GlobalSauce.Rendertargets
         public string Render(CultureInfo cultureInfo)
         {
             var timepickerCulture = new StringBuilder();
+            timepickerCulture.AppendLine("(function(factory) {");
+            timepickerCulture.AppendLine("if (typeof define === \"function\" && define.amd)");
+            timepickerCulture.AppendLine("{");
+            timepickerCulture.AppendLine("define([\"jquery\", \"timepicker\"], factory);");
+            timepickerCulture.AppendLine("}");
+            timepickerCulture.AppendLine("else {");
+            timepickerCulture.AppendLine("factory(jQuery);");
+            timepickerCulture.AppendLine("}");
+            timepickerCulture.AppendLine("}");
             timepickerCulture.AppendLine("(function($) {");
             timepickerCulture.AppendFormat("$.timepicker.regional[\"{0}\"] = {{\n", cultureInfo.Name);
             timepickerCulture.AppendFormat("timeOnlyTitle: \"{0}\",\n", Resources.JqueryUITimePicker.timeOnlyTitle);
@@ -27,7 +36,7 @@ namespace GlobalSauce.Rendertargets
             timepickerCulture.AppendFormat("isRTL: {0}\n", cultureInfo.TextInfo.IsRightToLeft.ToString().ToLowerInvariant());
             timepickerCulture.AppendLine("};");
             timepickerCulture.AppendFormat("$.timepicker.setDefaults($.timepicker.regional[\"{0}\"]);\n", cultureInfo.Name);
-            timepickerCulture.AppendLine("})(jQuery);");
+            timepickerCulture.AppendLine("}));");
             return timepickerCulture.ToString();
         }
     }
