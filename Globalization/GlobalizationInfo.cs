@@ -431,7 +431,7 @@ Globalize.addCultureInfo( ""{0}"", ""default"", {{
 }});
 Globalize.culture(""{0}"");
 return Globalize;
-}})}});
+}});}});
 ", name, cultureFragment);
         }
 
