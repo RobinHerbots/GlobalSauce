@@ -430,6 +430,7 @@ Globalize.addCultureInfo( ""{0}"", ""default"", {{
 {1}
 }});
 Globalize.culture(""{0}"");
+return Globalize;
 }})}});
 ", name, cultureFragment);
         }
