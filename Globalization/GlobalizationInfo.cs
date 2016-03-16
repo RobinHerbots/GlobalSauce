@@ -424,14 +424,14 @@ if (typeof define === ""function"" && define.amd) {{
 	module.exports = factory(require(""globalize""));
 }} else {{
 	factory(window.Globalize);
-}}
+}}}})
 (function(Globalize) {{
 Globalize.addCultureInfo( ""{0}"", ""default"", {{
 {1}
 }});
 Globalize.culture(""{0}"");
 return Globalize;
-}});}});
+}});
 ", name, cultureFragment);
         }
 
