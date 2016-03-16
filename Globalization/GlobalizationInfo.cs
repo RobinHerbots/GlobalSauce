@@ -418,7 +418,9 @@ Globalize.addCultureInfo( ""{0}"", ""default"", {{
 
 var Globalize;
 if (typeof define === ""function"" && define.amd) {{
-        define([""globalize""], function(globalize) {{ Globalize = globalize; }});
+        define([""globalize""], function(globalize)
+            {{ Globalize = globalize; }}
+        );
 }} else if ( typeof require !== ""undefined"" &&
 	typeof exports !== ""undefined"" &&
 	typeof module !== ""undefined"" ) {{
