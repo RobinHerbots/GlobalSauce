@@ -418,7 +418,9 @@ Globalize.addCultureInfo( ""{0}"", ""default"", {{
 
 var Globalize;
 
-if ( typeof require !== ""undefined"" &&
+if (typeof define === ""function"" && define.amd) {
+        define([""globalize""], factory);
+} else if ( typeof require !== ""undefined"" &&
 	typeof exports !== ""undefined"" &&
 	typeof module !== ""undefined"" ) {{
 	// Assume CommonJS
