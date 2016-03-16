@@ -14,8 +14,6 @@ namespace ConsoleApplication1
             Thread.CurrentThread.CurrentCulture = new CultureInfo("nl-BE");
 
             var cultureModel = new StringBuilder();
-            cultureModel.AppendLine(RenderTargetProcessor.Render(Components.JqueryUIDatePicker));
-            Console.WriteLine(cultureModel.ToString());
             cultureModel.AppendLine(RenderTargetProcessor.Render(Components.JqueryGlobalization));
             Console.WriteLine(cultureModel.ToString());
 
