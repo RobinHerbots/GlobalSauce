@@ -414,28 +414,23 @@ Globalize.addCultureInfo( ""{0}"", ""default"", {{
  * Translation: bugs found in this file need to be fixed in the generator
  */
 
-(function( window, undefined ) {{
-
-var Globalize;
+(function(factory) {{
 if (typeof define === ""function"" && define.amd) {{
-        define([""globalize""], function(globalize)
-            {{ Globalize = globalize; }}
-        );
+        define([""globalize""], factory)
 }} else if ( typeof require !== ""undefined"" &&
 	typeof exports !== ""undefined"" &&
 	typeof module !== ""undefined"" ) {{
 	// Assume CommonJS
-	Globalize = require( ""globalize"" );
+	module.exports = factory(require(""globalize""));
 }} else {{
-	// Global variable
-	Globalize = window.Globalize;
+	factory(window.Globalize);
 }}
-
+(function(Globalize) {{
 Globalize.addCultureInfo( ""{0}"", ""default"", {{
 {1}
 }});
-
-}}( this ));
+Globalize.culture(""{0}"");
+}}));
 ", name, cultureFragment);
         }
 

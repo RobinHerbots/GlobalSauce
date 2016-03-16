@@ -10,8 +10,7 @@ namespace GlobalSauce.Rendertargets
         {
             var globInfo = GlobalizationInfo.GetGlobInfo(cultureInfo);
             var diff = globInfo.ToDictionary(false);
-            var globalize = GlobalizationInfo.GenerateJavaScript(string.Empty, string.Empty, cultureInfo, cultureInfo.Name, diff, null);
-            return string.Format("{0}\nwindow.Globalize.culture(\"{1}\");", globalize, cultureInfo.Name);
+            return GlobalizationInfo.GenerateJavaScript(string.Empty, string.Empty, cultureInfo, cultureInfo.Name, diff, null);
         }
     }
 }
