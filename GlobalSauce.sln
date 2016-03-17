@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F2DC3D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{8F7C475F-AB2A-471F-B641-641D642B5F38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON2RESX", "JSON2RESX\JSON2RESX.csproj", "{FE9087B0-EB8D-4822-A6AC-E20DD2A8A9CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{8F7C475F-AB2A-471F-B641-641D642B5F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F7C475F-AB2A-471F-B641-641D642B5F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F7C475F-AB2A-471F-B641-641D642B5F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9087B0-EB8D-4822-A6AC-E20DD2A8A9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9087B0-EB8D-4822-A6AC-E20DD2A8A9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9087B0-EB8D-4822-A6AC-E20DD2A8A9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9087B0-EB8D-4822-A6AC-E20DD2A8A9CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

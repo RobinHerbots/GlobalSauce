@@ -14,7 +14,7 @@ namespace ConsoleApplication1
             Thread.CurrentThread.CurrentCulture = new CultureInfo("nl-BE");
 
             var cultureModel = new StringBuilder();
-            cultureModel.AppendLine(RenderTargetProcessor.Render(Components.JqueryGlobalization));
+            cultureModel.AppendLine(RenderTargetProcessor.Render(Components.ckeditor));
             Console.WriteLine(cultureModel.ToString());
 
             Console.ReadKey();

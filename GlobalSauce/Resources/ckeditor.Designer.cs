@@ -133,7 +133,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Strike Through.
+        ///   Looks up a localized string similar to Strikethrough.
         /// </summary>
         internal static string basicstyles_strike {
             get {
@@ -142,7 +142,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Subscripts.
+        ///   Looks up a localized string similar to Subscript.
         /// </summary>
         internal static string basicstyles_subscript {
             get {
@@ -165,6 +165,24 @@ namespace GlobalSauce.Resources {
         internal static string basicstyles_underline {
             get {
                 return ResourceManager.GetString("basicstyles_underline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Block Quote.
+        /// </summary>
+        internal static string blockquote_toolbar {
+            get {
+                return ResourceManager.GetString("blockquote_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %1 (Selected).
+        /// </summary>
+        internal static string button_selectedLabel {
+            get {
+                return ResourceManager.GetString("button_selectedLabel", resourceCulture);
             }
         }
         
@@ -295,6 +313,15 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Justify.
+        /// </summary>
+        internal static string common_alignJustify {
+            get {
+                return ResourceManager.GetString("common_alignJustify", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Left.
         /// </summary>
         internal static string common_alignLeft {
@@ -309,6 +336,15 @@ namespace GlobalSauce.Resources {
         internal static string common_alignMiddle {
             get {
                 return ResourceManager.GetString("common_alignMiddle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to None.
+        /// </summary>
+        internal static string common_alignNone {
+            get {
+                return ResourceManager.GetString("common_alignNone", resourceCulture);
             }
         }
         
@@ -376,7 +412,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Some of the options have been changed. Are you sure to close the dialog?.
+        ///   Looks up a localized string similar to You have changed some options. Are you sure you want to close the dialog window?.
         /// </summary>
         internal static string common_confirmCancel {
             get {
@@ -432,9 +468,9 @@ namespace GlobalSauce.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Press ALT 0 for help.
         /// </summary>
-        internal static string common_editorhelp {
+        internal static string common_editorHelp {
             get {
-                return ResourceManager.GetString("common_editorhelp", resourceCulture);
+                return ResourceManager.GetString("common_editorHelp", resourceCulture);
             }
         }
         
@@ -511,7 +547,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value specified for the \&quot;%1\&quot; field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc)..
+        ///   Looks up a localized string similar to Value specified for the &quot;%1&quot; field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc)..
         /// </summary>
         internal static string common_invalidCssLength {
             get {
@@ -529,7 +565,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value specified for the \&quot;%1\&quot; field must be a positive number with or without a valid HTML measurement unit (px or %)..
+        ///   Looks up a localized string similar to Value specified for the &quot;%1&quot; field must be a positive number with or without a valid HTML measurement unit (px or %)..
         /// </summary>
         internal static string common_invalidHtmlLength {
             get {
@@ -538,7 +574,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value specified for the inline style must consist of one or more tuples with the format of \&quot;name : value\&quot;, \&quot; + \&quot;separated by semi-colons..
+        ///   Looks up a localized string similar to Value specified for the inline style must consist of one or more tuples with the format of &quot;name : value&quot;, separated by semi-colons..
         /// </summary>
         internal static string common_invalidInlineStyle {
             get {
@@ -621,9 +657,9 @@ namespace GlobalSauce.Resources {
         /// <summary>
         ///   Looks up a localized string similar to &lt;not set&gt;.
         /// </summary>
-        internal static string common_notset {
+        internal static string common_notSet {
             get {
-                return ResourceManager.GetString("common_notset", resourceCulture);
+                return ResourceManager.GetString("common_notSet", resourceCulture);
             }
         }
         
@@ -763,7 +799,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to %1&lt;span class=\&quot;cke_accessibility\&quot;&gt;, unavailable&lt;/span&gt;.
+        ///   Looks up a localized string similar to %1&lt;span class=&quot;cke_accessibility&quot;&gt;, unavailable&lt;/span&gt;.
         /// </summary>
         internal static string common_unavailable {
             get {
@@ -817,11 +853,47 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Context Menu Options.
+        /// </summary>
+        internal static string contextmenu_options {
+            get {
+                return ResourceManager.GetString("contextmenu_options", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rich Text Editor.
         /// </summary>
         internal static string editor {
             get {
                 return ResourceManager.GetString("editor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rich Text Editor panel.
+        /// </summary>
+        internal static string editorPanel {
+            get {
+                return ResourceManager.GetString("editorPanel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Elements path.
+        /// </summary>
+        internal static string elementspath_eleLabel {
+            get {
+                return ResourceManager.GetString("elementspath_eleLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %1 element.
+        /// </summary>
+        internal static string elementspath_eleTitle {
+            get {
+                return ResourceManager.GetString("elementspath_eleTitle", resourceCulture);
             }
         }
         
@@ -867,6 +939,294 @@ namespace GlobalSauce.Resources {
         internal static string fakeobjects_unknown {
             get {
                 return ResourceManager.GetString("fakeobjects_unknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Format.
+        /// </summary>
+        internal static string format_label {
+            get {
+                return ResourceManager.GetString("format_label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paragraph Format.
+        /// </summary>
+        internal static string format_panelTitle {
+            get {
+                return ResourceManager.GetString("format_panelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Address.
+        /// </summary>
+        internal static string format_tag_address {
+            get {
+                return ResourceManager.GetString("format_tag_address", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Normal (DIV).
+        /// </summary>
+        internal static string format_tag_div {
+            get {
+                return ResourceManager.GetString("format_tag_div", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heading 1.
+        /// </summary>
+        internal static string format_tag_h1 {
+            get {
+                return ResourceManager.GetString("format_tag_h1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heading 2.
+        /// </summary>
+        internal static string format_tag_h2 {
+            get {
+                return ResourceManager.GetString("format_tag_h2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heading 3.
+        /// </summary>
+        internal static string format_tag_h3 {
+            get {
+                return ResourceManager.GetString("format_tag_h3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heading 4.
+        /// </summary>
+        internal static string format_tag_h4 {
+            get {
+                return ResourceManager.GetString("format_tag_h4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heading 5.
+        /// </summary>
+        internal static string format_tag_h5 {
+            get {
+                return ResourceManager.GetString("format_tag_h5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heading 6.
+        /// </summary>
+        internal static string format_tag_h6 {
+            get {
+                return ResourceManager.GetString("format_tag_h6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Normal.
+        /// </summary>
+        internal static string format_tag_p {
+            get {
+                return ResourceManager.GetString("format_tag_p", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Formatted.
+        /// </summary>
+        internal static string format_tag_pre {
+            get {
+                return ResourceManager.GetString("format_tag_pre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Horizontal Line.
+        /// </summary>
+        internal static string horizontalrule_toolbar {
+            get {
+                return ResourceManager.GetString("horizontalrule_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alternative Text.
+        /// </summary>
+        internal static string image_alt {
+            get {
+                return ResourceManager.GetString("image_alt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border.
+        /// </summary>
+        internal static string image_border {
+            get {
+                return ResourceManager.GetString("image_border", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send it to the Server.
+        /// </summary>
+        internal static string image_btnUpload {
+            get {
+                return ResourceManager.GetString("image_btnUpload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to transform the selected image button on a simple image?.
+        /// </summary>
+        internal static string image_button2Img {
+            get {
+                return ResourceManager.GetString("image_button2Img", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HSpace.
+        /// </summary>
+        internal static string image_hSpace {
+            get {
+                return ResourceManager.GetString("image_hSpace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to transform the selected image on a image button?.
+        /// </summary>
+        internal static string image_img2Button {
+            get {
+                return ResourceManager.GetString("image_img2Button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image Info.
+        /// </summary>
+        internal static string image_infoTab {
+            get {
+                return ResourceManager.GetString("image_infoTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link.
+        /// </summary>
+        internal static string image_linkTab {
+            get {
+                return ResourceManager.GetString("image_linkTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lock Ratio.
+        /// </summary>
+        internal static string image_lockRatio {
+            get {
+                return ResourceManager.GetString("image_lockRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image Properties.
+        /// </summary>
+        internal static string image_menu {
+            get {
+                return ResourceManager.GetString("image_menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reset Size.
+        /// </summary>
+        internal static string image_resetSize {
+            get {
+                return ResourceManager.GetString("image_resetSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image Properties.
+        /// </summary>
+        internal static string image_title {
+            get {
+                return ResourceManager.GetString("image_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image Button Properties.
+        /// </summary>
+        internal static string image_titleButton {
+            get {
+                return ResourceManager.GetString("image_titleButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upload.
+        /// </summary>
+        internal static string image_upload {
+            get {
+                return ResourceManager.GetString("image_upload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image source URL is missing..
+        /// </summary>
+        internal static string image_urlMissing {
+            get {
+                return ResourceManager.GetString("image_urlMissing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border must be a whole number..
+        /// </summary>
+        internal static string image_validateBorder {
+            get {
+                return ResourceManager.GetString("image_validateBorder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HSpace must be a whole number..
+        /// </summary>
+        internal static string image_validateHSpace {
+            get {
+                return ResourceManager.GetString("image_validateHSpace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to VSpace must be a whole number..
+        /// </summary>
+        internal static string image_validateVSpace {
+            get {
+                return ResourceManager.GetString("image_validateVSpace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to VSpace.
+        /// </summary>
+        internal static string image_vSpace {
+            get {
+                return ResourceManager.GetString("image_vSpace", resourceCulture);
             }
         }
         
@@ -1420,6 +1780,798 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Insert paragraph here.
+        /// </summary>
+        internal static string magicline_title {
+            get {
+                return ResourceManager.GetString("magicline_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maximize.
+        /// </summary>
+        internal static string maximize_maximize {
+            get {
+                return ResourceManager.GetString("maximize_maximize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minimize.
+        /// </summary>
+        internal static string maximize_minimize {
+            get {
+                return ResourceManager.GetString("maximize_minimize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?.
+        /// </summary>
+        internal static string pastefromword_confirmCleanup {
+            get {
+                return ResourceManager.GetString("pastefromword_confirmCleanup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to It was not possible to clean up the pasted data due to an internal error.
+        /// </summary>
+        internal static string pastefromword_error {
+            get {
+                return ResourceManager.GetString("pastefromword_error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paste from Word.
+        /// </summary>
+        internal static string pastefromword_title {
+            get {
+                return ResourceManager.GetString("pastefromword_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paste from Word.
+        /// </summary>
+        internal static string pastefromword_toolbar {
+            get {
+                return ResourceManager.GetString("pastefromword_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paste as plain text.
+        /// </summary>
+        internal static string pastetext_button {
+            get {
+                return ResourceManager.GetString("pastetext_button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paste as Plain Text.
+        /// </summary>
+        internal static string pastetext_title {
+            get {
+                return ResourceManager.GetString("pastetext_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove Format.
+        /// </summary>
+        internal static string removeformat_toolbar {
+            get {
+                return ResourceManager.GetString("removeformat_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to About SCAYT.
+        /// </summary>
+        internal static string scayt_btn_about {
+            get {
+                return ResourceManager.GetString("scayt_btn_about", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dictionaries.
+        /// </summary>
+        internal static string scayt_btn_dictionaries {
+            get {
+                return ResourceManager.GetString("scayt_btn_dictionaries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Disable SCAYT.
+        /// </summary>
+        internal static string scayt_btn_disable {
+            get {
+                return ResourceManager.GetString("scayt_btn_disable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable SCAYT.
+        /// </summary>
+        internal static string scayt_btn_enable {
+            get {
+                return ResourceManager.GetString("scayt_btn_enable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Languages.
+        /// </summary>
+        internal static string scayt_btn_langs {
+            get {
+                return ResourceManager.GetString("scayt_btn_langs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Options.
+        /// </summary>
+        internal static string scayt_btn_options {
+            get {
+                return ResourceManager.GetString("scayt_btn_options", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell Check As You Type.
+        /// </summary>
+        internal static string scayt_text_title {
+            get {
+                return ResourceManager.GetString("scayt_text_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source.
+        /// </summary>
+        internal static string sourcearea_toolbar {
+            get {
+                return ResourceManager.GetString("sourcearea_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Special Character Options.
+        /// </summary>
+        internal static string specialchar_options {
+            get {
+                return ResourceManager.GetString("specialchar_options", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Special Character.
+        /// </summary>
+        internal static string specialchar_title {
+            get {
+                return ResourceManager.GetString("specialchar_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Special Character.
+        /// </summary>
+        internal static string specialchar_toolbar {
+            get {
+                return ResourceManager.GetString("specialchar_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Styles.
+        /// </summary>
+        internal static string stylescombo_label {
+            get {
+                return ResourceManager.GetString("stylescombo_label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Formatting Styles.
+        /// </summary>
+        internal static string stylescombo_panelTitle {
+            get {
+                return ResourceManager.GetString("stylescombo_panelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Block Styles.
+        /// </summary>
+        internal static string stylescombo_panelTitle1 {
+            get {
+                return ResourceManager.GetString("stylescombo_panelTitle1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inline Styles.
+        /// </summary>
+        internal static string stylescombo_panelTitle2 {
+            get {
+                return ResourceManager.GetString("stylescombo_panelTitle2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Object Styles.
+        /// </summary>
+        internal static string stylescombo_panelTitle3 {
+            get {
+                return ResourceManager.GetString("stylescombo_panelTitle3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border size.
+        /// </summary>
+        internal static string table_border {
+            get {
+                return ResourceManager.GetString("table_border", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Caption.
+        /// </summary>
+        internal static string table_caption {
+            get {
+                return ResourceManager.GetString("table_caption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baseline.
+        /// </summary>
+        internal static string table_cell_alignBaseline {
+            get {
+                return ResourceManager.GetString("table_cell_alignBaseline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Background Color.
+        /// </summary>
+        internal static string table_cell_bgColor {
+            get {
+                return ResourceManager.GetString("table_cell_bgColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border Color.
+        /// </summary>
+        internal static string table_cell_borderColor {
+            get {
+                return ResourceManager.GetString("table_cell_borderColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell Type.
+        /// </summary>
+        internal static string table_cell_cellType {
+            get {
+                return ResourceManager.GetString("table_cell_cellType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose.
+        /// </summary>
+        internal static string table_cell_chooseColor {
+            get {
+                return ResourceManager.GetString("table_cell_chooseColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Columns Span.
+        /// </summary>
+        internal static string table_cell_colSpan {
+            get {
+                return ResourceManager.GetString("table_cell_colSpan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data.
+        /// </summary>
+        internal static string table_cell_data {
+            get {
+                return ResourceManager.GetString("table_cell_data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Cells.
+        /// </summary>
+        internal static string table_cell_deleteCell {
+            get {
+                return ResourceManager.GetString("table_cell_deleteCell", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Horizontal Alignment.
+        /// </summary>
+        internal static string table_cell_hAlign {
+            get {
+                return ResourceManager.GetString("table_cell_hAlign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header.
+        /// </summary>
+        internal static string table_cell_header {
+            get {
+                return ResourceManager.GetString("table_cell_header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Cell After.
+        /// </summary>
+        internal static string table_cell_insertAfter {
+            get {
+                return ResourceManager.GetString("table_cell_insertAfter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Cell Before.
+        /// </summary>
+        internal static string table_cell_insertBefore {
+            get {
+                return ResourceManager.GetString("table_cell_insertBefore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Columns span must be a whole number..
+        /// </summary>
+        internal static string table_cell_invalidColSpan {
+            get {
+                return ResourceManager.GetString("table_cell_invalidColSpan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell height must be a number..
+        /// </summary>
+        internal static string table_cell_invalidHeight {
+            get {
+                return ResourceManager.GetString("table_cell_invalidHeight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rows span must be a whole number..
+        /// </summary>
+        internal static string table_cell_invalidRowSpan {
+            get {
+                return ResourceManager.GetString("table_cell_invalidRowSpan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell width must be a number..
+        /// </summary>
+        internal static string table_cell_invalidWidth {
+            get {
+                return ResourceManager.GetString("table_cell_invalidWidth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell.
+        /// </summary>
+        internal static string table_cell_menu {
+            get {
+                return ResourceManager.GetString("table_cell_menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merge Cells.
+        /// </summary>
+        internal static string table_cell_merge {
+            get {
+                return ResourceManager.GetString("table_cell_merge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merge Down.
+        /// </summary>
+        internal static string table_cell_mergeDown {
+            get {
+                return ResourceManager.GetString("table_cell_mergeDown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merge Right.
+        /// </summary>
+        internal static string table_cell_mergeRight {
+            get {
+                return ResourceManager.GetString("table_cell_mergeRight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        internal static string table_cell_no {
+            get {
+                return ResourceManager.GetString("table_cell_no", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rows Span.
+        /// </summary>
+        internal static string table_cell_rowSpan {
+            get {
+                return ResourceManager.GetString("table_cell_rowSpan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Split Cell Horizontally.
+        /// </summary>
+        internal static string table_cell_splitHorizontal {
+            get {
+                return ResourceManager.GetString("table_cell_splitHorizontal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Split Cell Vertically.
+        /// </summary>
+        internal static string table_cell_splitVertical {
+            get {
+                return ResourceManager.GetString("table_cell_splitVertical", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell Properties.
+        /// </summary>
+        internal static string table_cell_title {
+            get {
+                return ResourceManager.GetString("table_cell_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vertical Alignment.
+        /// </summary>
+        internal static string table_cell_vAlign {
+            get {
+                return ResourceManager.GetString("table_cell_vAlign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Word Wrap.
+        /// </summary>
+        internal static string table_cell_wordWrap {
+            get {
+                return ResourceManager.GetString("table_cell_wordWrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        internal static string table_cell_yes {
+            get {
+                return ResourceManager.GetString("table_cell_yes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell padding.
+        /// </summary>
+        internal static string table_cellPad {
+            get {
+                return ResourceManager.GetString("table_cellPad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell spacing.
+        /// </summary>
+        internal static string table_cellSpace {
+            get {
+                return ResourceManager.GetString("table_cellSpace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Columns.
+        /// </summary>
+        internal static string table_column_deleteColumn {
+            get {
+                return ResourceManager.GetString("table_column_deleteColumn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Column After.
+        /// </summary>
+        internal static string table_column_insertAfter {
+            get {
+                return ResourceManager.GetString("table_column_insertAfter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Column Before.
+        /// </summary>
+        internal static string table_column_insertBefore {
+            get {
+                return ResourceManager.GetString("table_column_insertBefore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Column.
+        /// </summary>
+        internal static string table_column_menu {
+            get {
+                return ResourceManager.GetString("table_column_menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Columns.
+        /// </summary>
+        internal static string table_columns {
+            get {
+                return ResourceManager.GetString("table_columns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Table.
+        /// </summary>
+        internal static string table_deleteTable {
+            get {
+                return ResourceManager.GetString("table_deleteTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Headers.
+        /// </summary>
+        internal static string table_headers {
+            get {
+                return ResourceManager.GetString("table_headers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Both.
+        /// </summary>
+        internal static string table_headersBoth {
+            get {
+                return ResourceManager.GetString("table_headersBoth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First column.
+        /// </summary>
+        internal static string table_headersColumn {
+            get {
+                return ResourceManager.GetString("table_headersColumn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to None.
+        /// </summary>
+        internal static string table_headersNone {
+            get {
+                return ResourceManager.GetString("table_headersNone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First Row.
+        /// </summary>
+        internal static string table_headersRow {
+            get {
+                return ResourceManager.GetString("table_headersRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border size must be a number..
+        /// </summary>
+        internal static string table_invalidBorder {
+            get {
+                return ResourceManager.GetString("table_invalidBorder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell padding must be a positive number..
+        /// </summary>
+        internal static string table_invalidCellPadding {
+            get {
+                return ResourceManager.GetString("table_invalidCellPadding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell spacing must be a positive number..
+        /// </summary>
+        internal static string table_invalidCellSpacing {
+            get {
+                return ResourceManager.GetString("table_invalidCellSpacing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Number of columns must be a number greater than 0..
+        /// </summary>
+        internal static string table_invalidCols {
+            get {
+                return ResourceManager.GetString("table_invalidCols", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table height must be a number..
+        /// </summary>
+        internal static string table_invalidHeight {
+            get {
+                return ResourceManager.GetString("table_invalidHeight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Number of rows must be a number greater than 0..
+        /// </summary>
+        internal static string table_invalidRows {
+            get {
+                return ResourceManager.GetString("table_invalidRows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table width must be a number..
+        /// </summary>
+        internal static string table_invalidWidth {
+            get {
+                return ResourceManager.GetString("table_invalidWidth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table Properties.
+        /// </summary>
+        internal static string table_menu {
+            get {
+                return ResourceManager.GetString("table_menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Rows.
+        /// </summary>
+        internal static string table_row_deleteRow {
+            get {
+                return ResourceManager.GetString("table_row_deleteRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Row After.
+        /// </summary>
+        internal static string table_row_insertAfter {
+            get {
+                return ResourceManager.GetString("table_row_insertAfter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert Row Before.
+        /// </summary>
+        internal static string table_row_insertBefore {
+            get {
+                return ResourceManager.GetString("table_row_insertBefore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Row.
+        /// </summary>
+        internal static string table_row_menu {
+            get {
+                return ResourceManager.GetString("table_row_menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rows.
+        /// </summary>
+        internal static string table_rows {
+            get {
+                return ResourceManager.GetString("table_rows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Summary.
+        /// </summary>
+        internal static string table_summary {
+            get {
+                return ResourceManager.GetString("table_summary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table Properties.
+        /// </summary>
+        internal static string table_title {
+            get {
+                return ResourceManager.GetString("table_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table.
+        /// </summary>
+        internal static string table_toolbar {
+            get {
+                return ResourceManager.GetString("table_toolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to percent.
+        /// </summary>
+        internal static string table_widthPc {
+            get {
+                return ResourceManager.GetString("table_widthPc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to pixels.
+        /// </summary>
+        internal static string table_widthPx {
+            get {
+                return ResourceManager.GetString("table_widthPx", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to width unit.
+        /// </summary>
+        internal static string table_widthUnit {
+            get {
+                return ResourceManager.GetString("table_widthUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Collapse Toolbar.
         /// </summary>
         internal static string toolbar_toolbarCollapse {
@@ -1560,6 +2712,168 @@ namespace GlobalSauce.Resources {
         internal static string undo_undo {
             get {
                 return ResourceManager.GetString("undo_undo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ignore.
+        /// </summary>
+        internal static string wsc_btnIgnore {
+            get {
+                return ResourceManager.GetString("wsc_btnIgnore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ignore All.
+        /// </summary>
+        internal static string wsc_btnIgnoreAll {
+            get {
+                return ResourceManager.GetString("wsc_btnIgnoreAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace.
+        /// </summary>
+        internal static string wsc_btnReplace {
+            get {
+                return ResourceManager.GetString("wsc_btnReplace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace All.
+        /// </summary>
+        internal static string wsc_btnReplaceAll {
+            get {
+                return ResourceManager.GetString("wsc_btnReplaceAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Undo.
+        /// </summary>
+        internal static string wsc_btnUndo {
+            get {
+                return ResourceManager.GetString("wsc_btnUndo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change to.
+        /// </summary>
+        internal static string wsc_changeTo {
+            get {
+                return ResourceManager.GetString("wsc_changeTo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error loading application service host: %s..
+        /// </summary>
+        internal static string wsc_errorLoading {
+            get {
+                return ResourceManager.GetString("wsc_errorLoading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell checker not installed. Do you want to download it now?.
+        /// </summary>
+        internal static string wsc_ieSpellDownload {
+            get {
+                return ResourceManager.GetString("wsc_ieSpellDownload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell check complete: %1 words changed.
+        /// </summary>
+        internal static string wsc_manyChanges {
+            get {
+                return ResourceManager.GetString("wsc_manyChanges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell check complete: No words changed.
+        /// </summary>
+        internal static string wsc_noChanges {
+            get {
+                return ResourceManager.GetString("wsc_noChanges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell check complete: No misspellings found.
+        /// </summary>
+        internal static string wsc_noMispell {
+            get {
+                return ResourceManager.GetString("wsc_noMispell", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to - No suggestions -.
+        /// </summary>
+        internal static string wsc_noSuggestions {
+            get {
+                return ResourceManager.GetString("wsc_noSuggestions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sorry, but service is unavailable now..
+        /// </summary>
+        internal static string wsc_notAvailable {
+            get {
+                return ResourceManager.GetString("wsc_notAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not in dictionary.
+        /// </summary>
+        internal static string wsc_notInDic {
+            get {
+                return ResourceManager.GetString("wsc_notInDic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell check complete: One word changed.
+        /// </summary>
+        internal static string wsc_oneChange {
+            get {
+                return ResourceManager.GetString("wsc_oneChange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell check in progress....
+        /// </summary>
+        internal static string wsc_progress {
+            get {
+                return ResourceManager.GetString("wsc_progress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell Checker.
+        /// </summary>
+        internal static string wsc_title {
+            get {
+                return ResourceManager.GetString("wsc_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check Spelling.
+        /// </summary>
+        internal static string wsc_toolbar {
+            get {
+                return ResourceManager.GetString("wsc_toolbar", resourceCulture);
             }
         }
     }
