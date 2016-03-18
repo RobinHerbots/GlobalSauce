@@ -799,7 +799,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to %1&lt;span class=&quot;cke_accessibility&quot;&gt;, unavailable&lt;/span&gt;.
+        ///   Looks up a localized string similar to %1&lt;span class=\&quot;cke_accessibility\&quot;&gt;, unavailable&lt;/span&gt;.
         /// </summary>
         internal static string common_unavailable {
             get {

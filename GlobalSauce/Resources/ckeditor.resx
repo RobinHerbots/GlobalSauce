@@ -1054,6 +1054,6 @@
     <value>Enter a number for a value in pixels or a number with a valid CSS unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>
   </data>
   <data name="common_unavailable" xml:space="preserve">
-    <value>%1&lt;span class="cke_accessibility"&gt;, unavailable&lt;/span&gt;</value>
+    <value>%1&lt;span class=\"cke_accessibility\"&gt;, unavailable&lt;/span&gt;</value>
   </data>
 </root>

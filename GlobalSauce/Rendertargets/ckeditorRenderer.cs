@@ -186,7 +186,7 @@ namespace GlobalSauce.Rendertargets
             ckeditorCulture.AppendFormat("\"title\": \"{0}\",\n", ckeditor.link_anchor_title);
             ckeditorCulture.AppendFormat("\"name\": \"{0}\",\n", ckeditor.link_anchor_name);
             ckeditorCulture.AppendFormat("\"errorName\": \"{0}\",\n", ckeditor.link_anchor_errorName);
-            ckeditorCulture.AppendLine("\"remove\"");
+            ckeditorCulture.AppendFormat("\"remove\": \"{0}\",\n", ckeditor.link_anchor_remove);
             ckeditorCulture.AppendLine("},");
             ckeditorCulture.AppendFormat("\"anchorId\": \"{0}\",\n", ckeditor.link_anchorId);
             ckeditorCulture.AppendFormat("\"anchorName\": \"{0}\",\n", ckeditor.link_anchorName);
@@ -393,7 +393,7 @@ namespace GlobalSauce.Rendertargets
             ckeditorCulture.AppendFormat("\"invalidHtmlLength\": \"{0}\",\n", ckeditor.common_invalidHtmlLength);
             ckeditorCulture.AppendFormat("\"invalidInlineStyle\": \"{0}\",\n", ckeditor.common_invalidInlineStyle);
             ckeditorCulture.AppendFormat("\"cssLengthTooltip\": \"{0}\",\n", ckeditor.common_cssLengthTooltip);
-            ckeditorCulture.AppendFormat("\"unavailable\": \"{0}\",\n", ckeditor.common_unavailable);
+            ckeditorCulture.AppendFormat("\"unavailable\": \"{0}\"\n", ckeditor.common_unavailable);
             ckeditorCulture.AppendLine("}"); ckeditorCulture.AppendLine("};");
             return ckeditorCulture.ToString();
         }
