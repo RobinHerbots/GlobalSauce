@@ -61,6 +61,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ckeditor.resx</DependentUpon>
     </Compile>
+    <Compile Include="Resources\ckeditor.nl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ckeditor.nl.resx</DependentUpon>
+    </Compile>
     <Compile Include="Resources\JqGrid.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -78,6 +83,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\ckeditor.de.resx" />
+    <EmbeddedResource Include="Resources\ckeditor.es.resx" />
+    <EmbeddedResource Include="Resources\ckeditor.fr.resx" />
+    <EmbeddedResource Include="Resources\ckeditor.pl.resx" />
     <EmbeddedResource Include="Resources\ckeditor.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ckeditor.Designer.cs</LastGenOutput>
@@ -116,7 +125,12 @@
       <Name>Globalization</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ckeditor.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ckeditor.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
