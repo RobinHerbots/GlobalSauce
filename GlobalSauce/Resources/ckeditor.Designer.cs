@@ -547,7 +547,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value specified for the &quot;%1&quot; field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc)..
+        ///   Looks up a localized string similar to Value specified for the \&quot;%1\&quot; field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc)..
         /// </summary>
         internal static string common_invalidCssLength {
             get {
@@ -565,7 +565,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value specified for the &quot;%1&quot; field must be a positive number with or without a valid HTML measurement unit (px or %)..
+        ///   Looks up a localized string similar to Value specified for the \&quot;%1\&quot; field must be a positive number with or without a valid HTML measurement unit (px or %)..
         /// </summary>
         internal static string common_invalidHtmlLength {
             get {
@@ -574,7 +574,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Value specified for the inline style must consist of one or more tuples with the format of &quot;name : value&quot;, separated by semi-colons..
+        ///   Looks up a localized string similar to Value specified for the inline style must consist of one or more tuples with the format of \&quot;name : value\&quot;, separated by semi-colons..
         /// </summary>
         internal static string common_invalidInlineStyle {
             get {

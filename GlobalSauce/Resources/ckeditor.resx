@@ -1042,13 +1042,13 @@
     <value>Width must be a number.</value>
   </data>
   <data name="common_invalidCssLength" xml:space="preserve">
-    <value>Value specified for the "%1" field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>
+    <value>Value specified for the \"%1\" field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>
   </data>
   <data name="common_invalidHtmlLength" xml:space="preserve">
-    <value>Value specified for the "%1" field must be a positive number with or without a valid HTML measurement unit (px or %).</value>
+    <value>Value specified for the \"%1\" field must be a positive number with or without a valid HTML measurement unit (px or %).</value>
   </data>
   <data name="common_invalidInlineStyle" xml:space="preserve">
-    <value>Value specified for the inline style must consist of one or more tuples with the format of "name : value", separated by semi-colons.</value>
+    <value>Value specified for the inline style must consist of one or more tuples with the format of \"name : value\", separated by semi-colons.</value>
   </data>
   <data name="common_cssLengthTooltip" xml:space="preserve">
     <value>Enter a number for a value in pixels or a number with a valid CSS unit (px, %, in, cm, mm, em, ex, pt, or pc).</value>

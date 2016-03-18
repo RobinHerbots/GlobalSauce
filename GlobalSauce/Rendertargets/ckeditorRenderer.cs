@@ -14,7 +14,7 @@ namespace GlobalSauce.Rendertargets
             ckeditorCulture.AppendLine("Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.");
             ckeditorCulture.AppendLine("For licensing, see LICENSE.md or http://ckeditor.com/license");
             ckeditorCulture.AppendLine("*/");
-            ckeditorCulture.AppendFormat("CKEDITOR.lang['\"{0}\"'] = {{\n", cultureInfo.Name);
+            ckeditorCulture.AppendFormat("CKEDITOR.lang[\"{0}\"] = {{\n", cultureInfo.Name);
             ckeditorCulture.AppendLine("\"wsc\": {");
             ckeditorCulture.AppendFormat("\"btnIgnore\": \"{0}\",\n", ckeditor.wsc_btnIgnore);
             ckeditorCulture.AppendFormat("\"btnIgnoreAll\": \"{0}\",\n", ckeditor.wsc_btnIgnoreAll);
