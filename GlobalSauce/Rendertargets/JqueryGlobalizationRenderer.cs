@@ -6,7 +6,7 @@ namespace GlobalSauce.Rendertargets
 {
     internal class JqueryGlobalizationRenderer : IRenderTarget
     {
-        public string Render(CultureInfo cultureInfo)
+        public string Render(CultureInfo cultureInfo, CultureInfo uicultureInfo)
         {
             var globInfo = GlobalizationInfo.GetGlobInfo(cultureInfo);
             var diff = globInfo.ToDictionary(false);

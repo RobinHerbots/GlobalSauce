@@ -6,7 +6,7 @@ namespace GlobalSauce.Rendertargets
 {
     internal class JqueryUITimePickerRenderer : IRenderTarget
     {
-        public string Render(CultureInfo cultureInfo)
+        public string Render(CultureInfo cultureInfo, CultureInfo uicultureInfo)
         {
             var timepickerCulture = new StringBuilder();
             timepickerCulture.AppendLine("(function(factory) {");

@@ -9,8 +9,6 @@ namespace GlobalSauce
     {
         public static string Render(Components component)
         {
-            var cultureInfo = new CultureInfo(Thread.CurrentThread.CurrentCulture.Name);
-
             IRenderTarget renderTarget;
             switch (component)
             {
@@ -35,18 +33,18 @@ namespace GlobalSauce
                     break;
             }
 
-            return renderTarget.Render(cultureInfo);
+            return renderTarget.Render(Thread.CurrentThread.CurrentCulture, Thread.CurrentThread.CurrentUICulture);
         }
     }
 
     public interface IRenderTarget
     {
-        string Render(CultureInfo cultureInfo);
+        string Render(CultureInfo cultureInfo, CultureInfo uicultureInfo);
     }
 
     public class EmptyRenderer : IRenderTarget
     {
-        public string Render(CultureInfo cultureInfo)
+        public string Render(CultureInfo cultureInfo, CultureInfo uicultureInfo)
         {
             return string.Empty;
         }

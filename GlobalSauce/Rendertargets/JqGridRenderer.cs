@@ -9,7 +9,7 @@ namespace GlobalSauce.Rendertargets
 {
     internal class JqGridRenderer : IRenderTarget
     {
-        public string Render(CultureInfo cultureInfo)
+        public string Render(CultureInfo cultureInfo, CultureInfo uicultureInfo)
         {
             var jqGridCulture = new StringBuilder();
             jqGridCulture.AppendLine("(function(factory) {");
@@ -128,52 +128,52 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendLine("date : {");
             jqGridCulture.AppendLine("dayNames:   [");
             jqGridCulture.AppendFormat("\"{0}\", \"{1}\", \"{2}\", \"{3}\", \"{4}\", \"{5}\", \"{6}\",\n",
-                    cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Sunday],
-                    cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Monday],
-                    cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Tuesday],
-                    cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Wednesday],
-                    cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Thursday],
-                    cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Friday],
-                    cultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Saturday]
+                    uicultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Sunday],
+                    uicultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Monday],
+                    uicultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Tuesday],
+                    uicultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Wednesday],
+                    uicultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Thursday],
+                    uicultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Friday],
+                    uicultureInfo.DateTimeFormat.AbbreviatedDayNames[(int)DayOfWeek.Saturday]
                 );
             jqGridCulture.AppendFormat("\"{0}\", \"{1}\", \"{2}\", \"{3}\", \"{4}\", \"{5}\", \"{6}\",\n",
-                  cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Sunday],
-                  cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Monday],
-                  cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Tuesday],
-                  cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Wednesday],
-                  cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Thursday],
-                  cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Friday],
-                  cultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Saturday]
+                  uicultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Sunday],
+                  uicultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Monday],
+                  uicultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Tuesday],
+                  uicultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Wednesday],
+                  uicultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Thursday],
+                  uicultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Friday],
+                  uicultureInfo.DateTimeFormat.DayNames[(int)DayOfWeek.Saturday]
               );
             jqGridCulture.AppendLine("],");
             jqGridCulture.AppendLine("monthNames: [");
             jqGridCulture.AppendFormat("\"{0}\", \"{1}\", \"{2}\", \"{3}\", \"{4}\", \"{5}\", \"{6}\", \"{7}\", \"{8}\", \"{9}\", \"{10}\", \"{11}\",\n",
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.January - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.February - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.March - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.April - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.May - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.June - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.July - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.August - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.September - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.October - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.November - 1],
-                cultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.December - 1]
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.January - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.February - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.March - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.April - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.May - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.June - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.July - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.August - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.September - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.October - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.November - 1],
+                uicultureInfo.DateTimeFormat.AbbreviatedMonthNames[(int)MonthOfYear.December - 1]
                 );
             jqGridCulture.AppendFormat("\"{0}\", \"{1}\", \"{2}\", \"{3}\", \"{4}\", \"{5}\", \"{6}\", \"{7}\", \"{8}\", \"{9}\", \"{10}\", \"{11}\",\n",
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.January - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.February - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.March - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.April - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.May - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.June - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.July - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.August - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.September - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.October - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.November - 1],
-                cultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.December - 1]
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.January - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.February - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.March - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.April - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.May - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.June - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.July - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.August - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.September - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.October - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.November - 1],
+                uicultureInfo.DateTimeFormat.MonthNames[(int)MonthOfYear.December - 1]
                 );
             jqGridCulture.AppendLine("],");
             jqGridCulture.AppendFormat("AmPm : [\"{0}\",\"{1}\",\"{2}\",\"{3}\"],\n",
