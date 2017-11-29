@@ -15,6 +15,9 @@ namespace GlobalSauce
                 case Components.JqGrid:
                     renderTarget = new JqGridRenderer();
                     break;
+                case Components.freeJqGrid:
+                    renderTarget = new freeJqGridRenderer();
+                    break;
                 case Components.JqueryGlobalization:
                     renderTarget = new JqueryGlobalizationRenderer();
                     break;

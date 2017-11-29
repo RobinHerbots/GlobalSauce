@@ -3,6 +3,7 @@
     public enum Components
     {
         JqGrid,
+        freeJqGrid,
         JqueryGlobalization,
         JqueryUIDatePicker,
         JqueryUITimePicker,
