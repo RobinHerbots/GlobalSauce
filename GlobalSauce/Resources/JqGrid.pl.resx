@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
 	<!-- 
     Microsoft ResX Schema 
@@ -258,9 +258,6 @@
 	<data name="msg_customfcheck" xml:space="preserve">
     <value>Funkcja niestandardowa powinny być obecne w przypadku niestandardowych sprawdzanie!</value>
   </data>
-	<data name="msg_date" xml:space="preserve">
-    <value>Podaj wartość prawidłowa data</value>
-  </data>
 	<data name="msg_email" xml:space="preserve">
     <value>jest nie prawidłowy adres e-mail</value>
   </data>
@@ -318,4 +315,94 @@
 	<data name="view_caption" xml:space="preserve">
     <value>Zobacz zapis</value>
   </data>
+	<data name="locale" xml:space="preserve">
+		<value>pl</value>
+	</data>
+	<data name="pgfirst" xml:space="preserve">
+		<value>Pierwsza Strona</value>
+	</data>
+	<data name="pglast" xml:space="preserve">
+		<value>Ostatnia strona</value>
+	</data>
+	<data name="pgnext" xml:space="preserve">
+		<value>Następna strona</value>
+	</data>
+	<data name="pgprev" xml:space="preserve">
+		<value>Poprzednia strona</value>
+	</data>
+	<data name="pgrecs" xml:space="preserve">
+		<value>Rekordów na jednej stronie</value>
+	</data>
+	<data name="showhide" xml:space="preserve">
+		<value>Przełącz rozwiń zwiń siatki</value>
+	</data>
+	<data name="savetext" xml:space="preserve">
+		<value>Zapisywanie...</value>
+	</data>
+	<data name="addGroupTitle" xml:space="preserve">
+		<value>Dodawanie podgrup</value>
+	</data>
+	<data name="deleteGroupTitle" xml:space="preserve">
+		<value>Usuwanie grupy</value>
+	</data>
+	<data name="addRuleTitle" xml:space="preserve">
+		<value>Dodawanie reguły</value>
+	</data>
+	<data name="deleteRuleTitle" xml:space="preserve">
+		<value>Usuń regułę</value>
+	</data>
+	<data name="operandTitle" xml:space="preserve">
+		<value>Kliknij, aby zaznaczyć operacji wyszukiwania.</value>
+	</data>
+	<data name="resetTitle" xml:space="preserve">
+		<value>Resetowanie wartości wyszukiwania</value>
+	</data>
+	<data name="nav_canceltitle" xml:space="preserve">
+		<value>Anulowanie wiersza edycji</value>
+	</data>
+	<data name="locName" xml:space="preserve">
+		<value>Polish</value>
+	</data>
+	<data name="locNameEnglish" xml:space="preserve">
+		<value>Polish</value>
+	</data>
+	<data name="locale2" xml:space="preserve">
+		<value>pl</value>
+	</data>
+	<data name="locName2" xml:space="preserve">
+		<value>Polish (Poland)</value>
+	</data>
+	<data name="locNameEnglish2" xml:space="preserve">
+		<value>Polish (Poland)</value>
+	</data>
+	<data name="nav_edittext" xml:space="preserve">
+		<value>Edycja</value>
+	</data>
+	<data name="nav_addtext" xml:space="preserve">
+		<value>Dodać</value>
+	</data>
+	<data name="nav_deltext" xml:space="preserve">
+		<value>Usuń</value>
+	</data>
+	<data name="nav_searchtext" xml:space="preserve">
+		<value>Szukaj</value>
+	</data>
+	<data name="nav_refreshtext" xml:space="preserve">
+		<value>Odświeżania</value>
+	</data>
+	<data name="nav_viewtext" xml:space="preserve">
+		<value>Widok</value>
+	</data>
+	<data name="nav_savetext" xml:space="preserve">
+		<value>Zapisz</value>
+	</data>
+	<data name="nav_savetitle" xml:space="preserve">
+		<value>Zapisz</value>
+	</data>
+	<data name="nav_canceltext" xml:space="preserve">
+		<value>Anuluj</value>
+	</data>
+	<data name="msg_date" xml:space="preserve">
+		<value>Angielski (Stany Zjednoczone)</value>
+	</data>
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+	<!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,263 +59,350 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="nav_addtitle" xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="nav_addtitle" xml:space="preserve">
     <value>Ajout de nouvelle ligne</value>
   </data>
-  <data name="edit_addCaption" xml:space="preserve">
+	<data name="edit_addCaption" xml:space="preserve">
     <value>Ajouter enregistrement</value>
   </data>
-  <data name="del_bCancel" xml:space="preserve">
+	<data name="del_bCancel" xml:space="preserve">
     <value>Annuler</value>
   </data>
-  <data name="edit_bExit" xml:space="preserve">
+	<data name="edit_bExit" xml:space="preserve">
     <value>Annuler</value>
   </data>
-  <data name="col_bCancel" xml:space="preserve">
+	<data name="col_bCancel" xml:space="preserve">
     <value>Annuler</value>
   </data>
-  <data name="edit_bCancel" xml:space="preserve">
+	<data name="edit_bCancel" xml:space="preserve">
     <value>Annuler</value>
   </data>
-  <data name="emptyrecords" xml:space="preserve">
+	<data name="emptyrecords" xml:space="preserve">
     <value>Aucun enregistrement pour afficher</value>
   </data>
-  <data name="col_bSubmit" xml:space="preserve">
+	<data name="col_bSubmit" xml:space="preserve">
     <value>Bien</value>
   </data>
-  <data name="loadtext" xml:space="preserve">
+	<data name="loadtext" xml:space="preserve">
     <value>Chargement...</value>
   </data>
-  <data name="odata_bw" xml:space="preserve">
+	<data name="odata_bw" xml:space="preserve">
     <value>commence par</value>
   </data>
-  <data name="odata_cn" xml:space="preserve">
+	<data name="odata_cn" xml:space="preserve">
     <value>contient</value>
   </data>
-  <data name="edit_saveData" xml:space="preserve">
+	<data name="edit_saveData" xml:space="preserve">
     <value>Données ont été modifiées ! Enregistrer les modifications ?</value>
   </data>
-  <data name="odata_eq" xml:space="preserve">
+	<data name="odata_eq" xml:space="preserve">
     <value>égal</value>
   </data>
-  <data name="edit_bSubmit" xml:space="preserve">
+	<data name="edit_bSubmit" xml:space="preserve">
     <value>Envoyer</value>
   </data>
-  <data name="errors_errcap" xml:space="preserve">
+	<data name="errors_errcap" xml:space="preserve">
     <value>Erreur</value>
   </data>
-  <data name="odata_in" xml:space="preserve">
+	<data name="odata_in" xml:space="preserve">
     <value>est en</value>
   </data>
-  <data name="groupOps_op_and" xml:space="preserve">
+	<data name="groupOps_op_and" xml:space="preserve">
     <value>ET</value>
   </data>
-  <data name="edit_bClose" xml:space="preserve">
+	<data name="edit_bClose" xml:space="preserve">
     <value>Fermer</value>
   </data>
-  <data name="view_bclose" xml:space="preserve">
+	<data name="view_bclose" xml:space="preserve">
     <value>Fermer</value>
   </data>
-  <data name="msg_customfcheck" xml:space="preserve">
+	<data name="msg_customfcheck" xml:space="preserve">
     <value>Fonction personnalisée doit être présente dans le cas d'un contrôle personnalisé !</value>
   </data>
-  <data name="msg_customarray" xml:space="preserve">
+	<data name="msg_customarray" xml:space="preserve">
     <value>Fonction personnalisée doit retourner le tableau !</value>
   </data>
-  <data name="odata_le" xml:space="preserve">
+	<data name="odata_le" xml:space="preserve">
     <value>inférieure ou égale</value>
   </data>
-  <data name="msg_required" xml:space="preserve">
+	<data name="msg_required" xml:space="preserve">
     <value>Le champ est requis</value>
   </data>
-  <data name="nav_viewtitle" xml:space="preserve">
+	<data name="nav_viewtitle" xml:space="preserve">
     <value>Ligne sélectionnée Voir</value>
   </data>
-  <data name="errors_model" xml:space="preserve">
+	<data name="errors_model" xml:space="preserve">
     <value>Longueur de colNames &lt;&gt;colModel !</value>
   </data>
-  <data name="nav_alertcap" xml:space="preserve">
+	<data name="nav_alertcap" xml:space="preserve">
     <value>Mise en garde</value>
   </data>
-  <data name="edit_editCaption" xml:space="preserve">
+	<data name="edit_editCaption" xml:space="preserve">
     <value>Modifier enregistrement</value>
   </data>
-  <data name="nav_edittitle" xml:space="preserve">
+	<data name="nav_edittitle" xml:space="preserve">
     <value>Modifier la ligne sélectionnée</value>
   </data>
-  <data name="odata_lt" xml:space="preserve">
+	<data name="odata_lt" xml:space="preserve">
     <value>moins</value>
   </data>
-  <data name="odata_bn" xml:space="preserve">
+	<data name="odata_bn" xml:space="preserve">
     <value>ne commence pas par</value>
   </data>
-  <data name="odata_nc" xml:space="preserve">
+	<data name="odata_nc" xml:space="preserve">
     <value>ne contient pas</value>
   </data>
-  <data name="odata_en" xml:space="preserve">
+	<data name="odata_en" xml:space="preserve">
     <value>ne prend pas fin avec</value>
   </data>
-  <data name="msg_nodefined" xml:space="preserve">
+	<data name="msg_nodefined" xml:space="preserve">
     <value>n\'est pas défini !</value>
   </data>
-  <data name="odata_ni" xml:space="preserve">
+	<data name="odata_ni" xml:space="preserve">
     <value>n\'est pas en</value>
   </data>
-  <data name="msg_email" xml:space="preserve">
+	<data name="msg_email" xml:space="preserve">
     <value>n\'est pas une adresse courriel valide</value>
   </data>
-  <data name="msg_url" xml:space="preserve">
+	<data name="msg_url" xml:space="preserve">
     <value>n\'est pas une URL valide. Préfixe requis (« http:// » ou « https:// »)</value>
   </data>
-  <data name="groupOps_text_or" xml:space="preserve">
+	<data name="groupOps_text_or" xml:space="preserve">
     <value>n\'importe quel</value>
   </data>
-  <data name="edit_bNo" xml:space="preserve">
+	<data name="edit_bNo" xml:space="preserve">
     <value>Non</value>
   </data>
-  <data name="errors_nourl" xml:space="preserve">
+	<data name="errors_nourl" xml:space="preserve">
     <value>Nourl a la valeur</value>
   </data>
-  <data name="groupOps_op_or" xml:space="preserve">
+	<data name="groupOps_op_or" xml:space="preserve">
     <value>OR</value>
   </data>
-  <data name="edit_bYes" xml:space="preserve">
+	<data name="edit_bYes" xml:space="preserve">
     <value>Oui</value>
   </data>
-  <data name="pgtext" xml:space="preserve">
+	<data name="pgtext" xml:space="preserve">
     <value>Page {0} de {1}</value>
   </data>
-  <data name="errors_norecords" xml:space="preserve">
+	<data name="errors_norecords" xml:space="preserve">
     <value>Pas d'enregistrement à traiter</value>
   </data>
-  <data name="odata_ne" xml:space="preserve">
+	<data name="odata_ne" xml:space="preserve">
     <value>pas égal à</value>
   </data>
-  <data name="nav_refreshtitle" xml:space="preserve">
+	<data name="nav_refreshtitle" xml:space="preserve">
     <value>Recharge grille</value>
   </data>
-  <data name="nav_searchtitle" xml:space="preserve">
+	<data name="nav_searchtitle" xml:space="preserve">
     <value>Rechercher des enregistrements</value>
   </data>
-  <data name="search_caption" xml:space="preserve">
+	<data name="search_caption" xml:space="preserve">
     <value>Rechercher...</value>
   </data>
-  <data name="search_Reset" xml:space="preserve">
+	<data name="search_Reset" xml:space="preserve">
     <value>Remise à zéro</value>
   </data>
-  <data name="odata_ew" xml:space="preserve">
+	<data name="odata_ew" xml:space="preserve">
     <value>se termine par</value>
   </data>
-  <data name="col_caption" xml:space="preserve">
+	<data name="col_caption" xml:space="preserve">
     <value>Sélectionnez les colonnes</value>
   </data>
-  <data name="msg_date" xml:space="preserve">
-    <value>S\'il vous plaît, entrez la valeur de date valide</value>
-  </data>
-  <data name="msg_integer" xml:space="preserve">
+	<data name="msg_integer" xml:space="preserve">
     <value>S\'il vous plaît, entrez la valeur de nombre entier valide</value>
   </data>
-  <data name="msg_number" xml:space="preserve">
+	<data name="msg_number" xml:space="preserve">
     <value>S\'il vous plaît, entrez numéro valide</value>
   </data>
-  <data name="nav_alerttext" xml:space="preserve">
+	<data name="nav_alerttext" xml:space="preserve">
     <value>S\'il vous plaît, sélectionnez ligne</value>
   </data>
-  <data name="odata_ge" xml:space="preserve">
+	<data name="odata_ge" xml:space="preserve">
     <value>supérieur ou égal</value>
   </data>
-  <data name="del_bSubmit" xml:space="preserve">
+	<data name="del_bSubmit" xml:space="preserve">
     <value>Supprimer</value>
   </data>
-  <data name="del_caption" xml:space="preserve">
+	<data name="del_caption" xml:space="preserve">
     <value>Supprimer</value>
   </data>
-  <data name="nav_deltitle" xml:space="preserve">
+	<data name="nav_deltitle" xml:space="preserve">
     <value>Supprimer la ligne sélectionnée</value>
   </data>
-  <data name="del_msg" xml:space="preserve">
+	<data name="del_msg" xml:space="preserve">
     <value>Supprimer les enregistrements sélectionnés ?</value>
   </data>
-  <data name="groupOps_text_and" xml:space="preserve">
+	<data name="groupOps_text_and" xml:space="preserve">
     <value>tous les</value>
   </data>
-  <data name="search_Find" xml:space="preserve">
+	<data name="search_Find" xml:space="preserve">
     <value>Trouver</value>
   </data>
-  <data name="odata_gt" xml:space="preserve">
+	<data name="odata_gt" xml:space="preserve">
     <value>une plus grande</value>
   </data>
-  <data name="msg_novalue" xml:space="preserve">
+	<data name="msg_novalue" xml:space="preserve">
     <value>valeur de retour est obligatoire !</value>
   </data>
-  <data name="msg_maxValue" xml:space="preserve">
+	<data name="msg_maxValue" xml:space="preserve">
     <value>valeur doit être inférieure ou égale à</value>
   </data>
-  <data name="msg_minValue" xml:space="preserve">
+	<data name="msg_minValue" xml:space="preserve">
     <value>valeur doit être supérieure ou égale à</value>
   </data>
-  <data name="recordtext" xml:space="preserve">
+	<data name="recordtext" xml:space="preserve">
     <value>Voir {0}-{1} de {2}</value>
   </data>
-  <data name="view_caption" xml:space="preserve">
+	<data name="view_caption" xml:space="preserve">
     <value>Vue dossier</value>
   </data>
+	<data name="locale" xml:space="preserve">
+		<value>fr</value>
+	</data>
+	<data name="pgfirst" xml:space="preserve">
+		<value>Première Page</value>
+	</data>
+	<data name="pglast" xml:space="preserve">
+		<value>Dernière Page</value>
+	</data>
+	<data name="pgnext" xml:space="preserve">
+		<value>Page suivante</value>
+	</data>
+	<data name="pgprev" xml:space="preserve">
+		<value>Page précédente</value>
+	</data>
+	<data name="pgrecs" xml:space="preserve">
+		<value>Enregistrements par Page</value>
+	</data>
+	<data name="showhide" xml:space="preserve">
+		<value>Activer/désactiver développez effondrement grille</value>
+	</data>
+	<data name="savetext" xml:space="preserve">
+		<value>Enregistrement de...</value>
+	</data>
+	<data name="addGroupTitle" xml:space="preserve">
+		<value>Ajouter le sous-groupe</value>
+	</data>
+	<data name="deleteGroupTitle" xml:space="preserve">
+		<value>Supprimer le groupe</value>
+	</data>
+	<data name="addRuleTitle" xml:space="preserve">
+		<value>Ajoutez la règle</value>
+	</data>
+	<data name="deleteRuleTitle" xml:space="preserve">
+		<value>Supprimer la règle</value>
+	</data>
+	<data name="operandTitle" xml:space="preserve">
+		<value>Cliquez pour sélectionner l’opération de recherche.</value>
+	</data>
+	<data name="resetTitle" xml:space="preserve">
+		<value>Valeur de recherche de réarmement</value>
+	</data>
+	<data name="nav_canceltitle" xml:space="preserve">
+		<value>Annuler la modification de la ligne</value>
+	</data>
+	<data name="locName" xml:space="preserve">
+		<value>French</value>
+	</data>
+	<data name="locNameEnglish" xml:space="preserve">
+		<value>French</value>
+	</data>
+	<data name="locale2" xml:space="preserve">
+		<value>fr</value>
+	</data>
+	<data name="locName2" xml:space="preserve">
+		<value>French (France)</value>
+	</data>
+	<data name="locNameEnglish2" xml:space="preserve">
+		<value>French (France)</value>
+	</data>
+	<data name="nav_edittext" xml:space="preserve">
+		<value>Edit</value>
+	</data>
+	<data name="nav_addtext" xml:space="preserve">
+		<value>Ajouter</value>
+	</data>
+	<data name="nav_deltext" xml:space="preserve">
+		<value>Supprimer</value>
+	</data>
+	<data name="nav_searchtext" xml:space="preserve">
+		<value>Recherche</value>
+	</data>
+	<data name="nav_refreshtext" xml:space="preserve">
+		<value>Actualisation</value>
+	</data>
+	<data name="nav_viewtext" xml:space="preserve">
+		<value>Vue</value>
+	</data>
+	<data name="nav_savetext" xml:space="preserve">
+		<value>Enregistrer</value>
+	</data>
+	<data name="nav_savetitle" xml:space="preserve">
+		<value>Enregistrer</value>
+	</data>
+	<data name="nav_canceltext" xml:space="preserve">
+		<value>Annuler</value>
+	</data>
+	<data name="msg_date" xml:space="preserve">
+		<value>English (United States)</value>
+	</data>
 </root>

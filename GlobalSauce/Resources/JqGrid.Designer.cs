@@ -19,7 +19,7 @@ namespace GlobalSauce.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class JqGrid {
@@ -57,6 +57,24 @@ namespace GlobalSauce.Resources {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add subgroup.
+        /// </summary>
+        public static string addGroupTitle {
+            get {
+                return ResourceManager.GetString("addGroupTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add rule.
+        /// </summary>
+        public static string addRuleTitle {
+            get {
+                return ResourceManager.GetString("addRuleTitle", resourceCulture);
             }
         }
         
@@ -120,6 +138,24 @@ namespace GlobalSauce.Resources {
         public static string del_msg {
             get {
                 return ResourceManager.GetString("del_msg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete group.
+        /// </summary>
+        public static string deleteGroupTitle {
+            get {
+                return ResourceManager.GetString("deleteGroupTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete rule.
+        /// </summary>
+        public static string deleteRuleTitle {
+            get {
+                return ResourceManager.GetString("deleteRuleTitle", resourceCulture);
             }
         }
         
@@ -295,6 +331,60 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to en.
+        /// </summary>
+        public static string locale {
+            get {
+                return ResourceManager.GetString("locale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to en-US.
+        /// </summary>
+        public static string locale2 {
+            get {
+                return ResourceManager.GetString("locale2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        public static string locName {
+            get {
+                return ResourceManager.GetString("locName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English (United States).
+        /// </summary>
+        public static string locName2 {
+            get {
+                return ResourceManager.GetString("locName2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        public static string locNameEnglish {
+            get {
+                return ResourceManager.GetString("locNameEnglish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English (United States).
+        /// </summary>
+        public static string locNameEnglish2 {
+            get {
+                return ResourceManager.GetString("locNameEnglish2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Custom function should return array!.
         /// </summary>
         public static string msg_customarray {
@@ -313,7 +403,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please, enter valid date value.
+        ///   Looks up a localized string similar to English (United States).
         /// </summary>
         public static string msg_date {
             get {
@@ -403,7 +493,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Add.
         /// </summary>
         public static string nav_addtext {
             get {
@@ -439,7 +529,25 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        public static string nav_canceltext {
+            get {
+                return ResourceManager.GetString("nav_canceltext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel row editing.
+        /// </summary>
+        public static string nav_canceltitle {
+            get {
+                return ResourceManager.GetString("nav_canceltitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete.
         /// </summary>
         public static string nav_deltext {
             get {
@@ -457,7 +565,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Edit.
         /// </summary>
         public static string nav_edittext {
             get {
@@ -475,7 +583,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Refresh.
         /// </summary>
         public static string nav_refreshtext {
             get {
@@ -493,7 +601,25 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string nav_savetext {
+            get {
+                return ResourceManager.GetString("nav_savetext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string nav_savetitle {
+            get {
+                return ResourceManager.GetString("nav_savetitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search.
         /// </summary>
         public static string nav_searchtext {
             get {
@@ -511,7 +637,7 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to View.
         /// </summary>
         public static string nav_viewtext {
             get {
@@ -655,6 +781,60 @@ namespace GlobalSauce.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Click to select search operation..
+        /// </summary>
+        public static string operandTitle {
+            get {
+                return ResourceManager.GetString("operandTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First Page.
+        /// </summary>
+        public static string pgfirst {
+            get {
+                return ResourceManager.GetString("pgfirst", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last Page.
+        /// </summary>
+        public static string pglast {
+            get {
+                return ResourceManager.GetString("pglast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Next Page.
+        /// </summary>
+        public static string pgnext {
+            get {
+                return ResourceManager.GetString("pgnext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Previous Page.
+        /// </summary>
+        public static string pgprev {
+            get {
+                return ResourceManager.GetString("pgprev", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Records per Page.
+        /// </summary>
+        public static string pgrecs {
+            get {
+                return ResourceManager.GetString("pgrecs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Page {0} of {1}.
         /// </summary>
         public static string pgtext {
@@ -669,6 +849,24 @@ namespace GlobalSauce.Resources {
         public static string recordtext {
             get {
                 return ResourceManager.GetString("recordtext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reset Search Value.
+        /// </summary>
+        public static string resetTitle {
+            get {
+                return ResourceManager.GetString("resetTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saving....
+        /// </summary>
+        public static string savetext {
+            get {
+                return ResourceManager.GetString("savetext", resourceCulture);
             }
         }
         
@@ -696,6 +894,15 @@ namespace GlobalSauce.Resources {
         public static string search_Reset {
             get {
                 return ResourceManager.GetString("search_Reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle Expand Collapse Grid.
+        /// </summary>
+        public static string showhide {
+            get {
+                return ResourceManager.GetString("showhide", resourceCulture);
             }
         }
         

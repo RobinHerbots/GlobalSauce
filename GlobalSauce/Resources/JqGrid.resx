@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -259,7 +259,7 @@
     <value>Custom function should be present in case of custom checking!</value>
   </data>
   <data name="msg_date" xml:space="preserve">
-    <value>Please, enter valid date value</value>
+    <value>English (United States)</value>
   </data>
   <data name="msg_email" xml:space="preserve">
     <value>is not a valid e-mail</value>
@@ -318,22 +318,91 @@
   <data name="view_caption" xml:space="preserve">
     <value>View Record</value>
   </data>
-  <data name="nav_addtext" xml:space="preserve">
-    <value />
+  <data name="pgfirst" xml:space="preserve">
+    <value>First Page</value>
   </data>
-  <data name="nav_deltext" xml:space="preserve">
-    <value />
+  <data name="pglast" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="pgnext" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="pgprev" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="pgrecs" xml:space="preserve">
+    <value>Records per Page</value>
+  </data>
+  <data name="showhide" xml:space="preserve">
+    <value>Toggle Expand Collapse Grid</value>
+  </data>
+  <data name="savetext" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="addGroupTitle" xml:space="preserve">
+    <value>Add subgroup</value>
+  </data>
+  <data name="deleteGroupTitle" xml:space="preserve">
+    <value>Delete group</value>
+  </data>
+  <data name="addRuleTitle" xml:space="preserve">
+    <value>Add rule</value>
+  </data>
+  <data name="deleteRuleTitle" xml:space="preserve">
+    <value>Delete rule</value>
+  </data>
+  <data name="operandTitle" xml:space="preserve">
+    <value>Click to select search operation.</value>
+  </data>
+  <data name="resetTitle" xml:space="preserve">
+    <value>Reset Search Value</value>
+  </data>
+  <data name="nav_canceltitle" xml:space="preserve">
+    <value>Cancel row editing</value>
+  </data>
+  <data name="locale" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="locName" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="locNameEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="locale2" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="locName2" xml:space="preserve">
+    <value>English (United States)</value>
+  </data>
+  <data name="locNameEnglish2" xml:space="preserve">
+    <value>English (United States)</value>
   </data>
   <data name="nav_edittext" xml:space="preserve">
-    <value />
+    <value>Edit</value>
   </data>
-  <data name="nav_refreshtext" xml:space="preserve">
-    <value />
+  <data name="nav_addtext" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="nav_deltext" xml:space="preserve">
+    <value>Delete</value>
   </data>
   <data name="nav_searchtext" xml:space="preserve">
-    <value />
+    <value>Search</value>
+  </data>
+  <data name="nav_refreshtext" xml:space="preserve">
+    <value>Refresh</value>
   </data>
   <data name="nav_viewtext" xml:space="preserve">
-    <value />
+    <value>View</value>
+  </data>
+  <data name="nav_savetext" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="nav_savetitle" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="nav_canceltext" xml:space="preserve">
+    <value>Cancel</value>
   </data>
 </root>

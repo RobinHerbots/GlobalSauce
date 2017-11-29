@@ -30,13 +30,13 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendFormat("emptyrecords: \"{0}\",\n", JqGrid.emptyrecords);
             jqGridCulture.AppendFormat("loadtext: \"{0}\",\n", JqGrid.loadtext);
             jqGridCulture.AppendFormat("pgtext: \"{0}\"\n", JqGrid.pgtext);
-            jqGridCulture.AppendFormat("pgfirst: \"{0}\",\n", JqGrid.pgfirst); ***
-            jqGridCulture.AppendFormat("pglast: \"{0}\",\n", JqGrid.pglast); ***
-            jqGridCulture.AppendFormat("pgnext: \"{0}\",\n", JqGrid.pgnext); ***
-            jqGridCulture.AppendFormat("pgprev: \"{0}\",\n", JqGrid.pgprev); ***
-            jqGridCulture.AppendFormat("pgrecs: \"{0}\",\n", JqGrid.pgrecs); ***
-            jqGridCulture.AppendFormat("showhide: \"{0}\",\n", JqGrid.showhide); ***
-            jqGridCulture.AppendFormat("savetext: \"{0}\",\n", JqGrid.savetext); ***           
+            jqGridCulture.AppendFormat("pgfirst: \"{0}\",\n", JqGrid.pgfirst); 
+            jqGridCulture.AppendFormat("pglast: \"{0}\",\n", JqGrid.pglast); 
+            jqGridCulture.AppendFormat("pgnext: \"{0}\",\n", JqGrid.pgnext); 
+            jqGridCulture.AppendFormat("pgprev: \"{0}\",\n", JqGrid.pgprev); 
+            jqGridCulture.AppendFormat("pgrecs: \"{0}\",\n", JqGrid.pgrecs); 
+            jqGridCulture.AppendFormat("showhide: \"{0}\",\n", JqGrid.showhide); 
+            jqGridCulture.AppendFormat("savetext: \"{0}\",\n", JqGrid.savetext);            
             jqGridCulture.AppendLine("},");
             jqGridCulture.AppendLine("search : {");
             jqGridCulture.AppendFormat("caption: \"{0}\",\n", JqGrid.search_caption);
@@ -65,12 +65,12 @@ namespace GlobalSauce.Rendertargets
                 JqGrid.groupOps_op_or,
                 JqGrid.groupOps_text_or
                 );
-            jqGridCulture.AppendFormat("addGroupTitle: \"{0}\",\n", JqGrid.addGroupTitle); ***
-            jqGridCulture.AppendFormat("deleteGroupTitle: \"{0}\",\n", JqGrid.deleteGroupTitle); ***
-            jqGridCulture.AppendFormat("addRuleTitle: \"{0}\",\n", JqGrid.addRuleTitle); ***
-            jqGridCulture.AppendFormat("deleteRuleTitle: \"{0}\",\n", JqGrid.deleteRuleTitle); ***
-            jqGridCulture.AppendFormat("operandTitle: \"{0}\",\n", JqGrid.operandTitle); ***
-            jqGridCulture.AppendFormat("resetTitle: \"{0}\",\n", JqGrid.resetTitle); ***        
+            jqGridCulture.AppendFormat("addGroupTitle: \"{0}\",\n", JqGrid.addGroupTitle); 
+            jqGridCulture.AppendFormat("deleteGroupTitle: \"{0}\",\n", JqGrid.deleteGroupTitle); 
+            jqGridCulture.AppendFormat("addRuleTitle: \"{0}\",\n", JqGrid.addRuleTitle); 
+            jqGridCulture.AppendFormat("deleteRuleTitle: \"{0}\",\n", JqGrid.deleteRuleTitle); 
+            jqGridCulture.AppendFormat("operandTitle: \"{0}\",\n", JqGrid.operandTitle); 
+            jqGridCulture.AppendFormat("resetTitle: \"{0}\",\n", JqGrid.resetTitle);         
             jqGridCulture.AppendLine("},");
             jqGridCulture.AppendLine("edit : {");
             jqGridCulture.AppendFormat("addCaption: \"{0}\",\n", JqGrid.edit_addCaption);
@@ -123,10 +123,10 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendFormat("alerttext: \"{0}\",\n", JqGrid.nav_alerttext);
             jqGridCulture.AppendFormat("viewtext: \"{0}\",\n", JqGrid.nav_viewtext);
             jqGridCulture.AppendFormat("viewtitle: \"{0}\",\n", JqGrid.nav_viewtitle);
-            jqGridCulture.AppendFormat("savetext: \"{0}\",\n", JqGrid.nav_savetext); ***
-            jqGridCulture.AppendFormat("savetitle: \"{0}\",\n", JqGrid.nav_savetitle); ***
-            jqGridCulture.AppendFormat("canceltext: \"{0}\",\n", JqGrid.nav_canceltext); ***
-            jqGridCulture.AppendFormat("canceltitle: \"{0}\",\n", JqGrid.nav_canceltitle); ***
+            jqGridCulture.AppendFormat("savetext: \"{0}\",\n", JqGrid.nav_savetext); 
+            jqGridCulture.AppendFormat("savetitle: \"{0}\",\n", JqGrid.nav_savetitle); 
+            jqGridCulture.AppendFormat("canceltext: \"{0}\",\n", JqGrid.nav_canceltext); 
+            jqGridCulture.AppendFormat("canceltitle: \"{0}\",\n", JqGrid.nav_canceltitle); 
             jqGridCulture.AppendLine("},");
             jqGridCulture.AppendLine("col : {");
             jqGridCulture.AppendFormat("caption: \"{0}\",\n", JqGrid.col_caption);
@@ -230,12 +230,11 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendLine("$.jgrid = $.jgrid || {};");
             jqGridCulture.AppendLine("$.extend(true, $.jgrid, {");
             jqGridCulture.AppendLine("defaults: {");
-            jqGridCulture.AppendFormat("locale: \"{0}\",\n", JqGrid.locale); ***
+            jqGridCulture.AppendFormat("locale: \"{0}\",\n", JqGrid.locale); 
             jqGridCulture.AppendLine("},");
             jqGridCulture.AppendLine("locales: {");
-            jqGridCulture.AppendFormat("nl: $.extend({}, locInfo, { name: \"{0}\", nameEnglish: \"{1}\" }),\n", JqGrid.locName, JqGrid.locNameEnglish); ***
-            jqGridCulture.AppendFormat("\"{0}\": $.extend({}, locInfo, { name: \"{0}\", nameEnglish: \"{0}\" }),\n", JqGrid.locName, JqGrid.locNameEnglish); ***
-   
+            jqGridCulture.AppendFormat("nl: $.extend({}, locInfo, { name: \"{0}\", nameEnglish: \"{1}\" }),\n", JqGrid.locName, JqGrid.locNameEnglish); 
+            jqGridCulture.AppendFormat("\"{0}\": $.extend({}, locInfo, { name: \"{1}\", nameEnglish: \"{2}\" }),\n", JqGrid.locale2, JqGrid.locName2, JqGrid.locNameEnglish2);  
             jqGridCulture.AppendLine("}");
             jqGridCulture.AppendLine("});");
             jqGridCulture.AppendLine("}));");
