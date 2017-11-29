@@ -21,12 +21,12 @@ Automated culture settings rendering for different javascript plugins.
 Implemented as an htmlhelper extension method (ASP.NET/MVC)</summary>
     </metadata>
     <files>
-        <file src="..\GlobalSauce\bin\Release\Globalization.dll" target="lib\net\Globalization.dll" />
-        <file src="..\GlobalSauce\bin\Release\GlobalSauce.dll" target="lib\net\GlobalSauce.dll" />
-        <file src="..\GlobalSauce\bin\Release\de\GlobalSauce.resources.dll" target="lib/net\de\GlobalSauce.resources.dll" />
-        <file src="..\GlobalSauce\bin\Release\es\GlobalSauce.resources.dll" target="lib/net\es\GlobalSauce.resources.dll" />
-        <file src="..\GlobalSauce\bin\Release\fr\GlobalSauce.resources.dll" target="lib/net\fr\GlobalSauce.resources.dll" />
-        <file src="..\GlobalSauce\bin\Release\nl\GlobalSauce.resources.dll" target="lib/net\nl\GlobalSauce.resources.dll" />
-        <file src="..\GlobalSauce\bin\Release\pl\GlobalSauce.resources.dll" target="lib/net\pl\GlobalSauce.resources.dll" />
+        <file src="..\build\Globalization.dll" target="lib\net\Globalization.dll" />
+        <file src="..\build\GlobalSauce.dll" target="lib\net\GlobalSauce.dll" />
+        <file src="..\build\de\GlobalSauce.resources.dll" target="lib/net\de\GlobalSauce.resources.dll" />
+        <file src="..\build\es\GlobalSauce.resources.dll" target="lib/net\es\GlobalSauce.resources.dll" />
+        <file src="..\build\fr\GlobalSauce.resources.dll" target="lib/net\fr\GlobalSauce.resources.dll" />
+        <file src="..\build\nl\GlobalSauce.resources.dll" target="lib/net\nl\GlobalSauce.resources.dll" />
+        <file src="..\build\pl\GlobalSauce.resources.dll" target="lib/net\pl\GlobalSauce.resources.dll" />
     </files>
 </package>
