@@ -34,6 +34,7 @@ This will render the culture settings for the selected components for the Curren
 Currently supported plugins:
 
 - jqGrid  
+- free-jqGrid
 - jquery.globalize  
 - jqueryui.datepicker  
 - jqueryui.timepicker  
