@@ -4,6 +4,7 @@
   "description": "Automated culture settings rendering for different javascript plugins.",
   "main": "GlobalSauce.sln",
   "scripts": {
+    "start": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,14 +26,14 @@
   },
   "homepage": "https://github.com/RobinHerbots/GlobalSauce",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-available-tasks": "^0.6.1",
-    "grunt-bump": "^0.3.1",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-msbuild": "^0.3.6",
-    "grunt-nuget": "^0.1.4",
-    "grunt-release": "^0.12.0",
-    "grunt-shell": "^1.1.2",
-    "load-grunt-tasks": "^3.4.1"
+    "grunt": "^1.0.1",
+    "grunt-available-tasks": "^0.6.3",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-msbuild": "^0.4.4",
+    "grunt-nuget": "^0.3.0",
+    "grunt-release": "^0.14.0",
+    "grunt-shell": "^2.1.0",
+    "load-grunt-tasks": "^3.5.2"
   }
 }

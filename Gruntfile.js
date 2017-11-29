@@ -50,7 +50,7 @@ module.exports = function(grunt) {
         options: {
           projectConfiguration: 'Debug',
           targets: ['Clean', 'Rebuild'],
-          version: 14.0,
+          version: 15.0,
           maxCpuCount: 4,
           buildParameters: {
             WarningLevel: 2
