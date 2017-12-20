@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -29,7 +29,7 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendFormat("recordtext: \"{0}\",\n", JqGrid.recordtext);
             jqGridCulture.AppendFormat("emptyrecords: \"{0}\",\n", JqGrid.emptyrecords);
             jqGridCulture.AppendFormat("loadtext: \"{0}\",\n", JqGrid.loadtext);
-            jqGridCulture.AppendFormat("pgtext: \"{0}\"\n", JqGrid.pgtext);
+            jqGridCulture.AppendFormat("pgtext: \"{0}\",\n", JqGrid.pgtext);
             jqGridCulture.AppendFormat("pgfirst: \"{0}\",\n", JqGrid.pgfirst); 
             jqGridCulture.AppendFormat("pglast: \"{0}\",\n", JqGrid.pglast); 
             jqGridCulture.AppendFormat("pgnext: \"{0}\",\n", JqGrid.pgnext); 
@@ -59,7 +59,7 @@ namespace GlobalSauce.Rendertargets
                 JqGrid.odata_nc
                 );
             jqGridCulture.AppendFormat(
-                "groupOps: [	{{ op: \"{0}\", text: \"{1}\" }}, {{ op: \"{2}\",  text: \"{3}\" }}	]\n",
+                "groupOps: [	{{ op: \"{0}\", text: \"{1}\" }}, {{ op: \"{2}\",  text: \"{3}\" }}	],\n",
                 JqGrid.groupOps_op_and,
                 JqGrid.groupOps_text_and,
                 JqGrid.groupOps_op_or,
@@ -216,25 +216,16 @@ namespace GlobalSauce.Rendertargets
             jqGridCulture.AppendFormat("SortableDateTime: \"{0}\",\n", jqgridify(cultureInfo.DateTimeFormat.SortableDateTimePattern));
             jqGridCulture.AppendFormat("UniversalSortableDateTime: \"{0}\",\n", jqgridify(cultureInfo.DateTimeFormat.UniversalSortableDateTimePattern));
             jqGridCulture.AppendFormat("YearMonth: \"{0}\" \n", jqgridify(cultureInfo.DateTimeFormat.YearMonthPattern));
-            jqGridCulture.AppendLine("},");
-            jqGridCulture.AppendFormat("reformatAfterEdit : false\n");
-            jqGridCulture.AppendLine("},");
-            jqGridCulture.AppendFormat("baseLinkUrl: '',\n");
-            jqGridCulture.AppendFormat("showAction: '',\n");
-            jqGridCulture.AppendFormat("target: '',\n");
-            jqGridCulture.AppendFormat("checkbox : {{disabled:true}},\n");
-            jqGridCulture.AppendFormat("idName : 'id'\n");
-            
             jqGridCulture.AppendLine("}}}};");
-            
+
             jqGridCulture.AppendLine("$.jgrid = $.jgrid || {};");
             jqGridCulture.AppendLine("$.extend(true, $.jgrid, {");
             jqGridCulture.AppendLine("defaults: {");
-            jqGridCulture.AppendFormat("locale: \"{0}\",\n", JqGrid.locale); 
+            jqGridCulture.AppendFormat("locale: \"{0}\",\n", JqGrid.locale);
             jqGridCulture.AppendLine("},");
             jqGridCulture.AppendLine("locales: {");
-            jqGridCulture.AppendFormat("nl: $.extend({}, locInfo, { name: \"{0}\", nameEnglish: \"{1}\" }),\n", JqGrid.locName, JqGrid.locNameEnglish); 
-            jqGridCulture.AppendFormat("\"{0}\": $.extend({}, locInfo, { name: \"{1}\", nameEnglish: \"{2}\" }),\n", JqGrid.locale2, JqGrid.locName2, JqGrid.locNameEnglish2);  
+            jqGridCulture.AppendFormat("{0}: $.extend({{}}, locInfo, {{ name: \"{1}\", nameEnglish: \"{2}\" }}),\n", JqGrid.locale, JqGrid.locName, JqGrid.locNameEnglish);
+            jqGridCulture.AppendFormat("\"{0}\": $.extend({{}}, locInfo, {{ name: \"{1}\", nameEnglish: \"{2}\" }}),\n", JqGrid.locale2, JqGrid.locName2, JqGrid.locNameEnglish2);
             jqGridCulture.AppendLine("}");
             jqGridCulture.AppendLine("});");
             jqGridCulture.AppendLine("}));");
