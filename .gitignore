@@ -116,3 +116,4 @@ UpgradeLog*.XML
 
 
 .idea
+/src/.vs/GlobalSauce/v15/Server/sqlite3
